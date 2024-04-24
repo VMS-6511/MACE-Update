@@ -496,6 +496,9 @@ def main(args):
                             replace=True,
                             p=prob_dist)
                         timesteps = torch.tensor(timesteps).cuda()
+                    elif args.first_timestep_sampling:
+                        timesteps = np.zeros((bsz,), dtype=int)
+                        timesteps = torch.tensor(timesteps).cuda()
                     else:
                         timesteps = torch.randint(0, noise_scheduler.config.num_train_timesteps, (bsz,), device=latents.device)
                         

@@ -17,7 +17,8 @@ MACE:
   rank: 1
   lora: true
   train_seperate: true
-  importance_sampling: true
+  importance_sampling: false
+  first_timestep_sampling: true
 
   max_memory: 1000
   aug_length: 30
@@ -30,8 +31,8 @@ MACE:
   domain_preservation_cache_path: false
   preserve_weight: 0.0
   input_data_dir: ./data/object/ship
-  output_dir: ./saved_model/CFR_with_multi_LoRAs
-  final_save_path: ./saved_model/LoRA_fusion_model
+  output_dir: ./saved_model/CFR_with_multi_LoRAs_first_timestep
+  final_save_path: ./saved_model/LoRA_fusion_model_first_timestep
 
   ## gounded_SAM settings
   use_gsam_mask: true
