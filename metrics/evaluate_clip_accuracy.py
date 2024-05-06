@@ -24,7 +24,7 @@ def calculate_mean_prob(image_dir, object_ls, save_path):
     text_tokens = clip.tokenize(texts_ls).to(device)
 
     image_filenames=os.listdir(image_dir)
-    sorted_image_filenames = sorted(image_filenames, key=lambda x: int(re.search(r'_(\d+)\.', x).group(1)))
+    sorted_image_filenames = sorted(image_filenames, key=lambda x: int(x.split("_")[1].split('.png')[0]))
 
     prob_results=[]
     for i in tqdm(range(len(sorted_image_filenames))):

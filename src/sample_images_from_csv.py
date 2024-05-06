@@ -14,6 +14,7 @@ def generate_images(model_name, prompts_path, save_path, step, device='cuda:0', 
     pipe.requires_safety_checker = False
 
     df = pd.read_csv(prompts_path)
+    print(len(df))
     
     accelerator = Accelerator()
     state = PartialState()
@@ -45,7 +46,7 @@ def generate_images(model_name, prompts_path, save_path, step, device='cuda:0', 
         
         prompt = [str(row.prompt)]*num_samples
         seed = row.evaluation_seed
-        # print(f'Inferencing: {prompt}')
+        print(f'Inferencing: {prompt}')
 
         # Check if the file exists in the given folder path
         folder_path = f"{save_path}/{row.type}"
