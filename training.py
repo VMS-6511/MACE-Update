@@ -20,6 +20,7 @@ def main(conf):
 
     # test the erased model
     if conf.MACE.test_erased_model:
+        print(conf.MACE.final_save_path)
         inference(OmegaConf.create({
             "pretrained_model_name_or_path": conf.MACE.final_save_path,
             "multi_concept": conf.MACE.multi_concept,

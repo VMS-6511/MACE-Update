@@ -6,9 +6,9 @@ import argparse
 
 
 def main(args):
-
     model_id = args.pretrained_model_name_or_path
     pipe = StableDiffusionPipeline.from_pretrained(model_id).to(args.device)
+    #pipe.load_lora_weights('./', weight_name='pytorch_lora_weights.safetensors')
     pipe.safety_checker = None
     pipe.requires_safety_checker = False
     torch.Generator(device=args.device).manual_seed(42)
