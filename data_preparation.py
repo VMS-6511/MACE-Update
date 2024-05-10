@@ -19,14 +19,14 @@ def main(conf):
     
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-    cached_model_path = '/home/gridsan/ralur/.cache/huggingface/hub/models--CompVis--stable-diffusion-v1-4/snapshots/133a221b8aa7292a167afc5127cb63fb5005638b'
+    #cached_model_path = '/home/gridsan/ralur/.cache/huggingface/hub/models--CompVis--stable-diffusion-v1-4/snapshots/133a221b8aa7292a167afc5127cb63fb5005638b'
 
     
     # generate 8 images per concept using the original model for performing erasure
     if conf.MACE.generate_data:
         inference(OmegaConf.create({
-            #"pretrained_model_name_or_path": 'CompVis/stable-diffusion-v1-4',
-            "pretrained_model_name_or_path": cached_model_path,
+            "pretrained_model_name_or_path": 'CompVis/stable-diffusion-v1-4',
+            #"pretrained_model_name_or_path": cached_model_path,
             "multi_concept": conf.MACE.multi_concept,
             "generate_training_data": True,
             "device": device,

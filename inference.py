@@ -8,7 +8,8 @@ import argparse
 def main(args):
     model_id = args.pretrained_model_name_or_path
     pipe = StableDiffusionPipeline.from_pretrained(model_id).to(args.device)
-    #pipe.load_lora_weights('./', weight_name='pytorch_lora_weights.safetensors')
+    if args.lora_path:
+        pipe.load_lora_weights(lora_path)
     pipe.safety_checker = None
     pipe.requires_safety_checker = False
     torch.Generator(device=args.device).manual_seed(42)
@@ -67,6 +68,7 @@ if __name__ == "__main__":
     parser.add_argument('--prompt', type=str, default=None)
     parser.add_argument('--model_path', type=str, default=None)
     parser.add_argument('--save_path', type=str, default=None)
+    parser.add_argument('--lora_path', type=str, default=None)
     args = parser.parse_args()
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -75,6 +77,7 @@ if __name__ == "__main__":
     output_dir = args.save_path
     num_images = args.num_images
     prompt = args.prompt
+    lora_path = args.lora_path
     
     main(OmegaConf.create({
         "pretrained_model_name_or_path": model_id,
@@ -84,4 +87,5 @@ if __name__ == "__main__":
         "output_dir": output_dir,
         "num_images": num_images,
         "prompt": prompt,
+        "lora_path": lora_path,
     }))

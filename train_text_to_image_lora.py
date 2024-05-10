@@ -400,6 +400,8 @@ def main():
         )
 
     logging_dir = Path(args.output_dir, args.logging_dir)
+    weight_name = args.train_data_dir.split('/')[-1]
+    weight_name = f"{weight_name}.safetensors"
 
     accelerator_project_config = ProjectConfiguration(project_dir=args.output_dir, logging_dir=logging_dir)
 
@@ -847,11 +849,12 @@ def main():
                         unet_lora_state_dict = convert_state_dict_to_diffusers(
                             get_peft_model_state_dict(unwrapped_unet)
                         )
-
+                        
                         StableDiffusionPipeline.save_lora_weights(
                             save_directory=save_path,
                             unet_lora_layers=unet_lora_state_dict,
                             safe_serialization=True,
+                            weight_name = weight_name
                         )
 
                         logger.info(f"Saved state to {save_path}")
@@ -923,6 +926,7 @@ def main():
             save_directory=args.output_dir,
             unet_lora_layers=unet_lora_state_dict,
             safe_serialization=True,
+            weight_name = weight_name
         )
 
         if args.push_to_hub:
@@ -952,7 +956,7 @@ def main():
             pipeline = pipeline.to(accelerator.device)
 
             # load attention processors
-            weight_name = f"{args.output_dir}/pytorch_lora_weights.safetensors"
+            #weight_name_full = f"{args.output_dir}/{weight_name}.safetensors"
             pipeline.load_lora_weights(args.output_dir, weight_name=weight_name)
 
             # run inference
