@@ -22,7 +22,7 @@ export HF_HOME=/state/partition1/user/ralur/.cache/huggingface/hub
 HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 HF_HUB_OFFLINE=1 accelerate launch train_text_to_image_lora.py \
   --pretrained_model_name_or_path="/home/gridsan/ralur/MACE-Update/saved_model/LoRA_fusion_model_first_timestep" \
   --train_data_dir="/state/partition1/user/ralur/.cache/huggingface/hub/datasets/test_data" \
-  --dataloader_num_workers=8 \
+  --dataloader_num_workers=1 \
   --resolution=512 --center_crop --random_flip \
   --train_batch_size=1 \
   --gradient_accumulation_steps=4 \

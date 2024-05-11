@@ -400,8 +400,10 @@ def main():
         )
 
     logging_dir = Path(args.output_dir, args.logging_dir)
-    weight_name = args.train_data_dir.split('/')[-1]
-    weight_name = f"{weight_name}.safetensors"
+    # weight_name = args.train_data_dir.split('/')[-1]
+    # if weight_name == '':
+    #     weight_name = args.train_data_dir.split('/')[-2]
+    weight_name = f"pytorch_lora_weights.safetensors"
 
     accelerator_project_config = ProjectConfiguration(project_dir=args.output_dir, logging_dir=logging_dir)
 
