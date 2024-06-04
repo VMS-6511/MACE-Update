@@ -13,11 +13,18 @@ MACE:
   mapping_concept: 
     - 'a woman'
   augment: true
-  lamb: 0.0
+  lamb: 0.8
   rank: 1
   lora: true
   train_seperate: true
-  importance_sampling: true
+  importance_sampling: false
+  first_timestep_sampling: false
+  last_timestep_sampling: true
+  gaussian_sampling: false
+  gaussian_mean: 200
+  gaussian_std: 50
+  adaptive_sampling: false
+  eta: 0.1
   max_memory: 1000
   aug_length: 30
   prompt_len: 30
@@ -29,8 +36,9 @@ MACE:
   domain_preservation_cache_path: ./cache/cache_cele.pt
   preserve_weight: 8.0e+3
   input_data_dir: ./data/1cele
-  output_dir: ./saved_model/CFR_with_multi_LoRAs
-  final_save_path: ./saved_model/LoRA_fusion_model
+  output_dir: ./saved_model/CFR_with_multi_LoRAs/last_timestep_cele_1/
+  final_save_path: ./saved_model/LoRA_fusion_model/last_timestep_cele_1/
+  timestep_dir: ./experiments/last_timestep_cele_1
 
   ## gounded_SAM settings
   use_gsam_mask: true

@@ -1,6 +1,9 @@
 import os
+
 # os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 import sys
+sys.path.append(os.path.join(os.getcwd(), "GroundingDINO"))
+
 from omegaconf import OmegaConf
 import torch
 from torchvision import transforms
@@ -13,6 +16,7 @@ from segment_anything import (
     sam_hq_model_registry,
     SamPredictor
 )
+
 
 
 def main(conf):
@@ -44,18 +48,17 @@ def main(conf):
             mask_save_path = root.replace(f'{os.path.basename(root)}', f'{os.path.basename(root)} mask')
             os.makedirs(mask_save_path, exist_ok=True)
             for file in files:
-                file_path = os.path.join(root, file)
-                print(file_path)
-                # read images and get masks
-                image = Image.open(file_path)
-                if not image.mode == "RGB":
-                    image = image.convert("RGB")
-                tensor_image = transform(image).to(device)
-                GSAM_mask = get_mask(tensor_image, os.path.basename(root), grounded_model, predictor, device)
-                # save masks
-                GSAM_mask = (GSAM_mask.to(torch.uint8) * 255).squeeze()
-                save_mask = to_pil_image(GSAM_mask)
-                save_mask.save(f"{os.path.join(mask_save_path, file).replace('.jpg', '_mask.jpg')}")
+                    file_path = os.path.join(root, file)
+                    # read images and get masks
+                    image = Image.open(file_path)
+                    if not image.mode == "RGB":
+                        image = image.convert("RGB")
+                    tensor_image = transform(image).to(device)
+                    GSAM_mask = get_mask(tensor_image, os.path.basename(root), grounded_model, predictor, device)
+                    # save masks
+                    GSAM_mask = (GSAM_mask.to(torch.uint8) * 255).squeeze()
+                    save_mask = to_pil_image(GSAM_mask)
+                    save_mask.save(f"{os.path.join(mask_save_path, file).replace('.jpg', '_mask.jpg')}")
                 
 
 if __name__ == "__main__":

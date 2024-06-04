@@ -12,6 +12,7 @@ from model_training.preprocessors.face_detection.face_detector import FaceDetect
 from tqdm import tqdm
 import pandas as pd
 import re
+import csv
 
 
 def process_image(path):
@@ -48,6 +49,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Inference script for Giphy Celebrity Classifier model')
     parser.add_argument('--image_folder', type=str, help='path or link to the image folder', default=None)
     parser.add_argument('--save_excel_path', type=str, help='path to save the excel file', default=None)
+    parser.add_argument("--results_file", type=str, default='/data/healthy-ml/scratch/vinithms/projects/MACE-Update/experiments/experimental_results.csv')
+
 
     args = parser.parse_args()
 
@@ -112,7 +115,16 @@ if __name__ == '__main__':
     print('Given face detected, the celebrity classification accuracy is:')
     
     # Calculate the number of non-zero and non-N values in p_celebrity_list and then divided by the number of non-N values.
-    print(sum([1 for p in p_celebrity_list if p != 0 and p != 'N']) / sum([1 for p in p_celebrity_list if p != 'N']))
+    accuracy = sum([1 for p in p_celebrity_list if p != 0 and p != 'N']) / sum([1 for p in p_celebrity_list if p != 'N'])
+    print(accuracy)
+    
+    algo_name, task = re.split(r'_(?=cele)', args.image_folder.split('/')[8])
+    type = args.image_folder.split('/')[9]
+    task = task.split('_')[1]
+    row = {'algo_name': algo_name, 'task': task, 'metric': 'GCD', 'type': type, 'value': accuracy}
+    with open(args.results_file, 'a', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=row.keys())
+        writer.writerow(row)  # write the data row 
 
     if args.save_excel_path is not None:
         df.to_excel(args.save_excel_path, index=True)

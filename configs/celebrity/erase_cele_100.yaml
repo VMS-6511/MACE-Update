@@ -216,6 +216,12 @@ MACE:
   lora: true
   train_seperate: true
   importance_sampling: true
+  first_timestep_sampling: false
+  gaussian_sampling: false
+  gaussian_mean: 300
+  gaussian_std: 50
+  adaptive_sampling: false
+  eta: 0.1
   max_memory: 1000
   aug_length: 30
   prompt_len: 30
@@ -226,9 +232,9 @@ MACE:
   prior_preservation_cache_path: ./cache/cache_coco.pt
   domain_preservation_cache_path: ./cache/cache_cele.pt
   preserve_weight: 2.0e+5
-  input_data_dir: ./data/100cele
-  output_dir: ./saved_model/CFR_with_multi_LoRAs
-  final_save_path: ./saved_model/LoRA_fusion_model
+  input_data_dir: ./data_new_v2/100cele
+  output_dir: ./saved_model/CFR_with_multi_LoRAs/importance_sampling_cele_100
+  final_save_path: ./saved_model/LoRA_fusion_model/importance_sampling_cele_100/importance_sampling_cele_100
 
   ## gounded_SAM settings
   use_gsam_mask: true
