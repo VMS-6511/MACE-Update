@@ -3,6 +3,10 @@ import os
 # os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 import sys
 sys.path.append(os.path.join(os.getcwd(), "GroundingDINO"))
+parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
+sys.path.insert(0, parent_dir)
+
+
 
 from omegaconf import OmegaConf
 import torch

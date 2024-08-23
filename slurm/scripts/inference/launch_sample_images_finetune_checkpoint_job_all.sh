@@ -4,7 +4,7 @@ source ~/.bashrc
 conda activate mace-update
 
 ALGO_NAME=importance_sampling
-LORA_WEIGHTS=large
+LORA_WEIGHTS=ship
 PORT_NUMBER=31373
 for NUM_CELEBS in 10; do
     for CHECKPOINT in 100 200 300 400 500 600 700 800 900 1000; do

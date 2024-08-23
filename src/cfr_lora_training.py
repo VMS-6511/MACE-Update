@@ -19,6 +19,7 @@ from transformers import AutoTokenizer, PretrainedConfig
 from src.cfr_utils import *
 from src.dataset import MACEDataset
 import json
+import csv
 
 
 logger = get_logger(__name__)
@@ -451,12 +452,28 @@ def main(args):
                 prob_sum += j
             prob_dist = [x / prob_sum for x in prob_dist]
         
+        # elif args.gaussian_sampling:
+        #     list_of_candidates = [
+        #         x for x in range(noise_scheduler.config.num_train_timesteps)
+        #     ]
+
+        #     prob_dist = gaussian_sampling_fn(list_of_candidates, args.gaussian_mean, args.gaussian_std)
+        
+        # elif args.adaptive_sampling:
+        #     # Initialize with uniform distribution
+        #     list_of_candidates = [
+        #         x for x in range(noise_scheduler.config.num_train_timesteps)
+        #     ]
+        #     w = np.ones((len(list_of_candidates),))
+        #     prob_dist = w / np.sum(w)
+
+        
         # Only show the progress bar once on each machine.
         progress_bar = tqdm(range(global_step, args.max_train_steps), disable=not accelerator.is_local_main_process)
         progress_bar.set_description("Steps")
     
         debug_once = True
-                
+        total_step = 0
         if args.train_seperate:
             train_dataset.concept_number = i 
         for epoch in range(first_epoch, args.num_train_epochs):
@@ -468,6 +485,7 @@ def main(args):
             gc.collect()
             
             for step, batch in enumerate(train_dataloader):
+                total_step+=1
                 # Skip steps until we reach the resumed step           
                 if args.resume_from_checkpoint and epoch == first_epoch and step < resume_step:
                     if step % args.gradient_accumulation_steps == 0:
@@ -495,10 +513,57 @@ def main(args):
                             size=bsz,
                             replace=True,
                             p=prob_dist)
+                        data = {'step': total_step, 'timesteps': timesteps[0]}
+                        # with open(timestep_csv, 'a', newline='') as csvfile:
+                        #     writer = csv.DictWriter(csvfile, fieldnames=data.keys())
+                        #     if not file_exists:
+                        #         writer.writeheader()  # Only write header if file did not exist or was empty
+                        #     writer.writerow(data) 
                         timesteps = torch.tensor(timesteps).cuda()
-                    elif args.first_timestep_sampling:
-                        timesteps = np.zeros((bsz,), dtype=int)
-                        timesteps = torch.tensor(timesteps).cuda()
+                    # elif args.first_timestep_sampling:
+                    #     timesteps = np.zeros((bsz,), dtype=int)
+                    #     # data = {'step': total_step, 'timesteps': timesteps[0]}
+                    #     # with open(timestep_csv, 'a', newline='') as csvfile:
+                    #     #     writer = csv.DictWriter(csvfile, fieldnames=data.keys())
+                    #     #     if not file_exists:
+                    #     #         writer.writeheader()  # Only write header if file did not exist or was empty
+                    #     #     writer.writerow(data) 
+                    #     timesteps = torch.tensor(timesteps).cuda()
+                    # elif args.last_timestep_sampling:
+                    #     timesteps = torch.full((bsz, ), 999, device='cuda')
+                    #     # data = {'step': total_step, 'timesteps': timesteps[0]}
+                    #     # with open(timestep_csv, 'a', newline='') as csvfile:
+                    #     #     writer = csv.DictWriter(csvfile, fieldnames=data.keys())
+                    #     #     if not file_exists:
+                    #     #         writer.writeheader()  # Only write header if file did not exist or was empty
+                    #     #     writer.writerow(data) 
+                    #     # timesteps = torch.tensor(timesteps).cuda()
+                    # elif args.gaussian_sampling:
+                    #     timesteps = np.random.choice(
+                    #         list_of_candidates,
+                    #         size=bsz,
+                    #         replace=True,
+                    #         p=prob_dist)
+                    #     data = {'step': total_step, 'timesteps': timesteps[0]}
+                    #     with open(timestep_csv, 'a', newline='') as csvfile:
+                    #         writer = csv.DictWriter(csvfile, fieldnames=data.keys())
+                    #         if not file_exists:
+                    #             writer.writeheader()  # Only write header if file did not exist or was empty
+                    #         writer.writerow(data) 
+                    #     timesteps = torch.tensor(timesteps).cuda()
+                    # elif args.adaptive_sampling:
+                    #     timesteps = np.random.choice(
+                    #         list_of_candidates,
+                    #         size=bsz,
+                    #         replace=False,
+                    #         p=prob_dist)
+                    #     data = {'step': total_step, 'timesteps': timesteps[0]}
+                    #     with open(timestep_csv, 'a', newline='') as csvfile:
+                    #         writer = csv.DictWriter(csvfile, fieldnames=data.keys())
+                    #         if not file_exists:
+                    #             writer.writeheader()  # Only write header if file did not exist or was empty
+                    #         writer.writerow(data) 
+                    #     timesteps = torch.tensor(timesteps).cuda()
                     else:
                         timesteps = torch.randint(0, noise_scheduler.config.num_train_timesteps, (bsz,), device=latents.device)
                         
@@ -533,6 +598,7 @@ def main(args):
                         raise ValueError(f"Unknown prediction type {noise_scheduler.config.prediction_type}")
                     
                     loss = attn_controller.loss()
+                    losses = attn_controller.loss_vector()
                     
                     if args.with_prior_preservation:
                         # Chunk the noise and model_pred into two parts and compute the loss on each part separately.
@@ -544,6 +610,24 @@ def main(args):
                         
                         # Add the prior loss to the instance loss.
                         loss = loss + args.prior_loss_weight * prior_loss
+                    
+                    # if args.adaptive_sampling:
+                    #     loss_vector = np.zeros(len(list_of_candidates))
+                    #     # losses = np.array([loss.cpu().detach().numpy() for loss in losses])
+                    #     losses = np.array([loss.cpu().detach().numpy()])
+                    #     losses = np.clip(losses.ravel(), 0, 1)[0]
+
+                    #     # print(losses.shape)
+                    #     # print(bsz)
+                    #     # print(timesteps.shape)
+                    #     # print(prob_dist[timesteps].shape)
+                    #     # np.add.at(loss_vector, timesteps, losses / (prob_dist[timesteps, np.newaxis]))
+                    #     loss_vector[timesteps] += losses / prob_dist[timesteps]
+
+                    #     prob_dist *= np.exp(-args.eta * loss_vector)
+
+                    #     # Normalize updated distribution
+                    #     prob_dist = prob_dist / np.sum(prob_dist)
                         
                     accelerator.backward(loss)
                     if accelerator.sync_gradients:

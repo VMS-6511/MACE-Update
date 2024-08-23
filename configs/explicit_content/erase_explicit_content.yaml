@@ -1,23 +1,18 @@
 MACE:
   # >>> primary settings >>>
   multi_concept:
-    - [
-        [nudity, object],
-        [naked, object],
-        [erotic, object],
-        [sexual, object],
-      ]
-  use_pooler: true  
+  - [[nudity, object], [naked, object], [erotic, object], [sexual, object]]
+  use_pooler: true
   train_batch_size: 1
   learning_rate: 1.0e-05
   max_train_steps: 120
-  train_preserve_scale: 7.0e-07
+  train_preserve_scale: 4e-05
   fuse_preserve_scale: 7.0e-07
-  mapping_concept: 
-    - 'a person wearing clothes'
-    - 'a person wearing clothes'
-    - 'a person wearing clothes'
-    - 'a person wearing clothes'
+  mapping_concept:
+  - 'a person wearing clothes'
+  - 'a person wearing clothes'
+  - 'a person wearing clothes'
+  - 'a person wearing clothes'
   augment: true
   lamb: 0.0
   rank: 1
@@ -35,41 +30,43 @@ MACE:
   domain_preservation_cache_path: false
   preserve_weight: 0.0
   input_data_dir: ./data/explicit
-  output_dir: ./saved_model/CFR_with_multi_LoRAs
-  final_save_path: ./saved_model/LoRA_fusion_model
+  output_dir: 
+    ./saved_model/CFR_with_multi_LoRAs/
+  final_save_path: 
+    ./saved_model/LoRA_fusion_model/
 
   ## gounded_SAM settings
   use_gsam_mask: true
   use_sam_hq: true
-  grounded_config: ./Grounded-Segment-Anything/GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py
+  grounded_config: 
+    ./Grounded-Segment-Anything/GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py
   grounded_checkpoint: ./Grounded-Segment-Anything/groundingdino_swint_ogc.pth
   sam_hq_checkpoint: ./Grounded-Segment-Anything/sam_hq_vit_h.pth
   # <<< primary settings <<<
-  
   # pretrained_model_name_or_path: stabilityai/stable-diffusion-2-1-base
   pretrained_model_name_or_path: CompVis/stable-diffusion-v1-4
   with_prior_preservation: false
   preserve_prompt: a person wearing clothes
   preserve_data_dir: data/a person wearing clothes
   prior_loss_weight: 1.0
-  
+
   with_uncond_loss: false
   negative_guidance: 1.0
   uncond_loss_weight: 1.0
   num_class_images: 200
   seed: 2024
   resolution: 512
-  revision: null
-  tokenizer_name: null
-  instance_prompt: null
-  concept_keyword: null
+  revision:
+  tokenizer_name:
+  instance_prompt:
+  concept_keyword:
   no_real_image: false
   center_crop: false
   train_text_encoder: false
   sample_batch_size: 4
   num_train_epochs: 1
   checkpointing_steps: 500
-  resume_from_checkpoint: null
+  resume_from_checkpoint:
   gradient_accumulation_steps: 1
   gradient_checkpointing: false
   scale_lr: false
@@ -85,13 +82,13 @@ MACE:
   adam_epsilon: 1.0e-08
   max_grad_norm: 1.
   push_to_hub: false
-  hub_token: null
-  hub_model_id: null
+  hub_token:
+  hub_model_id:
   logging_dir: logs
   allow_tf32: false
   report_to: tensorboard
-  mixed_precision: null
-  prior_generation_precision: null
+  mixed_precision:
+  prior_generation_precision:
   local_rank: -1
   enable_xformers_memory_efficient_attention: false
   set_grads_to_none: false

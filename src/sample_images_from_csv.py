@@ -6,9 +6,11 @@ import argparse
 from accelerate import PartialState, Accelerator
 
 
-def generate_images(model_name, prompts_path, save_path, step, device='cuda:0', guidance_scale = 7.5, image_size=512, ddim_steps=100, num_samples=1, from_case=0):
+def generate_images(model_name, prompts_path, save_path, step, lora_path="", device='cuda:0', guidance_scale = 7.5, image_size=512, ddim_steps=100, num_samples=1, from_case=0):
 
     pipe = StableDiffusionPipeline.from_pretrained(model_name)
+    if not lora_path == "":
+        pipe.load_lora_weights(lora_path)
     pipe.scheduler = DDIMScheduler.from_config(pipe.scheduler.config)
     pipe.safety_checker = None
     pipe.requires_safety_checker = False
@@ -73,6 +75,8 @@ if __name__=='__main__':
                         required=True)
     parser.add_argument('--save_path', help='folder where to save images', type=str, 
                         required=True)
+    parser.add_argument('--lora_path', help='folder where LoRA weights are stored', type=str, 
+                        required=False, default="")
     parser.add_argument('--device', help='cuda device to run on', type=str, required=False, default='cuda:3')
     parser.add_argument('--guidance_scale', help='guidance to run eval', type=float, required=False, default=7.5)
     parser.add_argument('--image_size', help='image size used to train', type=int, required=False, default=512)
@@ -85,6 +89,7 @@ if __name__=='__main__':
     model_name = args.model_name
     prompts_path = args.prompts_path
     save_path = args.save_path
+    lora_path = args.lora_path
     device = args.device
     guidance_scale = args.guidance_scale
     image_size = args.image_size
@@ -93,5 +98,5 @@ if __name__=='__main__':
     from_case = args.from_case
     step = args.step
     
-    generate_images(model_name, prompts_path, save_path, step, device=device, guidance_scale = guidance_scale, 
+    generate_images(model_name, prompts_path, save_path, step, lora_path=lora_path, device=device, guidance_scale = guidance_scale, 
                     image_size=image_size, ddim_steps=ddim_steps, num_samples=num_samples,from_case=from_case)

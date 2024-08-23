@@ -6,7 +6,9 @@ j_name=${1}
 resource=$2
 cmd=$3
 cuda_visible_devices=$4
-num_celebs=$5
+task=$5
+config=$6
+
 
 hdd=/data/healthy-ml/scratch/vinithms/projects/MACE-Update
 j_dir=$hdd/slurm/logs/$d/${j_name}
@@ -32,7 +34,7 @@ bash ${j_dir}/scripts/${j_name}.sh
  
 # build bash script
 echo -n "#!/bin/bash
-$cmd $cuda_visible_devices $num_celebs
+$cmd $cuda_visible_devices $task $config
 " > $j_dir/scripts/${j_name}.sh 
  
 sbatch $j_dir/scripts/${j_name}.slrm

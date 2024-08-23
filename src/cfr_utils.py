@@ -5,6 +5,8 @@ from tqdm import tqdm
 import gc
 from typing import Any
 import torch.nn.functional as F
+import scipy.stats as ss
+
 
 
 def find_matching_indices(old, new):
@@ -207,6 +209,13 @@ def closed_form_refinement(projection_matrices, all_contexts=None, all_valuess=N
 def importance_sampling_fn(t, temperature=0.05):
     """Importance Sampling Function f(t)"""
     return 1 / (1 + np.exp(-temperature * (t - 200))) - 1 / (1 + np.exp(-temperature * (t - 400)))
+
+def gaussian_sampling_fn(timesteps, mean=0, std=1):
+    x = np.arange(np.min(timesteps), np.max(timesteps) + 1)
+    xU, xL = x + 0.5, x - 0.5 
+    prob = ss.norm.cdf(xU, loc=mean, scale = std) - ss.norm.cdf(xL, loc=mean, scale = std)
+    prob = prob / prob.sum() # normalize the probabilities so their sum is 1
+    return prob
         
         
 class AttnController:
@@ -247,6 +256,9 @@ class AttnController:
         
     def loss(self):
         return sum(torch.norm(item) for item in self.attn_probs)
+    
+    def loss_vector(self):
+        return [torch.norm(item) for item in self.attn_probs]
         
     def zero_attn_probs(self):
         self.attn_probs = []

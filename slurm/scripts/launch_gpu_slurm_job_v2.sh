@@ -7,7 +7,11 @@ resource=$2
 cmd=$3
 cuda_visible_devices=$4
 algo_name=$5
-num_celebs=$6
+task=$6
+config=$7
+
+args=("$@")
+remaining_args=("${args[@]:6}")
 
 hdd=/data/healthy-ml/scratch/vinithms/projects/MACE-Update
 j_dir=$hdd/slurm/logs/$d/${j_name}
@@ -34,7 +38,7 @@ bash ${j_dir}/scripts/${j_name}.sh
  
 # build bash script
 echo -n "#!/bin/bash
-$cmd $cuda_visible_devices $algo_name $num_celebs
+$cmd $cuda_visible_devices $algo_name $task $config ${remaining_args[@]}
 " > $j_dir/scripts/${j_name}.sh 
  
 sbatch $j_dir/scripts/${j_name}.slrm

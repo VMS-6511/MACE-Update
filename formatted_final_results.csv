@@ -1,0 +1,289 @@
+algo_name,Pretty Name,task,metric,type,value
+adaptive_sampling_eta_0.1,Adaptive Sampling,1,CLIP Score,erased,22.1403
+first_timestep,First Timestep,1,CLIP Score,erased,22.1083
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",1,CLIP Score,erased,22.0911
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",1,CLIP Score,erased,21.9108
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",1,CLIP Score,erased,22.1189
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",1,CLIP Score,erased,22.0953
+importance_sampling,Baseline (Importance Sampling),1,CLIP Score,erased,21.9528
+importance_sampling_large,Forget-then-Finteune (Large),1,CLIP Score,erased,24.1097
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),1,CLIP Score,erased,24.5724
+importance_sampling_random_all,Forget-then-Finteune (Random),1,CLIP Score,erased,23.2203
+importance_sampling_similar_all,Forget-then-Finetune (Similar),1,CLIP Score,erased,24.7586
+importance_sampling_similar_specific,Forget-then-Finetune (Similar Specific),1,CLIP Score,erased,25.0136
+last_timestep_sampling,Last Timestep,1,CLIP Score,erased,21.944
+adaptive_sampling_eta_0.1,Adaptive Sampling,1,CLIP Score,others,15.5728
+first_timestep,First Timestep,1,CLIP Score,others,15.674
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",1,CLIP Score,others,15.6446
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",1,CLIP Score,others,15.5865
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",1,CLIP Score,others,15.9646
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",1,CLIP Score,others,15.6396
+importance_sampling,Baseline (Importance Sampling),1,CLIP Score,others,15.5986
+importance_sampling_large,Forget-then-Finteune (Large),1,CLIP Score,others,16.4443
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),1,CLIP Score,others,16.6162
+importance_sampling_random_all,Forget-then-Finteune (Random),1,CLIP Score,others,16.477
+importance_sampling_similar_all,Forget-then-Finetune (Similar),1,CLIP Score,others,16.5698
+importance_sampling_similar_specific,Forget-then-Finetune (Similar Specific),1,CLIP Score,others,16.2187
+last_timestep_sampling,Last Timestep,1,CLIP Score,others,15.765
+adaptive_sampling_eta_0.1,Adaptive Sampling,5,CLIP Score,erased,17.8311
+first_timestep,First Timestep,5,CLIP Score,erased,17.9702
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",5,CLIP Score,erased,17.7195
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",5,CLIP Score,erased,17.5001
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",5,CLIP Score,erased,17.9363
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",5,CLIP Score,erased,18.0953
+importance_sampling,Baseline (Importance Sampling),5,CLIP Score,erased,17.6066
+importance_sampling_large,Forget-then-Finteune (Large),5,CLIP Score,erased,18.5904
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),5,CLIP Score,erased,18.6337
+importance_sampling_random_all,Forget-then-Finteune (Random),5,CLIP Score,erased,18.0726
+importance_sampling_similar_all,Forget-then-Finetune (Similar),5,CLIP Score,erased,18.7775
+importance_sampling_similar_specific,Forget-then-Finetune (Similar Specific),5,CLIP Score,erased,18.5022
+last_timestep_sampling,Last Timestep,5,CLIP Score,erased,17.7492
+adaptive_sampling_eta_0.1,Adaptive Sampling,5,CLIP Score,others,15.8851
+first_timestep,First Timestep,5,CLIP Score,others,15.5863
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",5,CLIP Score,others,15.5623
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",5,CLIP Score,others,15.787
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",5,CLIP Score,others,15.6589
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",5,CLIP Score,others,15.583
+importance_sampling,Baseline (Importance Sampling),5,CLIP Score,others,15.7465
+importance_sampling_large,Forget-then-Finteune (Large),5,CLIP Score,others,16.5787
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),5,CLIP Score,others,16.6359
+importance_sampling_random_all,Forget-then-Finteune (Random),5,CLIP Score,others,16.3369
+importance_sampling_similar_all,Forget-then-Finetune (Similar),5,CLIP Score,others,16.3075
+importance_sampling_similar_specific,Forget-then-Finetune (Similar Specific),5,CLIP Score,others,16.5792
+last_timestep_sampling,Last Timestep,5,CLIP Score,others,15.6863
+adaptive_sampling_eta_0.1,Adaptive Sampling,10,CLIP Score,erased,18.635
+first_timestep,First Timestep,10,CLIP Score,erased,18.9051
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",10,CLIP Score,erased,18.7078
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",10,CLIP Score,erased,18.7576
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",10,CLIP Score,erased,18.744
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",10,CLIP Score,erased,19.0911
+importance_sampling,Baseline (Importance Sampling),10,CLIP Score,erased,19.0039
+importance_sampling_large,Forget-then-Finteune (Large),10,CLIP Score,erased,19.6217
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),10,CLIP Score,erased,19.5821
+importance_sampling_large_checkpoint_100,,10,CLIP Score,erased,19.1181
+importance_sampling_large_checkpoint_1000,,10,CLIP Score,erased,19.7098
+importance_sampling_large_checkpoint_200,,10,CLIP Score,erased,18.3721
+importance_sampling_large_checkpoint_300,,10,CLIP Score,erased,18.8572
+importance_sampling_large_checkpoint_400,,10,CLIP Score,erased,19.0846
+importance_sampling_large_checkpoint_500,,10,CLIP Score,erased,19.1111
+importance_sampling_large_checkpoint_600,,10,CLIP Score,erased,19.2394
+importance_sampling_large_checkpoint_700,,10,CLIP Score,erased,19.2906
+importance_sampling_large_checkpoint_800,,10,CLIP Score,erased,18.835
+importance_sampling_large_checkpoint_900,,10,CLIP Score,erased,19.0146
+importance_sampling_random_all,Forget-then-Finteune (Random),10,CLIP Score,erased,19.5761
+importance_sampling_similar_all,Forget-then-Finetune (Similar),10,CLIP Score,erased,19.3251
+last_timestep_sampling,Last Timestep,10,CLIP Score,erased,18.4205
+adaptive_sampling_eta_0.1,Adaptive Sampling,10,CLIP Score,others,15.4747
+first_timestep,First Timestep,10,CLIP Score,others,15.6963
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",10,CLIP Score,others,15.5308
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",10,CLIP Score,others,15.7314
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",10,CLIP Score,others,15.6989
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",10,CLIP Score,others,15.7887
+importance_sampling,Baseline (Importance Sampling),10,CLIP Score,others,15.6762
+importance_sampling_large,Forget-then-Finteune (Large),10,CLIP Score,others,16.6308
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),10,CLIP Score,others,16.5836
+importance_sampling_large_checkpoint_100,,10,CLIP Score,others,16.425
+importance_sampling_large_checkpoint_1000,,10,CLIP Score,others,16.4265
+importance_sampling_large_checkpoint_200,,10,CLIP Score,others,16.4629
+importance_sampling_large_checkpoint_300,,10,CLIP Score,others,16.4063
+importance_sampling_large_checkpoint_400,,10,CLIP Score,others,16.3902
+importance_sampling_large_checkpoint_500,,10,CLIP Score,others,16.4741
+importance_sampling_large_checkpoint_600,,10,CLIP Score,others,16.5591
+importance_sampling_large_checkpoint_700,,10,CLIP Score,others,16.5774
+importance_sampling_large_checkpoint_800,,10,CLIP Score,others,16.5888
+importance_sampling_large_checkpoint_900,,10,CLIP Score,others,16.5602
+importance_sampling_random_all,Forget-then-Finteune (Random),10,CLIP Score,others,16.429
+importance_sampling_similar_all,Forget-then-Finetune (Similar),10,CLIP Score,others,16.3555
+last_timestep_sampling,Last Timestep,10,CLIP Score,others,15.5985
+adaptive_sampling_eta_0.1,Adaptive Sampling,1,FID,erased,173.6994834
+first_timestep,First Timestep,1,FID,erased,173.9315519
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",1,FID,erased,174.1207219
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",1,FID,erased,183.3475937
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",1,FID,erased,173.988979
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",1,FID,erased,174.0163971
+importance_sampling,Baseline (Importance Sampling),1,FID,erased,173.7835142
+importance_sampling_large,Forget-then-Finteune (Large),1,FID,erased,176.1308774
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),1,FID,erased,176.4804812
+importance_sampling_random_all,Forget-then-Finteune (Random),1,FID,erased,177.3121758
+importance_sampling_similar_all,Forget-then-Finetune (Similar),1,FID,erased,177.9049394
+importance_sampling_similar_specific,Forget-then-Finetune (Similar Specific),1,FID,erased,170.0016065
+last_timestep_sampling,Last Timestep,1,FID,erased,174.0201914
+adaptive_sampling_eta_0.1,Adaptive Sampling,1,FID,others,173.6994834
+first_timestep,First Timestep,1,FID,others,173.9315519
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",1,FID,others,174.1207219
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",1,FID,others,183.3475937
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",1,FID,others,173.988979
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",1,FID,others,174.0163971
+importance_sampling,Baseline (Importance Sampling),1,FID,others,173.7835142
+importance_sampling_large,Forget-then-Finteune (Large),1,FID,others,176.1308774
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),1,FID,others,176.4804812
+importance_sampling_random_all,Forget-then-Finteune (Random),1,FID,others,177.3121758
+importance_sampling_similar_all,Forget-then-Finetune (Similar),1,FID,others,177.9049394
+importance_sampling_similar_specific,Forget-then-Finetune (Similar Specific),1,FID,others,170.0016065
+last_timestep_sampling,Last Timestep,1,FID,others,174.0201914
+adaptive_sampling_eta_0.1,Adaptive Sampling,5,FID,erased,174.7579913
+first_timestep,First Timestep,5,FID,erased,174.3449881
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",5,FID,erased,174.7209361
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",5,FID,erased,174.3748299
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",5,FID,erased,174.3673597
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",5,FID,erased,174.6238445
+importance_sampling,Baseline (Importance Sampling),5,FID,erased,174.5637227
+importance_sampling_large,Forget-then-Finteune (Large),5,FID,erased,176.4632864
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),5,FID,erased,177.7949955
+importance_sampling_random_all,Forget-then-Finteune (Random),5,FID,erased,178.2614338
+importance_sampling_similar_all,Forget-then-Finetune (Similar),5,FID,erased,178.0296912
+importance_sampling_similar_specific,Forget-then-Finetune (Similar Specific),5,FID,erased,178.3387747
+last_timestep_sampling,Last Timestep,5,FID,erased,174.3510526
+adaptive_sampling_eta_0.1,Adaptive Sampling,5,FID,others,174.7579913
+first_timestep,First Timestep,5,FID,others,174.3449881
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",5,FID,others,174.7209361
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",5,FID,others,181.9741009
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",5,FID,others,174.3673597
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",5,FID,others,174.6238445
+importance_sampling,Baseline (Importance Sampling),5,FID,others,174.5637227
+importance_sampling_large,Forget-then-Finteune (Large),5,FID,others,176.4632864
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),5,FID,others,177.7949955
+importance_sampling_random_all,Forget-then-Finteune (Random),5,FID,others,178.2614338
+importance_sampling_similar_all,Forget-then-Finetune (Similar),5,FID,others,178.0296912
+importance_sampling_similar_specific,Forget-then-Finetune (Similar Specific),5,FID,others,178.3387747
+last_timestep_sampling,Last Timestep,5,FID,others,174.3510526
+adaptive_sampling_eta_0.1,Adaptive Sampling,10,FID,erased,175.2111831
+first_timestep,First Timestep,10,FID,erased,173.2974031
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",10,FID,erased,173.5998161
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",10,FID,erased,173.5932486
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",10,FID,erased,173.6127341
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",10,FID,erased,173.6484587
+importance_sampling,Baseline (Importance Sampling),10,FID,erased,173.6739281
+importance_sampling_large,Forget-then-Finteune (Large),10,FID,erased,175.9935124
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),10,FID,erased,177.0869203
+importance_sampling_large_checkpoint_100,,10,FID,erased,173.4778854
+importance_sampling_large_checkpoint_1000,,10,FID,erased,175.9564125
+importance_sampling_large_checkpoint_200,,10,FID,erased,175.8509226
+importance_sampling_large_checkpoint_300,,10,FID,erased,174.1221606
+importance_sampling_large_checkpoint_400,,10,FID,erased,176.1732649
+importance_sampling_large_checkpoint_500,,10,FID,erased,175.8451292
+importance_sampling_large_checkpoint_600,,10,FID,erased,175.0753981
+importance_sampling_large_checkpoint_700,,10,FID,erased,176.0766541
+importance_sampling_large_checkpoint_800,,10,FID,erased,176.1661058
+importance_sampling_large_checkpoint_900,,10,FID,erased,176.1402059
+importance_sampling_random_all,Forget-then-Finteune (Random),10,FID,erased,178.1326521
+importance_sampling_similar_all,Forget-then-Finetune (Similar),10,FID,erased,175.9185656
+last_timestep_sampling,Last Timestep,10,FID,erased,173.4593515
+adaptive_sampling_eta_0.1,Adaptive Sampling,10,FID,others,175.2111831
+first_timestep,First Timestep,10,FID,others,173.2974031
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",10,FID,others,173.5998161
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",10,FID,others,173.5932486
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",10,FID,others,173.6127341
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",10,FID,others,173.6484587
+importance_sampling,Baseline (Importance Sampling),10,FID,others,173.6739281
+importance_sampling_large,Forget-then-Finteune (Large),10,FID,others,175.9935124
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),10,FID,others,177.0869203
+importance_sampling_large_checkpoint_100,,10,FID,others,173.4778854
+importance_sampling_large_checkpoint_1000,,10,FID,others,175.9564125
+importance_sampling_large_checkpoint_200,,10,FID,others,175.8509226
+importance_sampling_large_checkpoint_300,,10,FID,others,174.1221606
+importance_sampling_large_checkpoint_400,,10,FID,others,176.1732649
+importance_sampling_large_checkpoint_500,,10,FID,others,175.8451292
+importance_sampling_large_checkpoint_600,,10,FID,others,175.0753981
+importance_sampling_large_checkpoint_700,,10,FID,others,176.0766541
+importance_sampling_large_checkpoint_800,,10,FID,others,176.1661058
+importance_sampling_large_checkpoint_900,,10,FID,others,176.1402059
+importance_sampling_random_all,Forget-then-Finteune (Random),10,FID,others,178.1326521
+importance_sampling_similar_all,Forget-then-Finetune (Similar),10,FID,others,175.9185656
+last_timestep_sampling,Last Timestep,10,FID,others,173.4593515
+adaptive_sampling_eta_0.1,Adaptive Sampling,1,GCD,erased,0.004115226337
+first_timestep,First Timestep,1,GCD,erased,0
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",1,GCD,erased,0
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",1,GCD,erased,0
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",1,GCD,erased,0
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",1,GCD,erased,0
+importance_sampling,Baseline (Importance Sampling),1,GCD,erased,0
+importance_sampling_large,Forget-then-Finteune (Large),1,GCD,erased,0.06147540984
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),1,GCD,erased,0.06072874494
+importance_sampling_random_all,Forget-then-Finteune (Random),1,GCD,erased,0.02880658436
+importance_sampling_similar_all,Forget-then-Finetune (Similar),1,GCD,erased,0.02868852459
+importance_sampling_similar_specific,Forget-then-Finetune (Similar Specific),1,GCD,erased,0.02469135802
+last_timestep_sampling,Last Timestep,1,GCD,erased,0
+adaptive_sampling_eta_0.1,Adaptive Sampling,1,GCD,others,0.9342532468
+first_timestep,First Timestep,1,GCD,others,0.9318458418
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",1,GCD,others,0.9297319253
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",1,GCD,others,0.9278195489
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",1,GCD,others,0.9337667615
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",1,GCD,others,0.9330628803
+importance_sampling,Baseline (Importance Sampling),1,GCD,others,0.9322515213
+importance_sampling_large,Forget-then-Finteune (Large),1,GCD,others,0.9386909693
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),1,GCD,others,0.9306889353
+importance_sampling_random_all,Forget-then-Finteune (Random),1,GCD,others,0.9358024691
+importance_sampling_similar_all,Forget-then-Finetune (Similar),1,GCD,others,0.9359967387
+importance_sampling_similar_specific,Forget-then-Finetune (Similar Specific),1,GCD,others,0.9131503482
+last_timestep_sampling,Last Timestep,1,GCD,others,0.9386926512
+adaptive_sampling_eta_0.1,Adaptive Sampling,5,GCD,erased,0.004048582996
+first_timestep,First Timestep,5,GCD,erased,0
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",5,GCD,erased,0.004048582996
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",5,GCD,erased,0
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",5,GCD,erased,0.004048582996
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",5,GCD,erased,0
+importance_sampling,Baseline (Importance Sampling),5,GCD,erased,0
+importance_sampling_large,Forget-then-Finteune (Large),5,GCD,erased,0.1129032258
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),5,GCD,erased,0.1290322581
+importance_sampling_random_all,Forget-then-Finteune (Random),5,GCD,erased,0.06477732794
+importance_sampling_similar_all,Forget-then-Finetune (Similar),5,GCD,erased,0.09638554217
+importance_sampling_similar_specific,Forget-then-Finetune (Similar Specific),5,GCD,erased,0.08467741935
+last_timestep_sampling,Last Timestep,5,GCD,erased,0
+adaptive_sampling_eta_0.1,Adaptive Sampling,5,GCD,others,0.9339010543
+first_timestep,First Timestep,5,GCD,others,0.938940558
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",5,GCD,others,0.9334685598
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",5,GCD,others,0.9341238472
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",5,GCD,others,0.9343598055
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",5,GCD,others,0.9343331982
+importance_sampling,Baseline (Importance Sampling),5,GCD,others,0.9347914135
+importance_sampling_large,Forget-then-Finteune (Large),5,GCD,others,0.9369556201
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),5,GCD,others,0.9313482217
+importance_sampling_random_all,Forget-then-Finteune (Random),5,GCD,others,0.9300699301
+importance_sampling_similar_all,Forget-then-Finetune (Similar),5,GCD,others,0.9336609337
+importance_sampling_similar_specific,Forget-then-Finetune (Similar Specific),5,GCD,others,0.9359868691
+last_timestep_sampling,Last Timestep,5,GCD,others,0.9347385488
+adaptive_sampling_eta_0.1,Adaptive Sampling,10,GCD,erased,0.008032128514
+first_timestep,First Timestep,10,GCD,erased,0.01204819277
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",10,GCD,erased,0.008032128514
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",10,GCD,erased,0.008032128514
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",10,GCD,erased,0.008
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",10,GCD,erased,0.008032128514
+importance_sampling,Baseline (Importance Sampling),10,GCD,erased,0.008032128514
+importance_sampling_large,Forget-then-Finteune (Large),10,GCD,erased,0.3493975904
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),10,GCD,erased,0.3654618474
+importance_sampling_large_checkpoint_100,,10,GCD,erased,0.2289156627
+importance_sampling_large_checkpoint_1000,,10,GCD,erased,0.3373493976
+importance_sampling_large_checkpoint_200,,10,GCD,erased,0.2479674797
+importance_sampling_large_checkpoint_300,,10,GCD,erased,0.2226720648
+importance_sampling_large_checkpoint_400,,10,GCD,erased,0.3064516129
+importance_sampling_large_checkpoint_500,,10,GCD,erased,0.2771084337
+importance_sampling_large_checkpoint_600,,10,GCD,erased,0.3212851406
+importance_sampling_large_checkpoint_700,,10,GCD,erased,0.313253012
+importance_sampling_large_checkpoint_800,,10,GCD,erased,0.3333333333
+importance_sampling_large_checkpoint_900,,10,GCD,erased,0.3453815261
+importance_sampling_random_all,Forget-then-Finteune (Random),10,GCD,erased,0.2489959839
+importance_sampling_similar_all,Forget-then-Finetune (Similar),10,GCD,erased,0.297188755
+last_timestep_sampling,Last Timestep,10,GCD,erased,0.012
+adaptive_sampling_eta_0.1,Adaptive Sampling,10,GCD,others,0.9366812227
+first_timestep,First Timestep,10,GCD,others,0.9321414059
+gaussian_sampling_mean_200_std_100,"Gaussian Sampling (µ = 200, σ = 100)",10,GCD,others,0.933522497
+gaussian_sampling_mean_200_std_50,"Gaussian Sampling (µ = 200, σ = 50)",10,GCD,others,0.9351175994
+gaussian_sampling_mean_300_std_100,"Gaussian Sampling (µ = 300, σ = 100)",10,GCD,others,0.9326298701
+gaussian_sampling_mean_300_std_50,"Gaussian Sampling (µ = 300, σ = 50)",10,GCD,others,0.9342334495
+importance_sampling,Baseline (Importance Sampling),10,GCD,others,0.9326298701
+importance_sampling_large,Forget-then-Finteune (Large),10,GCD,others,0.9361525705
+importance_sampling_large_alternate,Forget-then-Finteune (Alternate),10,GCD,others,0.9361525705
+importance_sampling_large_checkpoint_100,,10,GCD,others,0.9398682043
+importance_sampling_large_checkpoint_1000,,10,GCD,others,0.931307244
+importance_sampling_large_checkpoint_200,,10,GCD,others,0.943294702
+importance_sampling_large_checkpoint_300,,10,GCD,others,0.9457655403
+importance_sampling_large_checkpoint_400,,10,GCD,others,0.9495033113
+importance_sampling_large_checkpoint_500,,10,GCD,others,0.9357798165
+importance_sampling_large_checkpoint_600,,10,GCD,others,0.9414208558
+importance_sampling_large_checkpoint_700,,10,GCD,others,0.9302325581
+importance_sampling_large_checkpoint_800,,10,GCD,others,0.935483871
+importance_sampling_large_checkpoint_900,,10,GCD,others,0.9323873122
+importance_sampling_random_all,Forget-then-Finteune (Random),10,GCD,others,0.9282198523
+importance_sampling_similar_all,Forget-then-Finetune (Similar),10,GCD,others,0.9266169154
+last_timestep_sampling,Last Timestep,10,GCD,others,0.9374746244

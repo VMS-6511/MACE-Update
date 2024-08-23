@@ -12,11 +12,14 @@ def main(conf):
     
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
+    print(conf.MACE.output_dir)
+    print(conf.MACE.final_save_path)
     # stage 1 & 2 (CFR and LoRA training)
     cfr_lora_training(conf.MACE)
 
     # stage 3 (Multi-LoRA fusion)
     multi_lora_fusion(conf.MACE)
+
 
     # test the erased model
     if conf.MACE.test_erased_model:

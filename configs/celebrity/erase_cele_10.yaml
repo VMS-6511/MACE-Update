@@ -17,7 +17,7 @@ MACE:
   train_batch_size: 1
   learning_rate: 1.0e-04
   max_train_steps: 50
-  train_preserve_scale: 1.0e-4
+  train_preserve_scale: 0.0
   fuse_preserve_scale: 1.0e-4
   mapping_concept: 
     - 'a person'
@@ -35,9 +35,9 @@ MACE:
   rank: 1
   lora: true
   train_seperate: true
-  importance_sampling: false
+  importance_sampling: true
   first_timestep_sampling: false
-  last_timestep_sampling: true
+  last_timestep_sampling: false
   gaussian_sampling: false
   gaussian_mean: 300
   gaussian_std: 100

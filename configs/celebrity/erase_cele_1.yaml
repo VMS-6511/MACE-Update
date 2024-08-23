@@ -1,25 +1,23 @@
 MACE:
   # >>> primary settings >>>
   multi_concept:
-    - [ 
-        [melania-trump, object], 
-      ]
-  use_pooler: true  
+  - [['melania-trump', 'object']]
+  use_pooler: true
   train_batch_size: 1
   learning_rate: 1.0e-04
   max_train_steps: 50
-  train_preserve_scale: 1.0e-4
+  train_preserve_scale: 0.8
   fuse_preserve_scale: 1.0e-4
-  mapping_concept: 
-    - 'a woman'
+  mapping_concept:
+  - 'an object'
   augment: true
-  lamb: 0.8
+  lamb: 0.0
   rank: 1
   lora: true
   train_seperate: true
-  importance_sampling: false
+  importance_sampling: true
   first_timestep_sampling: false
-  last_timestep_sampling: true
+  last_timestep_sampling: false
   gaussian_sampling: false
   gaussian_mean: 200
   gaussian_std: 50
@@ -36,42 +34,41 @@ MACE:
   domain_preservation_cache_path: ./cache/cache_cele.pt
   preserve_weight: 8.0e+3
   input_data_dir: ./data/1cele
-  output_dir: ./saved_model/CFR_with_multi_LoRAs/last_timestep_cele_1/
-  final_save_path: ./saved_model/LoRA_fusion_model/last_timestep_cele_1/
-  timestep_dir: ./experiments/last_timestep_cele_1
-
+  output_dir: ./saved_model/CFR_with_multi_LoRAs/
+  final_save_path: ./saved_model/LoRA_fusion_model/
+  timestep_dir: ./experiments/
   ## gounded_SAM settings
   use_gsam_mask: true
   use_sam_hq: true
-  grounded_config: ./Grounded-Segment-Anything/GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py
+  grounded_config: 
+    ./Grounded-Segment-Anything/GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py
   grounded_checkpoint: ./Grounded-Segment-Anything/groundingdino_swint_ogc.pth
   sam_hq_checkpoint: ./Grounded-Segment-Anything/sam_hq_vit_h.pth
   # <<< primary settings <<<
-  
+
   # pretrained_model_name_or_path: stabilityai/stable-diffusion-2-1-base
   pretrained_model_name_or_path: CompVis/stable-diffusion-v1-4
   with_prior_preservation: false
   preserve_prompt: a person
   preserve_data_dir: data/a person
   prior_loss_weight: 1.0
-  
   with_uncond_loss: false
   negative_guidance: 1.0
   uncond_loss_weight: 1.0
   num_class_images: 200
   seed: 2024
   resolution: 512
-  revision: null
-  tokenizer_name: null
-  instance_prompt: null
-  concept_keyword: null
+  revision:
+  tokenizer_name:
+  instance_prompt:
+  concept_keyword:
   no_real_image: false
   center_crop: false
   train_text_encoder: false
   sample_batch_size: 4
   num_train_epochs: 1
   checkpointing_steps: 500
-  resume_from_checkpoint: null
+  resume_from_checkpoint:
   gradient_accumulation_steps: 1
   gradient_checkpointing: false
   scale_lr: false
@@ -87,13 +84,13 @@ MACE:
   adam_epsilon: 1.0e-08
   max_grad_norm: 1.
   push_to_hub: false
-  hub_token: null
-  hub_model_id: null
+  hub_token:
+  hub_model_id:
   logging_dir: logs
   allow_tf32: false
   report_to: tensorboard
-  mixed_precision: null
-  prior_generation_precision: null
+  mixed_precision:
+  prior_generation_precision:
   local_rank: -1
   enable_xformers_memory_efficient_attention: false
   set_grads_to_none: false
