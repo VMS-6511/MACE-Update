@@ -87,6 +87,31 @@ conda activate mace-update
 pip install --updgrade diffusers
 ```
 
+## Repo Structure
+
+- algorithms: code associated with unlearning algorithms we are testing
+- data: code to generate data for both unlearning and finetuning and where generated data is stored
+- evaluation: code for each of the different metrics we will evaluate the algorithms on (new metrics should be added in this folder)
+- finetuning: code related to finetuning models (new finetuning algorithms should be added to this folder)
+- inference: code related to sampling images from models
+- slurm: all scripts for launching jobs related to experiments
+- tasks: all of the tasks and their configs and evaluaiton prompt sets are stored here
+
+Folders to be manually added:
+
+- experiments
+- celeb-detection-oss
+- Grounded-Segment-Anything
+
+Throughout this repo there are a set of recurring parameters used throughout the pipeline:
+
+- ALGO_NAME: Name of the folder for each unlearning algorithm (i.e. MACE or UCE)
+- ORIG_TASK: Name of the folder for the high level unlearning task (i.e. art, celebrity, explicit_content, object)
+- ORIG_CONFIG: Name of the specific config in the high level unlearning task (e.g. erase_cele_1)
+- FINETUNE_ALGO: Name of the finetuning algorithm (i.e. full or lora)
+- FINETUNE_TASK: Name of the folder for the high level unlearning task (i.e. art, celebrity, explicit_content, object)
+- FINETUNE_CONFIG: Name of the specific config in the high level unlearning task (e.g. erase_cele_1)
+
 ## Data Preparation for Training MACE
 
 To erase concepts, 8 images along with their respective segmentation masks should be generated for each concept. To prepare the data for your intended concept, configure your settings in `tasks/object/ship.yaml` and execute the command:
