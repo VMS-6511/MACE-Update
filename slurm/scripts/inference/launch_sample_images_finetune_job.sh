@@ -1,0 +1,20 @@
+#!/bin/bash
+
+source ~/.bashrc
+conda activate mace-update-v4-ft
+
+PREFIX=/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness
+
+CUDA_VISIBLE_DEVICES=$1
+ALGO_NAME=$2
+CHANGE=$3
+ORIG_TASK=$4
+ORIG_CONFIG=$5
+FINETUNE_ALGO=$6
+FINETUNE_TASK=$7
+FINETUNE_CONFIG=$8
+PORT_NUMBER=$9
+PROMPTS_CSV=${10}
+
+echo sample_images_${ALGO_NAME}_${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}_${FINETUNE_ALGO}_${FINETUNE_TASK}_${FINETUNE_CONFIG}_${PROMPTS_CSV}
+bash $PREFIX/slurm/scripts/launch_gpu_slurm_job_v5.sh sample_images_${ALGO_NAME}_${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}_${FINETUNE_ALGO}_${FINETUNE_TASK}_${FINETUNE_CONFIG}_${PROMPTS_CSV} gpu:2 $PREFIX/inference/sample_images_finetune.sh $CUDA_VISIBLE_DEVICES $ALGO_NAME $CHANGE $ORIG_TASK $ORIG_CONFIG $FINETUNE_ALGO $FINETUNE_TASK $FINETUNE_CONFIG $PORT_NUMBER $PROMPTS_CSV
