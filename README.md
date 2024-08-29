@@ -83,7 +83,7 @@ pip install accelerate openai omegaconf
 
 ```
 conda create -n mace-update-ft --clone mace-update
-conda activate mace-update
+conda activate mace-update-ft
 pip install --updgrade diffusers
 ```
 
