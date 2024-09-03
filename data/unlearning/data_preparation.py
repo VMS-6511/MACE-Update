@@ -2,10 +2,11 @@ import os
 
 # os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 import sys
-sys.path.append("/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/algorithms/MACE/Grounded-Segment-Anything/GroundingDINO")
+
+sys.path.append(f"/data/healthy-ml/scratch/{os.environ.get('USER', 'current_user')}/projects/MACE-Robustness/Grounded-Segment-Anything/GroundingDINO")
+sys.path.append(f"/data/healthy-ml/scratch/{os.environ.get('USER', 'current_user')}/projects/MACE-Robustness/Grounded-Segment-Anything")
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 sys.path.insert(0, parent_dir)
-
 
 
 from omegaconf import OmegaConf
@@ -20,8 +21,6 @@ from segment_anything import (
     sam_hq_model_registry,
     SamPredictor
 )
-
-
 
 def main(conf):
     

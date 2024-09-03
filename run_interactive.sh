@@ -1,1 +1,1 @@
- srun --partition=healthyml --qos=healthyml-main --account=healthy-ml --gres=gpu:8 --mem=200G --pty bash
+ srun --partition=healthyml --qos=healthyml-main --account=healthy-ml --gres=gpu:1 --mem=20G --pty bash
