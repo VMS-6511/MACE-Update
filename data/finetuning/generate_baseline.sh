@@ -21,10 +21,14 @@ mkdir -p "$OUTPUT_DIR"
 # Execute the Python script without arguments
 python $PREFIX/inference/sample_images_from_csv.py --model_name="CompVis/stable-diffusion-v1-4" --prompts_path="$PROMPTS_PATH" --save_path="$OUTPUT_DIR" --step=1
 
-if [ -d "$OUTPUT_DIR/erased" ]; then
-    bash $PREFIX/data/finetuning/update_metadata.sh $OUTPUT_DIR/erased
-fi
+if [ "$TASK" = "celebrity" ]; then
+    if [ -d "$OUTPUT_DIR/erased" ]; then
+        bash $PREFIX/data/finetuning/update_metadata.sh $OUTPUT_DIR/erased
+    fi
 
-if [ -d "$OUTPUT_DIR/others" ]; then
-    bash $PREFIX/data/finetuning/update_metadata.sh $OUTPUT_DIR/others
+    if [ -d "$OUTPUT_DIR/others" ]; then
+        bash $PREFIX/data/finetuning/update_metadata.sh $OUTPUT_DIR/others
+    fi
+else
+    bash $PREFIX/data/finetuning/update_metadata.sh $OUTPUT_DIR
 fi
