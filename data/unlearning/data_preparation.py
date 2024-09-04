@@ -2,13 +2,21 @@ import os
 
 # os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 import sys
+<<<<<<< HEAD
 
 sys.path.append(f"/data/healthy-ml/scratch/{os.environ.get('USER', 'current_user')}/projects/MACE-Robustness/Grounded-Segment-Anything/GroundingDINO")
 sys.path.append(f"/data/healthy-ml/scratch/{os.environ.get('USER', 'current_user')}/projects/MACE-Robustness/Grounded-Segment-Anything")
+=======
+sys.path.append("/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/algorithms/MACE/Grounded-Segment-Anything/GroundingDINO")
+>>>>>>> origin/refactor_final/vinith
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 sys.path.insert(0, parent_dir)
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/refactor_final/vinith
 from omegaconf import OmegaConf
 import torch
 from torchvision import transforms
@@ -22,6 +30,11 @@ from segment_anything import (
     SamPredictor
 )
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/refactor_final/vinith
 def main(conf):
     
     device = 'cuda' if torch.cuda.is_available() else 'cpu'

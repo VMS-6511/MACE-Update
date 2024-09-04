@@ -85,7 +85,10 @@ pip install accelerate openai omegaconf
 conda create -n mace-update-ft --clone mace-update
 conda activate mace-update-ft
 pip install --upgrade diffusers
+<<<<<<< HEAD
 pip install peft
+=======
+>>>>>>> origin/refactor_final/vinith
 ```
 
 ## Repo Structure

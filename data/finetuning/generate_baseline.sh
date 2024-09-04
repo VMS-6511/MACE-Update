@@ -10,7 +10,6 @@ if [ $# -ne 3 ]; then
 fi
 
 # Assign arguments to variables
-
 CUDA_VISIBLE_DEVICES=$1
 TASK=$2
 CONFIG=$3

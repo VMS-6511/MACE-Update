@@ -1,6 +1,14 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 . /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/slurm/scripts/prelude-ft.sh
+=======
+source ~/.bashrc
+conda activate mace-update-v5-ft
+
+
+PREFIX=/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness
+>>>>>>> origin/refactor_final/vinith
 
 ALGO_NAME=$1
 CHANGE=$2

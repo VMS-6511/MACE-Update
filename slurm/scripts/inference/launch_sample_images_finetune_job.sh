@@ -1,6 +1,13 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 . /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/slurm/scripts/prelude-ft.sh
+=======
+source ~/.bashrc
+conda activate mace-update-v4-ft
+
+PREFIX=/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness
+>>>>>>> origin/refactor_final/vinith
 
 CUDA_VISIBLE_DEVICES=$1
 ALGO_NAME=$2

@@ -23,11 +23,6 @@ if [ $FINETUNE_ALGO == "full" ]; then
             --prompts_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/tasks/${FINETUNE_TASK}/${PROMPTS_CSV}.csv \
             --save_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/inference/${PROMPTS_CSV} \
             --model_name /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG} \
-            --step 1
-
-elif [ $FINETUNE_ALGO == "lora" ]; then
-
-    CUDA_VISIBLE_DEVICES=$1 accelerate launch \
             --multi_gpu --num_processes=2 --main_process_port $PORT_NUMBER \
             $PREFIX/inference/sample_images_from_csv.py \
             --prompts_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/tasks/${FINETUNE_TASK}/${PROMPTS_CSV}.csv \

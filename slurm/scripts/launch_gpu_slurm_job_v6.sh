@@ -33,7 +33,10 @@ echo "#!/bin/bash
 #SBATCH --time=7-00:00
 #SBATCH --partition=healthyml
 #SBATCH --qos=healthyml-main
+<<<<<<< HEAD
 #SBATCH --account=healthy-ml
+=======
+>>>>>>> origin/refactor_final/vinith
  
 bash ${j_dir}/scripts/${j_name}.sh
 " > $j_dir/scripts/${j_name}.slrm
