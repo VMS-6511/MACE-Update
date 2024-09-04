@@ -99,7 +99,7 @@ if __name__=='__main__':
     parser = ArgumentParser()
     parser.add_argument("--image_dir", type=str, default='path/to/generated_images')
     parser.add_argument("--prompts_path", type=str, default='./prompts_csv/coco_30k.csv')
-    parser.add_argument("--results_file", type=str, default='/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/experiments/experimental_results.csv')
+    parser.add_argument("--results_file", type=str, default='/data/healthy-ml/scratch/vinithms/projects/MACE-Update/experiments/experimental_results.csv')
     args = parser.parse_args()
 
     image_dir=args.image_dir

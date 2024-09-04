@@ -1,10 +1,6 @@
 #!/bin/bash
 
-source ~/.bashrc
-conda activate mace-update-v4-ft
-
-
-PREFIX=/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness
+. /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/slurm/scripts/prelude-ft.sh
 
 ALGO_NAME=$1
 CHANGE=$2
@@ -52,5 +48,5 @@ elif [ $FINETUNE_ALGO == "lora" ]; then
     --checkpointing_steps=100 \
     --seed=1337
 else
-  echo "Finetuning method is not supported."
+  echo "Finetuning method '$FINETUNE_ALGO' is not supported. Valid options are 'full' and 'lora'."
 fi

@@ -1,9 +1,13 @@
 #!/bin/bash
 
+<<<<<<< HEAD
+. /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/slurm/scripts/prelude.sh
+=======
 source ~/.bashrc
 conda activate mace-update-v4
 
-PREFIX=/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness
+PREFIX=/data/healthy-ml/scratch/vinithms/projects/MACE-Update
+>>>>>>> origin/refactor_final/vinith
 
 TASK=$2
 CONFIG=$3

@@ -10,7 +10,7 @@ task=$5
 config=$6
 
 
-hdd=/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness
+hdd=/data/healthy-ml/scratch/$(whoami)/projects/MACE-Update
 j_dir=$hdd/slurm/logs/$d/${j_name}
  
 mkdir -p $j_dir/scripts
@@ -25,9 +25,10 @@ echo "#!/bin/bash
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=32G
 #SBATCH --nodes=1
-#SBATCH --time=7-00:00
+#SBATCH --time=1-00:00
 #SBATCH --partition=healthyml
 #SBATCH --qos=healthyml-main
+#SBATCH --account=healthy-ml
  
 bash ${j_dir}/scripts/${j_name}.sh
 " > $j_dir/scripts/${j_name}.slrm
