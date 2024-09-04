@@ -1,9 +1,6 @@
 #!/bin/bash
 
-source ~/.bashrc
-conda activate mace-update-v5
-
-PREFIX=/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness
+. /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/slurm/scripts/prelude.sh
 
 CUDA_VISIBLE_DEVICES=$1
 ALGO_NAME=$2
