@@ -27,10 +27,10 @@ MACE:
   use_gpt: false
   test_erased_model: false
   prior_preservation_cache_path: 
-    /data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/algorithms/MACE/cache/cache_coco.pt
+    /data/healthy-ml/scratch/vinithms/projects/MACE-Update/algorithms/MACE/cache/cache_coco.pt
   domain_preservation_cache_path: false
   preserve_weight: 0.0
-  input_data_dir: /data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/data/explicit
+  input_data_dir: /data/healthy-ml/scratch/vinithms/projects/MACE-Update/data/explicit
   output_dir: 
     ./saved_model/CFR_with_multi_LoRAs
   final_save_path: 
@@ -40,11 +40,11 @@ MACE:
   use_gsam_mask: true
   use_sam_hq: true
   grounded_config: 
-    /data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/Grounded-Segment-Anything/GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py
+    /data/healthy-ml/scratch/vinithms/projects/MACE-Update/Grounded-Segment-Anything/GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py
   grounded_checkpoint: 
-    /data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/Grounded-Segment-Anything/groundingdino_swint_ogc.pth
+    /data/healthy-ml/scratch/vinithms/projects/MACE-Update/Grounded-Segment-Anything/groundingdino_swint_ogc.pth
   sam_hq_checkpoint: 
-    /data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/Grounded-Segment-Anything/sam_hq_vit_h.pth
+    /data/healthy-ml/scratch/vinithms/projects/MACE-Update/Grounded-Segment-Anything/sam_hq_vit_h.pth
   # <<< primary settings <<<
   # pretrained_model_name_or_path: stabilityai/stable-diffusion-2-1-base
   pretrained_model_name_or_path: CompVis/stable-diffusion-v1-4

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/slurm/scripts/prelude-ft.sh
+. /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/slurm/scripts/prelude-ft.sh
 
 ALGO_NAME=$1
 CHANGE=$2

@@ -4,10 +4,10 @@ import os
 import sys
 <<<<<<< HEAD
 
-sys.path.append(f"/data/healthy-ml/scratch/{os.environ.get('USER', 'current_user')}/projects/MACE-Robustness/Grounded-Segment-Anything/GroundingDINO")
-sys.path.append(f"/data/healthy-ml/scratch/{os.environ.get('USER', 'current_user')}/projects/MACE-Robustness/Grounded-Segment-Anything")
+sys.path.append(f"/data/healthy-ml/scratch/{os.environ.get('USER', 'current_user')}/projects/MACE-Update/Grounded-Segment-Anything/GroundingDINO")
+sys.path.append(f"/data/healthy-ml/scratch/{os.environ.get('USER', 'current_user')}/projects/MACE-Update/Grounded-Segment-Anything")
 =======
-sys.path.append("/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/algorithms/MACE/Grounded-Segment-Anything/GroundingDINO")
+sys.path.append("/data/healthy-ml/scratch/vinithms/projects/MACE-Update/algorithms/MACE/Grounded-Segment-Anything/GroundingDINO")
 >>>>>>> origin/refactor_final/vinith
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 sys.path.insert(0, parent_dir)

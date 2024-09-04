@@ -3,7 +3,7 @@
 source ~/.bashrc
 conda activate mace-update-v5
 
-PREFIX=/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness
+PREFIX=/data/healthy-ml/scratch/vinithms/projects/MACE-Update
 
 
 CUDA_VISIBLE_DEVICES=$1

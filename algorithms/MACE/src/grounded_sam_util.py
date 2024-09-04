@@ -3,7 +3,7 @@ import numpy as np
 import json
 import torch
 import sys
-sys.path.append(f"/data/healthy-ml/scratch/{os.environ.get('USER', 'current_user')}/projects/MACE-Robustness/Grounded-Segment-Anything")
+sys.path.append(f"/data/healthy-ml/scratch/{os.environ.get('USER', 'current_user')}/projects/MACE-Update/Grounded-Segment-Anything")
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 sys.path.insert(0, parent_dir)
 import GroundingDINO.groundingdino.datasets.transforms as T

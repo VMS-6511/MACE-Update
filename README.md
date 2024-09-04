@@ -85,10 +85,7 @@ pip install accelerate openai omegaconf
 conda create -n mace-update-ft --clone mace-update
 conda activate mace-update-ft
 pip install --upgrade diffusers
-<<<<<<< HEAD
 pip install peft
-=======
->>>>>>> origin/refactor_final/vinith
 ```
 
 ## Repo Structure
@@ -171,7 +168,7 @@ To produce lots of images based on a list of prompts with with predetermined see
 ./inference/sample_images.sh $CUDA_VISIBLE_DEVICES $ALGO_NAME $CHANGE $TASK $CONFIG $PORT_NUMBER $PROMPTS_CSV
 ```
 
-The images from running this command will be saved to the following folder: `/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${TASK}_${CONFIG}/inference/${PROMPTS_CSV}`.
+The images from running this command will be saved to the following folder: `/data/healthy-ml/scratch/vinithms/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${TASK}_${CONFIG}/inference/${PROMPTS_CSV}`.
 
 To launch this command as a SLURM job, execute the following command:
 
@@ -240,7 +237,7 @@ To produce lots of images based on a list of prompts with with predetermined see
 ./inference/sample_images_finetune.sh $CUDA_VISIBLE_DEVICES $ALGO_NAME $CHANGE $ORIG_TASK $ORIG_CONFIG $FINETUNE_ALGO $FINETUNE_TASK $FINETUNE_CONFIG $PORT_NUMBER $PROMPTS_CSV
 ```
 
-The images from running this command will be saved to the following folder: `/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/inference/${PROMPTS_CSV}`.
+The images from running this command will be saved to the following folder: `/data/healthy-ml/scratch/vinithms/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/inference/${PROMPTS_CSV}`.
 
 To launch this command as a SLURM job, execute the following command:
 

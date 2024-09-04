@@ -11,6 +11,6 @@ else
     conda activate mace-update-v5
 fi
 
-PREFIX=/data/healthy-ml/scratch/$CURRENT_USER/projects/MACE-Robustness
+PREFIX=/data/healthy-ml/scratch/$CURRENT_USER/projects/MACE-Update
 
 export PREFIX

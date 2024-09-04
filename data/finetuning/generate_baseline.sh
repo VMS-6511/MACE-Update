@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-. /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/slurm/scripts/prelude.sh
+. /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/slurm/scripts/prelude.sh
 
 # Usage check
 if [ $# -ne 3 ]; then
