@@ -1,9 +1,6 @@
 #!/bin/bash
 
-source ~/.bashrc
-conda activate mace-update-v5
-
-PREFIX=/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness
+. /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/slurm/scripts/prelude.sh
 
 ALGO_NAME=$2
 CHANGE=$3
@@ -15,17 +12,17 @@ FINETUNE_CONFIG=$8
 PORT_NUMBER=$9
 PROMPTS_CSV=${10}
 
-mkdir -p /data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/inference/${PROMPTS_CSV}
-ln -s /data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/tasks/${FINETUNE_TASK}/${PROMPTS_CSV}.csv /data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/inference/${PROMPTS_CSV}/prompts.csv 
+mkdir -p /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/inference/${PROMPTS_CSV}
+ln -s /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/tasks/${FINETUNE_TASK}/${PROMPTS_CSV}.csv /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/inference/${PROMPTS_CSV}/prompts.csv 
 
 if [ $FINETUNE_ALGO == "full" ]; then
 
     CUDA_VISIBLE_DEVICES=$1 accelerate launch \
             --multi_gpu --num_processes=2 --main_process_port $PORT_NUMBER \
             $PREFIX/inference/sample_images_from_csv.py \
-            --prompts_path /data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/tasks/${FINETUNE_TASK}/${PROMPTS_CSV}.csv \
-            --save_path /data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/inference/${PROMPTS_CSV} \
-            --model_name /data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG} \
+            --prompts_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/tasks/${FINETUNE_TASK}/${PROMPTS_CSV}.csv \
+            --save_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/inference/${PROMPTS_CSV} \
+            --model_name /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG} \
             --step 1
 
 elif [ $FINETUNE_ALGO == "lora" ]; then
@@ -33,10 +30,10 @@ elif [ $FINETUNE_ALGO == "lora" ]; then
     CUDA_VISIBLE_DEVICES=$1 accelerate launch \
             --multi_gpu --num_processes=2 --main_process_port $PORT_NUMBER \
             $PREFIX/inference/sample_images_from_csv.py \
-            --prompts_path /data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/tasks/${FINETUNE_TASK}/${PROMPTS_CSV}.csv \
-            --save_path /data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/inference/${PROMPTS_CSV} \
-            --model_name /data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/LoRA_fusion_model \
-            --lora_path /data/healthy-ml/scratch/vinithms/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/pytorch_lora_weights.safetensors \
+            --prompts_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/tasks/${FINETUNE_TASK}/${PROMPTS_CSV}.csv \
+            --save_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/inference/${PROMPTS_CSV} \
+            --model_name /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/LoRA_fusion_model \
+            --lora_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/pytorch_lora_weights.safetensors \
             --step 1
 else
     echo "Finetuning algorithm not supported"
