@@ -85,6 +85,7 @@ pip install accelerate openai omegaconf
 conda create -n mace-update-ft --clone mace-update
 conda activate mace-update-ft
 pip install --upgrade diffusers
+pip install peft
 ```
 
 ## Repo Structure

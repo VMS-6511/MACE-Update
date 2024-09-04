@@ -1,9 +1,7 @@
 #!/bin/bash
+. /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/slurm/scripts/prelude.sh
 
-source ~/.bashrc
-conda activate mace-update-v4
-
-PREFIX=/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness
+slurm/scripts/data/launch_prepare_data_job.sh
 
 TASK=$1
 CONFIG=$2
