@@ -1,11 +1,7 @@
 
 #!/bin/bash
 
-# Source system-wide and user-specific profiles
-source ~/.bashrc
-
-# Activate the conda environment named "mace2"
-conda activate mace-update-v5
+. /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/slurm/scripts/prelude.sh
 
 # Usage check
 if [ $# -ne 3 ]; then
@@ -14,7 +10,7 @@ if [ $# -ne 3 ]; then
 fi
 
 # Assign arguments to variables
-PREFIX=/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness
+
 CUDA_VISIBLE_DEVICES=$1
 TASK=$2
 CONFIG=$3

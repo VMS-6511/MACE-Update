@@ -1,10 +1,6 @@
 #!/bin/bash
 
-source ~/.bashrc
-conda activate mace-update-v4-ft
-
-
-PREFIX=/data/healthy-ml/scratch/vinithms/projects/MACE-Robustness
+. /data/healthy-ml/scratch/$(whoami)/projects/MACE-Robustness/slurm/scripts/prelude.sh
 
 ALGO_NAME=$1
 CHANGE=$2
