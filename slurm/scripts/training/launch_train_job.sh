@@ -10,4 +10,4 @@ TASK=$4
 CONFIG=$5
 
 echo train_model_${ALGO_NAME}_${CHANGE}_${TASK}_$CONFIG
-bash $PREFIX/slurm/scripts/launch_gpu_slurm_job_v2.sh train_model_${ALGO_NAME}_${CHANGE}_${TASK}_$CONFIG gpu:1 $PREFIX/algorithms/${ALGO_NAME}/train_model.sh "$@"
+bash $PREFIX/slurm/scripts/launch_gpu_slurm_job_v2.sh train_model_${ALGO_NAME}_${CHANGE}_${TASK}_$CONFIG gpu:2 $PREFIX/algorithms/${ALGO_NAME}/train_model.sh "$@"

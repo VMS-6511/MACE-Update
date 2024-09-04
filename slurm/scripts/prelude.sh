@@ -6,7 +6,7 @@ source ~/.bashrc
 CURRENT_USER=$(whoami)
 
 if [ "$CURRENT_USER" = "ralur" ]; then
-    conda activate mace-update-v2
+    conda activate mace-update-v3
 else
     conda activate mace-update-v5
 fi
