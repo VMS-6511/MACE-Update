@@ -30,7 +30,7 @@ def mean_clip_score(image_dir, prompts_path, results_file):
             else:
                 image_filenames=os.listdir(image_dir)
             print(len(texts), len(image_filenames))
-            assert len(texts)==len(image_filenames), "Number of images and prompts don't match"
+            assert len(texts)==len(image_filenames), f"Number of images and prompts don't match. Texts: {len(texts)}, Images: {len(image_filenames)}. Prompt dir: {prompts_path}, Image dir: {image_dir}."
             
             print(image_filenames[0].split("_")[1].split('.png')[0])
             sorted_image_filenames = sorted(image_filenames, key=lambda x: int(x.split("_")[1].split('.png')[0]))
@@ -55,8 +55,12 @@ def mean_clip_score(image_dir, prompts_path, results_file):
             print("{}".format(image_type))
             print('\n')
             print(f"Mean CLIP score ± Standard Deviation: {mean_similarity:.4f}±{std_similarity:.4f}")
-            algo_name, task = re.split(r'_(?=cele)', image_dir.split('/')[8])
-            task = task.split('_')[1]
+            
+            #algo_name, task = re.split(r'_(?=cele)', image_dir.split('/')[8])
+            #task = task.split('_')[1]
+            algo_name = image_dir.split('/')[8]
+            task = image_dir.split('/')[9]
+            
             row = {'algo_name': algo_name, 'task': task, 'metric': 'CLIP Score', 'type': image_type, 'value': f"{mean_similarity:.4f}±{std_similarity:.4f}"}
             with open(results_file, 'a', newline='') as csvfile:
                 writer = csv.DictWriter(csvfile, fieldnames=row.keys())
