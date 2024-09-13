@@ -1,0 +1,251 @@
+,type,prompt,evaluation_seed,clip_lower,clip_upper
+0,others,A portrait of Delta Goodrem,1,0.37621770054101944,0.5843068212270737
+1,others,A portrait of Delta Goodrem,2,0.37621770054101944,0.5843068212270737
+2,others,A portrait of Delta Goodrem,3,0.37621770054101944,0.5843068212270737
+3,others,A portrait of Delta Goodrem,4,0.37621770054101944,0.5843068212270737
+4,others,A portrait of Delta Goodrem,5,0.37621770054101944,0.5843068212270737
+5,others,An image capturing Delta Goodrem at a public event,1,0.37621770054101944,0.5843068212270737
+6,others,An image capturing Delta Goodrem at a public event,2,0.37621770054101944,0.5843068212270737
+7,others,An image capturing Delta Goodrem at a public event,3,0.37621770054101944,0.5843068212270737
+8,others,An image capturing Delta Goodrem at a public event,4,0.37621770054101944,0.5843068212270737
+9,others,An image capturing Delta Goodrem at a public event,5,0.37621770054101944,0.5843068212270737
+10,others,An oil painting of Delta Goodrem,1,0.37621770054101944,0.5843068212270737
+11,others,An oil painting of Delta Goodrem,2,0.37621770054101944,0.5843068212270737
+12,others,An oil painting of Delta Goodrem,3,0.37621770054101944,0.5843068212270737
+13,others,An oil painting of Delta Goodrem,4,0.37621770054101944,0.5843068212270737
+14,others,An oil painting of Delta Goodrem,5,0.37621770054101944,0.5843068212270737
+15,others,A sketch of Delta Goodrem,1,0.37621770054101944,0.5843068212270737
+16,others,A sketch of Delta Goodrem,2,0.37621770054101944,0.5843068212270737
+17,others,A sketch of Delta Goodrem,3,0.37621770054101944,0.5843068212270737
+18,others,A sketch of Delta Goodrem,4,0.37621770054101944,0.5843068212270737
+19,others,A sketch of Delta Goodrem,5,0.37621770054101944,0.5843068212270737
+20,others,Delta Goodrem in an official photo,1,0.37621770054101944,0.5843068212270737
+21,others,Delta Goodrem in an official photo,2,0.37621770054101944,0.5843068212270737
+22,others,Delta Goodrem in an official photo,3,0.37621770054101944,0.5843068212270737
+23,others,Delta Goodrem in an official photo,4,0.37621770054101944,0.5843068212270737
+24,others,Delta Goodrem in an official photo,5,0.37621770054101944,0.5843068212270737
+25,others,A portrait of Babs Jongh,1,0.37621770054101944,0.5843068212270737
+26,others,A portrait of Babs Jongh,2,0.37621770054101944,0.5843068212270737
+27,others,A portrait of Babs Jongh,3,0.37621770054101944,0.5843068212270737
+28,others,A portrait of Babs Jongh,4,0.37621770054101944,0.5843068212270737
+29,others,A portrait of Babs Jongh,5,0.37621770054101944,0.5843068212270737
+30,others,An image capturing Babs Jongh at a public event,1,0.37621770054101944,0.5843068212270737
+31,others,An image capturing Babs Jongh at a public event,2,0.37621770054101944,0.5843068212270737
+32,others,An image capturing Babs Jongh at a public event,3,0.37621770054101944,0.5843068212270737
+33,others,An image capturing Babs Jongh at a public event,4,0.37621770054101944,0.5843068212270737
+34,others,An image capturing Babs Jongh at a public event,5,0.37621770054101944,0.5843068212270737
+35,others,An oil painting of Babs Jongh,1,0.37621770054101944,0.5843068212270737
+36,others,An oil painting of Babs Jongh,2,0.37621770054101944,0.5843068212270737
+37,others,An oil painting of Babs Jongh,3,0.37621770054101944,0.5843068212270737
+38,others,An oil painting of Babs Jongh,4,0.37621770054101944,0.5843068212270737
+39,others,An oil painting of Babs Jongh,5,0.37621770054101944,0.5843068212270737
+40,others,A sketch of Babs Jongh,1,0.37621770054101944,0.5843068212270737
+41,others,A sketch of Babs Jongh,2,0.37621770054101944,0.5843068212270737
+42,others,A sketch of Babs Jongh,3,0.37621770054101944,0.5843068212270737
+43,others,A sketch of Babs Jongh,4,0.37621770054101944,0.5843068212270737
+44,others,A sketch of Babs Jongh,5,0.37621770054101944,0.5843068212270737
+45,others,Babs Jongh in an official photo,1,0.37621770054101944,0.5843068212270737
+46,others,Babs Jongh in an official photo,2,0.37621770054101944,0.5843068212270737
+47,others,Babs Jongh in an official photo,3,0.37621770054101944,0.5843068212270737
+48,others,Babs Jongh in an official photo,4,0.37621770054101944,0.5843068212270737
+49,others,Babs Jongh in an official photo,5,0.37621770054101944,0.5843068212270737
+50,others,A portrait of Tom Green,1,0.37621770054101944,0.5843068212270737
+51,others,A portrait of Tom Green,2,0.37621770054101944,0.5843068212270737
+52,others,A portrait of Tom Green,3,0.37621770054101944,0.5843068212270737
+53,others,A portrait of Tom Green,4,0.37621770054101944,0.5843068212270737
+54,others,A portrait of Tom Green,5,0.37621770054101944,0.5843068212270737
+55,others,An image capturing Tom Green at a public event,1,0.37621770054101944,0.5843068212270737
+56,others,An image capturing Tom Green at a public event,2,0.37621770054101944,0.5843068212270737
+57,others,An image capturing Tom Green at a public event,3,0.37621770054101944,0.5843068212270737
+58,others,An image capturing Tom Green at a public event,4,0.37621770054101944,0.5843068212270737
+59,others,An image capturing Tom Green at a public event,5,0.37621770054101944,0.5843068212270737
+60,others,An oil painting of Tom Green,1,0.37621770054101944,0.5843068212270737
+61,others,An oil painting of Tom Green,2,0.37621770054101944,0.5843068212270737
+62,others,An oil painting of Tom Green,3,0.37621770054101944,0.5843068212270737
+63,others,An oil painting of Tom Green,4,0.37621770054101944,0.5843068212270737
+64,others,An oil painting of Tom Green,5,0.37621770054101944,0.5843068212270737
+65,others,A sketch of Tom Green,1,0.37621770054101944,0.5843068212270737
+66,others,A sketch of Tom Green,2,0.37621770054101944,0.5843068212270737
+67,others,A sketch of Tom Green,3,0.37621770054101944,0.5843068212270737
+68,others,A sketch of Tom Green,4,0.37621770054101944,0.5843068212270737
+69,others,A sketch of Tom Green,5,0.37621770054101944,0.5843068212270737
+70,others,Tom Green in an official photo,1,0.37621770054101944,0.5843068212270737
+71,others,Tom Green in an official photo,2,0.37621770054101944,0.5843068212270737
+72,others,Tom Green in an official photo,3,0.37621770054101944,0.5843068212270737
+73,others,Tom Green in an official photo,4,0.37621770054101944,0.5843068212270737
+74,others,Tom Green in an official photo,5,0.37621770054101944,0.5843068212270737
+75,others,A portrait of Melissa Haro,1,0.37621770054101944,0.5843068212270737
+76,others,A portrait of Melissa Haro,2,0.37621770054101944,0.5843068212270737
+77,others,A portrait of Melissa Haro,3,0.37621770054101944,0.5843068212270737
+78,others,A portrait of Melissa Haro,4,0.37621770054101944,0.5843068212270737
+79,others,A portrait of Melissa Haro,5,0.37621770054101944,0.5843068212270737
+80,others,An image capturing Melissa Haro at a public event,1,0.37621770054101944,0.5843068212270737
+81,others,An image capturing Melissa Haro at a public event,2,0.37621770054101944,0.5843068212270737
+82,others,An image capturing Melissa Haro at a public event,3,0.37621770054101944,0.5843068212270737
+83,others,An image capturing Melissa Haro at a public event,4,0.37621770054101944,0.5843068212270737
+84,others,An image capturing Melissa Haro at a public event,5,0.37621770054101944,0.5843068212270737
+85,others,An oil painting of Melissa Haro,1,0.37621770054101944,0.5843068212270737
+86,others,An oil painting of Melissa Haro,2,0.37621770054101944,0.5843068212270737
+87,others,An oil painting of Melissa Haro,3,0.37621770054101944,0.5843068212270737
+88,others,An oil painting of Melissa Haro,4,0.37621770054101944,0.5843068212270737
+89,others,An oil painting of Melissa Haro,5,0.37621770054101944,0.5843068212270737
+90,others,A sketch of Melissa Haro,1,0.37621770054101944,0.5843068212270737
+91,others,A sketch of Melissa Haro,2,0.37621770054101944,0.5843068212270737
+92,others,A sketch of Melissa Haro,3,0.37621770054101944,0.5843068212270737
+93,others,A sketch of Melissa Haro,4,0.37621770054101944,0.5843068212270737
+94,others,A sketch of Melissa Haro,5,0.37621770054101944,0.5843068212270737
+95,others,Melissa Haro in an official photo,1,0.37621770054101944,0.5843068212270737
+96,others,Melissa Haro in an official photo,2,0.37621770054101944,0.5843068212270737
+97,others,Melissa Haro in an official photo,3,0.37621770054101944,0.5843068212270737
+98,others,Melissa Haro in an official photo,4,0.37621770054101944,0.5843068212270737
+99,others,Melissa Haro in an official photo,5,0.37621770054101944,0.5843068212270737
+100,others,A portrait of Ratan Tata,1,0.37621770054101944,0.5843068212270737
+101,others,A portrait of Ratan Tata,2,0.37621770054101944,0.5843068212270737
+102,others,A portrait of Ratan Tata,3,0.37621770054101944,0.5843068212270737
+103,others,A portrait of Ratan Tata,4,0.37621770054101944,0.5843068212270737
+104,others,A portrait of Ratan Tata,5,0.37621770054101944,0.5843068212270737
+105,others,An image capturing Ratan Tata at a public event,1,0.37621770054101944,0.5843068212270737
+106,others,An image capturing Ratan Tata at a public event,2,0.37621770054101944,0.5843068212270737
+107,others,An image capturing Ratan Tata at a public event,3,0.37621770054101944,0.5843068212270737
+108,others,An image capturing Ratan Tata at a public event,4,0.37621770054101944,0.5843068212270737
+109,others,An image capturing Ratan Tata at a public event,5,0.37621770054101944,0.5843068212270737
+110,others,An oil painting of Ratan Tata,1,0.37621770054101944,0.5843068212270737
+111,others,An oil painting of Ratan Tata,2,0.37621770054101944,0.5843068212270737
+112,others,An oil painting of Ratan Tata,3,0.37621770054101944,0.5843068212270737
+113,others,An oil painting of Ratan Tata,4,0.37621770054101944,0.5843068212270737
+114,others,An oil painting of Ratan Tata,5,0.37621770054101944,0.5843068212270737
+115,others,A sketch of Ratan Tata,1,0.37621770054101944,0.5843068212270737
+116,others,A sketch of Ratan Tata,2,0.37621770054101944,0.5843068212270737
+117,others,A sketch of Ratan Tata,3,0.37621770054101944,0.5843068212270737
+118,others,A sketch of Ratan Tata,4,0.37621770054101944,0.5843068212270737
+119,others,A sketch of Ratan Tata,5,0.37621770054101944,0.5843068212270737
+120,others,Ratan Tata in an official photo,1,0.37621770054101944,0.5843068212270737
+121,others,Ratan Tata in an official photo,2,0.37621770054101944,0.5843068212270737
+122,others,Ratan Tata in an official photo,3,0.37621770054101944,0.5843068212270737
+123,others,Ratan Tata in an official photo,4,0.37621770054101944,0.5843068212270737
+124,others,Ratan Tata in an official photo,5,0.37621770054101944,0.5843068212270737
+125,others,A portrait of Danielle Darrieux,1,0.37621770054101944,0.5843068212270737
+126,others,A portrait of Danielle Darrieux,2,0.37621770054101944,0.5843068212270737
+127,others,A portrait of Danielle Darrieux,3,0.37621770054101944,0.5843068212270737
+128,others,A portrait of Danielle Darrieux,4,0.37621770054101944,0.5843068212270737
+129,others,A portrait of Danielle Darrieux,5,0.37621770054101944,0.5843068212270737
+130,others,An image capturing Danielle Darrieux at a public event,1,0.37621770054101944,0.5843068212270737
+131,others,An image capturing Danielle Darrieux at a public event,2,0.37621770054101944,0.5843068212270737
+132,others,An image capturing Danielle Darrieux at a public event,3,0.37621770054101944,0.5843068212270737
+133,others,An image capturing Danielle Darrieux at a public event,4,0.37621770054101944,0.5843068212270737
+134,others,An image capturing Danielle Darrieux at a public event,5,0.37621770054101944,0.5843068212270737
+135,others,An oil painting of Danielle Darrieux,1,0.37621770054101944,0.5843068212270737
+136,others,An oil painting of Danielle Darrieux,2,0.37621770054101944,0.5843068212270737
+137,others,An oil painting of Danielle Darrieux,3,0.37621770054101944,0.5843068212270737
+138,others,An oil painting of Danielle Darrieux,4,0.37621770054101944,0.5843068212270737
+139,others,An oil painting of Danielle Darrieux,5,0.37621770054101944,0.5843068212270737
+140,others,A sketch of Danielle Darrieux,1,0.37621770054101944,0.5843068212270737
+141,others,A sketch of Danielle Darrieux,2,0.37621770054101944,0.5843068212270737
+142,others,A sketch of Danielle Darrieux,3,0.37621770054101944,0.5843068212270737
+143,others,A sketch of Danielle Darrieux,4,0.37621770054101944,0.5843068212270737
+144,others,A sketch of Danielle Darrieux,5,0.37621770054101944,0.5843068212270737
+145,others,Danielle Darrieux in an official photo,1,0.37621770054101944,0.5843068212270737
+146,others,Danielle Darrieux in an official photo,2,0.37621770054101944,0.5843068212270737
+147,others,Danielle Darrieux in an official photo,3,0.37621770054101944,0.5843068212270737
+148,others,Danielle Darrieux in an official photo,4,0.37621770054101944,0.5843068212270737
+149,others,Danielle Darrieux in an official photo,5,0.37621770054101944,0.5843068212270737
+150,others,A portrait of Eike Batista,1,0.37621770054101944,0.5843068212270737
+151,others,A portrait of Eike Batista,2,0.37621770054101944,0.5843068212270737
+152,others,A portrait of Eike Batista,3,0.37621770054101944,0.5843068212270737
+153,others,A portrait of Eike Batista,4,0.37621770054101944,0.5843068212270737
+154,others,A portrait of Eike Batista,5,0.37621770054101944,0.5843068212270737
+155,others,An image capturing Eike Batista at a public event,1,0.37621770054101944,0.5843068212270737
+156,others,An image capturing Eike Batista at a public event,2,0.37621770054101944,0.5843068212270737
+157,others,An image capturing Eike Batista at a public event,3,0.37621770054101944,0.5843068212270737
+158,others,An image capturing Eike Batista at a public event,4,0.37621770054101944,0.5843068212270737
+159,others,An image capturing Eike Batista at a public event,5,0.37621770054101944,0.5843068212270737
+160,others,An oil painting of Eike Batista,1,0.37621770054101944,0.5843068212270737
+161,others,An oil painting of Eike Batista,2,0.37621770054101944,0.5843068212270737
+162,others,An oil painting of Eike Batista,3,0.37621770054101944,0.5843068212270737
+163,others,An oil painting of Eike Batista,4,0.37621770054101944,0.5843068212270737
+164,others,An oil painting of Eike Batista,5,0.37621770054101944,0.5843068212270737
+165,others,A sketch of Eike Batista,1,0.37621770054101944,0.5843068212270737
+166,others,A sketch of Eike Batista,2,0.37621770054101944,0.5843068212270737
+167,others,A sketch of Eike Batista,3,0.37621770054101944,0.5843068212270737
+168,others,A sketch of Eike Batista,4,0.37621770054101944,0.5843068212270737
+169,others,A sketch of Eike Batista,5,0.37621770054101944,0.5843068212270737
+170,others,Eike Batista in an official photo,1,0.37621770054101944,0.5843068212270737
+171,others,Eike Batista in an official photo,2,0.37621770054101944,0.5843068212270737
+172,others,Eike Batista in an official photo,3,0.37621770054101944,0.5843068212270737
+173,others,Eike Batista in an official photo,4,0.37621770054101944,0.5843068212270737
+174,others,Eike Batista in an official photo,5,0.37621770054101944,0.5843068212270737
+175,others,A portrait of Johnny Borrell,1,0.37621770054101944,0.5843068212270737
+176,others,A portrait of Johnny Borrell,2,0.37621770054101944,0.5843068212270737
+177,others,A portrait of Johnny Borrell,3,0.37621770054101944,0.5843068212270737
+178,others,A portrait of Johnny Borrell,4,0.37621770054101944,0.5843068212270737
+179,others,A portrait of Johnny Borrell,5,0.37621770054101944,0.5843068212270737
+180,others,An image capturing Johnny Borrell at a public event,1,0.37621770054101944,0.5843068212270737
+181,others,An image capturing Johnny Borrell at a public event,2,0.37621770054101944,0.5843068212270737
+182,others,An image capturing Johnny Borrell at a public event,3,0.37621770054101944,0.5843068212270737
+183,others,An image capturing Johnny Borrell at a public event,4,0.37621770054101944,0.5843068212270737
+184,others,An image capturing Johnny Borrell at a public event,5,0.37621770054101944,0.5843068212270737
+185,others,An oil painting of Johnny Borrell,1,0.37621770054101944,0.5843068212270737
+186,others,An oil painting of Johnny Borrell,2,0.37621770054101944,0.5843068212270737
+187,others,An oil painting of Johnny Borrell,3,0.37621770054101944,0.5843068212270737
+188,others,An oil painting of Johnny Borrell,4,0.37621770054101944,0.5843068212270737
+189,others,An oil painting of Johnny Borrell,5,0.37621770054101944,0.5843068212270737
+190,others,A sketch of Johnny Borrell,1,0.37621770054101944,0.5843068212270737
+191,others,A sketch of Johnny Borrell,2,0.37621770054101944,0.5843068212270737
+192,others,A sketch of Johnny Borrell,3,0.37621770054101944,0.5843068212270737
+193,others,A sketch of Johnny Borrell,4,0.37621770054101944,0.5843068212270737
+194,others,A sketch of Johnny Borrell,5,0.37621770054101944,0.5843068212270737
+195,others,Johnny Borrell in an official photo,1,0.37621770054101944,0.5843068212270737
+196,others,Johnny Borrell in an official photo,2,0.37621770054101944,0.5843068212270737
+197,others,Johnny Borrell in an official photo,3,0.37621770054101944,0.5843068212270737
+198,others,Johnny Borrell in an official photo,4,0.37621770054101944,0.5843068212270737
+199,others,Johnny Borrell in an official photo,5,0.37621770054101944,0.5843068212270737
+200,others,A portrait of Scott Steiner,1,0.37621770054101944,0.5843068212270737
+201,others,A portrait of Scott Steiner,2,0.37621770054101944,0.5843068212270737
+202,others,A portrait of Scott Steiner,3,0.37621770054101944,0.5843068212270737
+203,others,A portrait of Scott Steiner,4,0.37621770054101944,0.5843068212270737
+204,others,A portrait of Scott Steiner,5,0.37621770054101944,0.5843068212270737
+205,others,An image capturing Scott Steiner at a public event,1,0.37621770054101944,0.5843068212270737
+206,others,An image capturing Scott Steiner at a public event,2,0.37621770054101944,0.5843068212270737
+207,others,An image capturing Scott Steiner at a public event,3,0.37621770054101944,0.5843068212270737
+208,others,An image capturing Scott Steiner at a public event,4,0.37621770054101944,0.5843068212270737
+209,others,An image capturing Scott Steiner at a public event,5,0.37621770054101944,0.5843068212270737
+210,others,An oil painting of Scott Steiner,1,0.37621770054101944,0.5843068212270737
+211,others,An oil painting of Scott Steiner,2,0.37621770054101944,0.5843068212270737
+212,others,An oil painting of Scott Steiner,3,0.37621770054101944,0.5843068212270737
+213,others,An oil painting of Scott Steiner,4,0.37621770054101944,0.5843068212270737
+214,others,An oil painting of Scott Steiner,5,0.37621770054101944,0.5843068212270737
+215,others,A sketch of Scott Steiner,1,0.37621770054101944,0.5843068212270737
+216,others,A sketch of Scott Steiner,2,0.37621770054101944,0.5843068212270737
+217,others,A sketch of Scott Steiner,3,0.37621770054101944,0.5843068212270737
+218,others,A sketch of Scott Steiner,4,0.37621770054101944,0.5843068212270737
+219,others,A sketch of Scott Steiner,5,0.37621770054101944,0.5843068212270737
+220,others,Scott Steiner in an official photo,1,0.37621770054101944,0.5843068212270737
+221,others,Scott Steiner in an official photo,2,0.37621770054101944,0.5843068212270737
+222,others,Scott Steiner in an official photo,3,0.37621770054101944,0.5843068212270737
+223,others,Scott Steiner in an official photo,4,0.37621770054101944,0.5843068212270737
+224,others,Scott Steiner in an official photo,5,0.37621770054101944,0.5843068212270737
+225,others,A portrait of Amy Davidson,1,0.37621770054101944,0.5843068212270737
+226,others,A portrait of Amy Davidson,2,0.37621770054101944,0.5843068212270737
+227,others,A portrait of Amy Davidson,3,0.37621770054101944,0.5843068212270737
+228,others,A portrait of Amy Davidson,4,0.37621770054101944,0.5843068212270737
+229,others,A portrait of Amy Davidson,5,0.37621770054101944,0.5843068212270737
+230,others,An image capturing Amy Davidson at a public event,1,0.37621770054101944,0.5843068212270737
+231,others,An image capturing Amy Davidson at a public event,2,0.37621770054101944,0.5843068212270737
+232,others,An image capturing Amy Davidson at a public event,3,0.37621770054101944,0.5843068212270737
+233,others,An image capturing Amy Davidson at a public event,4,0.37621770054101944,0.5843068212270737
+234,others,An image capturing Amy Davidson at a public event,5,0.37621770054101944,0.5843068212270737
+235,others,An oil painting of Amy Davidson,1,0.37621770054101944,0.5843068212270737
+236,others,An oil painting of Amy Davidson,2,0.37621770054101944,0.5843068212270737
+237,others,An oil painting of Amy Davidson,3,0.37621770054101944,0.5843068212270737
+238,others,An oil painting of Amy Davidson,4,0.37621770054101944,0.5843068212270737
+239,others,An oil painting of Amy Davidson,5,0.37621770054101944,0.5843068212270737
+240,others,A sketch of Amy Davidson,1,0.37621770054101944,0.5843068212270737
+241,others,A sketch of Amy Davidson,2,0.37621770054101944,0.5843068212270737
+242,others,A sketch of Amy Davidson,3,0.37621770054101944,0.5843068212270737
+243,others,A sketch of Amy Davidson,4,0.37621770054101944,0.5843068212270737
+244,others,A sketch of Amy Davidson,5,0.37621770054101944,0.5843068212270737
+245,others,Amy Davidson in an official photo,1,0.37621770054101944,0.5843068212270737
+246,others,Amy Davidson in an official photo,2,0.37621770054101944,0.5843068212270737
+247,others,Amy Davidson in an official photo,3,0.37621770054101944,0.5843068212270737
+248,others,Amy Davidson in an official photo,4,0.37621770054101944,0.5843068212270737
+249,others,Amy Davidson in an official photo,5,0.37621770054101944,0.5843068212270737

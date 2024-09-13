@@ -405,6 +405,8 @@ def main():
     #     weight_name = args.train_data_dir.split('/')[-2]
     weight_name = f"pytorch_lora_weights.safetensors"
 
+    print("hello")
+
     accelerator_project_config = ProjectConfiguration(project_dir=args.output_dir, logging_dir=logging_dir)
 
     accelerator = Accelerator(

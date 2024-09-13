@@ -5,14 +5,7 @@ j_name=${1}
 
 resource=$2
 cmd=$3
-cuda_visible_devices=$4
-algo_name=$5
-change=$6
-task=$7
-config=$8
-port_number=$9
-prompts_csv=${10}
-metric=${11}
+
 
 hdd=/data/healthy-ml/scratch/vinithms/projects/MACE-Update
 j_dir=$hdd/slurm/logs/$d/${j_name}
@@ -30,17 +23,16 @@ echo "#!/bin/bash
 #SBATCH --mem=32G
 #SBATCH --gres=${resource}
 #SBATCH --nodes=1
-#SBATCH --time=1-00:00
+#SBATCH --time=5-00:00
 #SBATCH --partition=healthyml
 #SBATCH --qos=healthyml-main
-#SBATCH --account=healthy-ml
  
 bash ${j_dir}/scripts/${j_name}.sh
 " > $j_dir/scripts/${j_name}.slrm
  
 # build bash script
 echo -n "#!/bin/bash
-$cmd $cuda_visible_devices $algo_name $change $task $config $port_number $prompts_csv $metric
+$cmd
 " > $j_dir/scripts/${j_name}.sh 
  
 sbatch $j_dir/scripts/${j_name}.slrm

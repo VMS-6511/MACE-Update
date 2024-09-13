@@ -9,13 +9,15 @@ ORIG_TASK=$4
 ORIG_CONFIG=$5
 FINETUNE_TASK=$6
 FINETUNE_CONFIG=$7
+PORT_NUMBER=$8
 
 export MODEL_NAME="${PREFIX}/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/LoRA_fusion_model"
 export TRAIN_DIR="${PREFIX}/data/finetuning/${FINETUNE_TASK}/${FINETUNE_CONFIG}/others"
 export OUTPUT_DIR="${PREFIX}/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}"
 
 if [ $FINETUNE_ALGO == "full" ]; then
-  accelerate launch $PREFIX/finetuning/train_text_to_image.py \
+  accelerate launch --main_process_port $PORT_NUMBER \
+    $PREFIX/finetuning/train_text_to_image.py \
     --pretrained_model_name_or_path=$MODEL_NAME \
     --train_data_dir=$TRAIN_DIR \
     --use_ema \
@@ -33,7 +35,8 @@ if [ $FINETUNE_ALGO == "full" ]; then
     --seed=1337
 
 elif [ $FINETUNE_ALGO == "lora" ]; then
-  accelerate launch $PREFIX/finetuning/train_text_to_image_lora.py \
+  accelerate launch --main_process_port $PORT_NUMBER \  
+    $PREFIX/finetuning/train_text_to_image_lora.py \
     --pretrained_model_name_or_path=$MODEL_NAME \
     --train_data_dir=$TRAIN_DIR \
     --dataloader_num_workers=1 \

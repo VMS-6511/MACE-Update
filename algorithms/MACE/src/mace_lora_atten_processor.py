@@ -21,9 +21,6 @@ class AttnProcessor:
         temb=None,
         scale=1.0,
     ):
-        if scale != 1.0:
-            raise ValueError("Scale must be 1.0 for this attention processor. This is a hack to deal with some library version inconsistencies.")
-        
         residual = hidden_states
 
         if attn.spatial_norm is not None:
@@ -43,11 +40,15 @@ class AttnProcessor:
         if attn.group_norm is not None:
             hidden_states = attn.group_norm(hidden_states.transpose(1, 2)).transpose(1, 2)
 
-        query = attn.to_q(hidden_states)
+        query = attn.to_q(hidden_states, scale=scale)
+
+        if encoder_hidden_states is None:
+            encoder_hidden_states = hidden_states
+        elif attn.norm_cross:
             encoder_hidden_states = attn.norm_encoder_hidden_states(encoder_hidden_states)
 
-        key = attn.to_k(encoder_hidden_states)
-        value = attn.to_v(encoder_hidden_states)
+        key = attn.to_k(encoder_hidden_states, scale=scale)
+        value = attn.to_v(encoder_hidden_states, scale=scale)
 
         query = attn.head_to_batch_dim(query)
         key = attn.head_to_batch_dim(key)
@@ -62,7 +63,7 @@ class AttnProcessor:
         hidden_states = attn.batch_to_head_dim(hidden_states)
 
         # linear proj
-        hidden_states = attn.to_out[0](hidden_states)
+        hidden_states = attn.to_out[0](hidden_states, scale=scale)
         # dropout
         hidden_states = attn.to_out[1](hidden_states)
 
@@ -75,6 +76,7 @@ class AttnProcessor:
         hidden_states = hidden_states / attn.rescale_output_factor
 
         return hidden_states
+    
 
 class LoRAAttnProcessor(nn.Module):
     r"""

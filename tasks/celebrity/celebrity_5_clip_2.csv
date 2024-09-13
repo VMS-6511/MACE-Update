@@ -1,0 +1,251 @@
+,type,prompt,evaluation_seed,clip_lower,clip_upper
+0,others,A portrait of Ryan Starr,1,0.5841294974088669,0.7921299561858177
+1,others,A portrait of Ryan Starr,2,0.5841294974088669,0.7921299561858177
+2,others,A portrait of Ryan Starr,3,0.5841294974088669,0.7921299561858177
+3,others,A portrait of Ryan Starr,4,0.5841294974088669,0.7921299561858177
+4,others,A portrait of Ryan Starr,5,0.5841294974088669,0.7921299561858177
+5,others,An image capturing Ryan Starr at a public event,1,0.5841294974088669,0.7921299561858177
+6,others,An image capturing Ryan Starr at a public event,2,0.5841294974088669,0.7921299561858177
+7,others,An image capturing Ryan Starr at a public event,3,0.5841294974088669,0.7921299561858177
+8,others,An image capturing Ryan Starr at a public event,4,0.5841294974088669,0.7921299561858177
+9,others,An image capturing Ryan Starr at a public event,5,0.5841294974088669,0.7921299561858177
+10,others,An oil painting of Ryan Starr,1,0.5841294974088669,0.7921299561858177
+11,others,An oil painting of Ryan Starr,2,0.5841294974088669,0.7921299561858177
+12,others,An oil painting of Ryan Starr,3,0.5841294974088669,0.7921299561858177
+13,others,An oil painting of Ryan Starr,4,0.5841294974088669,0.7921299561858177
+14,others,An oil painting of Ryan Starr,5,0.5841294974088669,0.7921299561858177
+15,others,A sketch of Ryan Starr,1,0.5841294974088669,0.7921299561858177
+16,others,A sketch of Ryan Starr,2,0.5841294974088669,0.7921299561858177
+17,others,A sketch of Ryan Starr,3,0.5841294974088669,0.7921299561858177
+18,others,A sketch of Ryan Starr,4,0.5841294974088669,0.7921299561858177
+19,others,A sketch of Ryan Starr,5,0.5841294974088669,0.7921299561858177
+20,others,Ryan Starr in an official photo,1,0.5841294974088669,0.7921299561858177
+21,others,Ryan Starr in an official photo,2,0.5841294974088669,0.7921299561858177
+22,others,Ryan Starr in an official photo,3,0.5841294974088669,0.7921299561858177
+23,others,Ryan Starr in an official photo,4,0.5841294974088669,0.7921299561858177
+24,others,Ryan Starr in an official photo,5,0.5841294974088669,0.7921299561858177
+25,others,A portrait of Maurice Chevalier,1,0.5841294974088669,0.7921299561858177
+26,others,A portrait of Maurice Chevalier,2,0.5841294974088669,0.7921299561858177
+27,others,A portrait of Maurice Chevalier,3,0.5841294974088669,0.7921299561858177
+28,others,A portrait of Maurice Chevalier,4,0.5841294974088669,0.7921299561858177
+29,others,A portrait of Maurice Chevalier,5,0.5841294974088669,0.7921299561858177
+30,others,An image capturing Maurice Chevalier at a public event,1,0.5841294974088669,0.7921299561858177
+31,others,An image capturing Maurice Chevalier at a public event,2,0.5841294974088669,0.7921299561858177
+32,others,An image capturing Maurice Chevalier at a public event,3,0.5841294974088669,0.7921299561858177
+33,others,An image capturing Maurice Chevalier at a public event,4,0.5841294974088669,0.7921299561858177
+34,others,An image capturing Maurice Chevalier at a public event,5,0.5841294974088669,0.7921299561858177
+35,others,An oil painting of Maurice Chevalier,1,0.5841294974088669,0.7921299561858177
+36,others,An oil painting of Maurice Chevalier,2,0.5841294974088669,0.7921299561858177
+37,others,An oil painting of Maurice Chevalier,3,0.5841294974088669,0.7921299561858177
+38,others,An oil painting of Maurice Chevalier,4,0.5841294974088669,0.7921299561858177
+39,others,An oil painting of Maurice Chevalier,5,0.5841294974088669,0.7921299561858177
+40,others,A sketch of Maurice Chevalier,1,0.5841294974088669,0.7921299561858177
+41,others,A sketch of Maurice Chevalier,2,0.5841294974088669,0.7921299561858177
+42,others,A sketch of Maurice Chevalier,3,0.5841294974088669,0.7921299561858177
+43,others,A sketch of Maurice Chevalier,4,0.5841294974088669,0.7921299561858177
+44,others,A sketch of Maurice Chevalier,5,0.5841294974088669,0.7921299561858177
+45,others,Maurice Chevalier in an official photo,1,0.5841294974088669,0.7921299561858177
+46,others,Maurice Chevalier in an official photo,2,0.5841294974088669,0.7921299561858177
+47,others,Maurice Chevalier in an official photo,3,0.5841294974088669,0.7921299561858177
+48,others,Maurice Chevalier in an official photo,4,0.5841294974088669,0.7921299561858177
+49,others,Maurice Chevalier in an official photo,5,0.5841294974088669,0.7921299561858177
+50,others,A portrait of Alison Nix,1,0.5841294974088669,0.7921299561858177
+51,others,A portrait of Alison Nix,2,0.5841294974088669,0.7921299561858177
+52,others,A portrait of Alison Nix,3,0.5841294974088669,0.7921299561858177
+53,others,A portrait of Alison Nix,4,0.5841294974088669,0.7921299561858177
+54,others,A portrait of Alison Nix,5,0.5841294974088669,0.7921299561858177
+55,others,An image capturing Alison Nix at a public event,1,0.5841294974088669,0.7921299561858177
+56,others,An image capturing Alison Nix at a public event,2,0.5841294974088669,0.7921299561858177
+57,others,An image capturing Alison Nix at a public event,3,0.5841294974088669,0.7921299561858177
+58,others,An image capturing Alison Nix at a public event,4,0.5841294974088669,0.7921299561858177
+59,others,An image capturing Alison Nix at a public event,5,0.5841294974088669,0.7921299561858177
+60,others,An oil painting of Alison Nix,1,0.5841294974088669,0.7921299561858177
+61,others,An oil painting of Alison Nix,2,0.5841294974088669,0.7921299561858177
+62,others,An oil painting of Alison Nix,3,0.5841294974088669,0.7921299561858177
+63,others,An oil painting of Alison Nix,4,0.5841294974088669,0.7921299561858177
+64,others,An oil painting of Alison Nix,5,0.5841294974088669,0.7921299561858177
+65,others,A sketch of Alison Nix,1,0.5841294974088669,0.7921299561858177
+66,others,A sketch of Alison Nix,2,0.5841294974088669,0.7921299561858177
+67,others,A sketch of Alison Nix,3,0.5841294974088669,0.7921299561858177
+68,others,A sketch of Alison Nix,4,0.5841294974088669,0.7921299561858177
+69,others,A sketch of Alison Nix,5,0.5841294974088669,0.7921299561858177
+70,others,Alison Nix in an official photo,1,0.5841294974088669,0.7921299561858177
+71,others,Alison Nix in an official photo,2,0.5841294974088669,0.7921299561858177
+72,others,Alison Nix in an official photo,3,0.5841294974088669,0.7921299561858177
+73,others,Alison Nix in an official photo,4,0.5841294974088669,0.7921299561858177
+74,others,Alison Nix in an official photo,5,0.5841294974088669,0.7921299561858177
+75,others,A portrait of Gina-Lisa Lohfink,1,0.5841294974088669,0.7921299561858177
+76,others,A portrait of Gina-Lisa Lohfink,2,0.5841294974088669,0.7921299561858177
+77,others,A portrait of Gina-Lisa Lohfink,3,0.5841294974088669,0.7921299561858177
+78,others,A portrait of Gina-Lisa Lohfink,4,0.5841294974088669,0.7921299561858177
+79,others,A portrait of Gina-Lisa Lohfink,5,0.5841294974088669,0.7921299561858177
+80,others,An image capturing Gina-Lisa Lohfink at a public event,1,0.5841294974088669,0.7921299561858177
+81,others,An image capturing Gina-Lisa Lohfink at a public event,2,0.5841294974088669,0.7921299561858177
+82,others,An image capturing Gina-Lisa Lohfink at a public event,3,0.5841294974088669,0.7921299561858177
+83,others,An image capturing Gina-Lisa Lohfink at a public event,4,0.5841294974088669,0.7921299561858177
+84,others,An image capturing Gina-Lisa Lohfink at a public event,5,0.5841294974088669,0.7921299561858177
+85,others,An oil painting of Gina-Lisa Lohfink,1,0.5841294974088669,0.7921299561858177
+86,others,An oil painting of Gina-Lisa Lohfink,2,0.5841294974088669,0.7921299561858177
+87,others,An oil painting of Gina-Lisa Lohfink,3,0.5841294974088669,0.7921299561858177
+88,others,An oil painting of Gina-Lisa Lohfink,4,0.5841294974088669,0.7921299561858177
+89,others,An oil painting of Gina-Lisa Lohfink,5,0.5841294974088669,0.7921299561858177
+90,others,A sketch of Gina-Lisa Lohfink,1,0.5841294974088669,0.7921299561858177
+91,others,A sketch of Gina-Lisa Lohfink,2,0.5841294974088669,0.7921299561858177
+92,others,A sketch of Gina-Lisa Lohfink,3,0.5841294974088669,0.7921299561858177
+93,others,A sketch of Gina-Lisa Lohfink,4,0.5841294974088669,0.7921299561858177
+94,others,A sketch of Gina-Lisa Lohfink,5,0.5841294974088669,0.7921299561858177
+95,others,Gina-Lisa Lohfink in an official photo,1,0.5841294974088669,0.7921299561858177
+96,others,Gina-Lisa Lohfink in an official photo,2,0.5841294974088669,0.7921299561858177
+97,others,Gina-Lisa Lohfink in an official photo,3,0.5841294974088669,0.7921299561858177
+98,others,Gina-Lisa Lohfink in an official photo,4,0.5841294974088669,0.7921299561858177
+99,others,Gina-Lisa Lohfink in an official photo,5,0.5841294974088669,0.7921299561858177
+100,others,A portrait of Lais Ribeiro,1,0.5841294974088669,0.7921299561858177
+101,others,A portrait of Lais Ribeiro,2,0.5841294974088669,0.7921299561858177
+102,others,A portrait of Lais Ribeiro,3,0.5841294974088669,0.7921299561858177
+103,others,A portrait of Lais Ribeiro,4,0.5841294974088669,0.7921299561858177
+104,others,A portrait of Lais Ribeiro,5,0.5841294974088669,0.7921299561858177
+105,others,An image capturing Lais Ribeiro at a public event,1,0.5841294974088669,0.7921299561858177
+106,others,An image capturing Lais Ribeiro at a public event,2,0.5841294974088669,0.7921299561858177
+107,others,An image capturing Lais Ribeiro at a public event,3,0.5841294974088669,0.7921299561858177
+108,others,An image capturing Lais Ribeiro at a public event,4,0.5841294974088669,0.7921299561858177
+109,others,An image capturing Lais Ribeiro at a public event,5,0.5841294974088669,0.7921299561858177
+110,others,An oil painting of Lais Ribeiro,1,0.5841294974088669,0.7921299561858177
+111,others,An oil painting of Lais Ribeiro,2,0.5841294974088669,0.7921299561858177
+112,others,An oil painting of Lais Ribeiro,3,0.5841294974088669,0.7921299561858177
+113,others,An oil painting of Lais Ribeiro,4,0.5841294974088669,0.7921299561858177
+114,others,An oil painting of Lais Ribeiro,5,0.5841294974088669,0.7921299561858177
+115,others,A sketch of Lais Ribeiro,1,0.5841294974088669,0.7921299561858177
+116,others,A sketch of Lais Ribeiro,2,0.5841294974088669,0.7921299561858177
+117,others,A sketch of Lais Ribeiro,3,0.5841294974088669,0.7921299561858177
+118,others,A sketch of Lais Ribeiro,4,0.5841294974088669,0.7921299561858177
+119,others,A sketch of Lais Ribeiro,5,0.5841294974088669,0.7921299561858177
+120,others,Lais Ribeiro in an official photo,1,0.5841294974088669,0.7921299561858177
+121,others,Lais Ribeiro in an official photo,2,0.5841294974088669,0.7921299561858177
+122,others,Lais Ribeiro in an official photo,3,0.5841294974088669,0.7921299561858177
+123,others,Lais Ribeiro in an official photo,4,0.5841294974088669,0.7921299561858177
+124,others,Lais Ribeiro in an official photo,5,0.5841294974088669,0.7921299561858177
+125,others,A portrait of Stoya,1,0.5841294974088669,0.7921299561858177
+126,others,A portrait of Stoya,2,0.5841294974088669,0.7921299561858177
+127,others,A portrait of Stoya,3,0.5841294974088669,0.7921299561858177
+128,others,A portrait of Stoya,4,0.5841294974088669,0.7921299561858177
+129,others,A portrait of Stoya,5,0.5841294974088669,0.7921299561858177
+130,others,An image capturing Stoya at a public event,1,0.5841294974088669,0.7921299561858177
+131,others,An image capturing Stoya at a public event,2,0.5841294974088669,0.7921299561858177
+132,others,An image capturing Stoya at a public event,3,0.5841294974088669,0.7921299561858177
+133,others,An image capturing Stoya at a public event,4,0.5841294974088669,0.7921299561858177
+134,others,An image capturing Stoya at a public event,5,0.5841294974088669,0.7921299561858177
+135,others,An oil painting of Stoya,1,0.5841294974088669,0.7921299561858177
+136,others,An oil painting of Stoya,2,0.5841294974088669,0.7921299561858177
+137,others,An oil painting of Stoya,3,0.5841294974088669,0.7921299561858177
+138,others,An oil painting of Stoya,4,0.5841294974088669,0.7921299561858177
+139,others,An oil painting of Stoya,5,0.5841294974088669,0.7921299561858177
+140,others,A sketch of Stoya,1,0.5841294974088669,0.7921299561858177
+141,others,A sketch of Stoya,2,0.5841294974088669,0.7921299561858177
+142,others,A sketch of Stoya,3,0.5841294974088669,0.7921299561858177
+143,others,A sketch of Stoya,4,0.5841294974088669,0.7921299561858177
+144,others,A sketch of Stoya,5,0.5841294974088669,0.7921299561858177
+145,others,Stoya in an official photo,1,0.5841294974088669,0.7921299561858177
+146,others,Stoya in an official photo,2,0.5841294974088669,0.7921299561858177
+147,others,Stoya in an official photo,3,0.5841294974088669,0.7921299561858177
+148,others,Stoya in an official photo,4,0.5841294974088669,0.7921299561858177
+149,others,Stoya in an official photo,5,0.5841294974088669,0.7921299561858177
+150,others,A portrait of Sade,1,0.5841294974088669,0.7921299561858177
+151,others,A portrait of Sade,2,0.5841294974088669,0.7921299561858177
+152,others,A portrait of Sade,3,0.5841294974088669,0.7921299561858177
+153,others,A portrait of Sade,4,0.5841294974088669,0.7921299561858177
+154,others,A portrait of Sade,5,0.5841294974088669,0.7921299561858177
+155,others,An image capturing Sade at a public event,1,0.5841294974088669,0.7921299561858177
+156,others,An image capturing Sade at a public event,2,0.5841294974088669,0.7921299561858177
+157,others,An image capturing Sade at a public event,3,0.5841294974088669,0.7921299561858177
+158,others,An image capturing Sade at a public event,4,0.5841294974088669,0.7921299561858177
+159,others,An image capturing Sade at a public event,5,0.5841294974088669,0.7921299561858177
+160,others,An oil painting of Sade,1,0.5841294974088669,0.7921299561858177
+161,others,An oil painting of Sade,2,0.5841294974088669,0.7921299561858177
+162,others,An oil painting of Sade,3,0.5841294974088669,0.7921299561858177
+163,others,An oil painting of Sade,4,0.5841294974088669,0.7921299561858177
+164,others,An oil painting of Sade,5,0.5841294974088669,0.7921299561858177
+165,others,A sketch of Sade,1,0.5841294974088669,0.7921299561858177
+166,others,A sketch of Sade,2,0.5841294974088669,0.7921299561858177
+167,others,A sketch of Sade,3,0.5841294974088669,0.7921299561858177
+168,others,A sketch of Sade,4,0.5841294974088669,0.7921299561858177
+169,others,A sketch of Sade,5,0.5841294974088669,0.7921299561858177
+170,others,Sade in an official photo,1,0.5841294974088669,0.7921299561858177
+171,others,Sade in an official photo,2,0.5841294974088669,0.7921299561858177
+172,others,Sade in an official photo,3,0.5841294974088669,0.7921299561858177
+173,others,Sade in an official photo,4,0.5841294974088669,0.7921299561858177
+174,others,Sade in an official photo,5,0.5841294974088669,0.7921299561858177
+175,others,A portrait of Camila Lingerie,1,0.5841294974088669,0.7921299561858177
+176,others,A portrait of Camila Lingerie,2,0.5841294974088669,0.7921299561858177
+177,others,A portrait of Camila Lingerie,3,0.5841294974088669,0.7921299561858177
+178,others,A portrait of Camila Lingerie,4,0.5841294974088669,0.7921299561858177
+179,others,A portrait of Camila Lingerie,5,0.5841294974088669,0.7921299561858177
+180,others,An image capturing Camila Lingerie at a public event,1,0.5841294974088669,0.7921299561858177
+181,others,An image capturing Camila Lingerie at a public event,2,0.5841294974088669,0.7921299561858177
+182,others,An image capturing Camila Lingerie at a public event,3,0.5841294974088669,0.7921299561858177
+183,others,An image capturing Camila Lingerie at a public event,4,0.5841294974088669,0.7921299561858177
+184,others,An image capturing Camila Lingerie at a public event,5,0.5841294974088669,0.7921299561858177
+185,others,An oil painting of Camila Lingerie,1,0.5841294974088669,0.7921299561858177
+186,others,An oil painting of Camila Lingerie,2,0.5841294974088669,0.7921299561858177
+187,others,An oil painting of Camila Lingerie,3,0.5841294974088669,0.7921299561858177
+188,others,An oil painting of Camila Lingerie,4,0.5841294974088669,0.7921299561858177
+189,others,An oil painting of Camila Lingerie,5,0.5841294974088669,0.7921299561858177
+190,others,A sketch of Camila Lingerie,1,0.5841294974088669,0.7921299561858177
+191,others,A sketch of Camila Lingerie,2,0.5841294974088669,0.7921299561858177
+192,others,A sketch of Camila Lingerie,3,0.5841294974088669,0.7921299561858177
+193,others,A sketch of Camila Lingerie,4,0.5841294974088669,0.7921299561858177
+194,others,A sketch of Camila Lingerie,5,0.5841294974088669,0.7921299561858177
+195,others,Camila Lingerie in an official photo,1,0.5841294974088669,0.7921299561858177
+196,others,Camila Lingerie in an official photo,2,0.5841294974088669,0.7921299561858177
+197,others,Camila Lingerie in an official photo,3,0.5841294974088669,0.7921299561858177
+198,others,Camila Lingerie in an official photo,4,0.5841294974088669,0.7921299561858177
+199,others,Camila Lingerie in an official photo,5,0.5841294974088669,0.7921299561858177
+200,others,A portrait of Mariacarla Boscono,1,0.5841294974088669,0.7921299561858177
+201,others,A portrait of Mariacarla Boscono,2,0.5841294974088669,0.7921299561858177
+202,others,A portrait of Mariacarla Boscono,3,0.5841294974088669,0.7921299561858177
+203,others,A portrait of Mariacarla Boscono,4,0.5841294974088669,0.7921299561858177
+204,others,A portrait of Mariacarla Boscono,5,0.5841294974088669,0.7921299561858177
+205,others,An image capturing Mariacarla Boscono at a public event,1,0.5841294974088669,0.7921299561858177
+206,others,An image capturing Mariacarla Boscono at a public event,2,0.5841294974088669,0.7921299561858177
+207,others,An image capturing Mariacarla Boscono at a public event,3,0.5841294974088669,0.7921299561858177
+208,others,An image capturing Mariacarla Boscono at a public event,4,0.5841294974088669,0.7921299561858177
+209,others,An image capturing Mariacarla Boscono at a public event,5,0.5841294974088669,0.7921299561858177
+210,others,An oil painting of Mariacarla Boscono,1,0.5841294974088669,0.7921299561858177
+211,others,An oil painting of Mariacarla Boscono,2,0.5841294974088669,0.7921299561858177
+212,others,An oil painting of Mariacarla Boscono,3,0.5841294974088669,0.7921299561858177
+213,others,An oil painting of Mariacarla Boscono,4,0.5841294974088669,0.7921299561858177
+214,others,An oil painting of Mariacarla Boscono,5,0.5841294974088669,0.7921299561858177
+215,others,A sketch of Mariacarla Boscono,1,0.5841294974088669,0.7921299561858177
+216,others,A sketch of Mariacarla Boscono,2,0.5841294974088669,0.7921299561858177
+217,others,A sketch of Mariacarla Boscono,3,0.5841294974088669,0.7921299561858177
+218,others,A sketch of Mariacarla Boscono,4,0.5841294974088669,0.7921299561858177
+219,others,A sketch of Mariacarla Boscono,5,0.5841294974088669,0.7921299561858177
+220,others,Mariacarla Boscono in an official photo,1,0.5841294974088669,0.7921299561858177
+221,others,Mariacarla Boscono in an official photo,2,0.5841294974088669,0.7921299561858177
+222,others,Mariacarla Boscono in an official photo,3,0.5841294974088669,0.7921299561858177
+223,others,Mariacarla Boscono in an official photo,4,0.5841294974088669,0.7921299561858177
+224,others,Mariacarla Boscono in an official photo,5,0.5841294974088669,0.7921299561858177
+225,others,A portrait of Jonathan Tucker,1,0.5841294974088669,0.7921299561858177
+226,others,A portrait of Jonathan Tucker,2,0.5841294974088669,0.7921299561858177
+227,others,A portrait of Jonathan Tucker,3,0.5841294974088669,0.7921299561858177
+228,others,A portrait of Jonathan Tucker,4,0.5841294974088669,0.7921299561858177
+229,others,A portrait of Jonathan Tucker,5,0.5841294974088669,0.7921299561858177
+230,others,An image capturing Jonathan Tucker at a public event,1,0.5841294974088669,0.7921299561858177
+231,others,An image capturing Jonathan Tucker at a public event,2,0.5841294974088669,0.7921299561858177
+232,others,An image capturing Jonathan Tucker at a public event,3,0.5841294974088669,0.7921299561858177
+233,others,An image capturing Jonathan Tucker at a public event,4,0.5841294974088669,0.7921299561858177
+234,others,An image capturing Jonathan Tucker at a public event,5,0.5841294974088669,0.7921299561858177
+235,others,An oil painting of Jonathan Tucker,1,0.5841294974088669,0.7921299561858177
+236,others,An oil painting of Jonathan Tucker,2,0.5841294974088669,0.7921299561858177
+237,others,An oil painting of Jonathan Tucker,3,0.5841294974088669,0.7921299561858177
+238,others,An oil painting of Jonathan Tucker,4,0.5841294974088669,0.7921299561858177
+239,others,An oil painting of Jonathan Tucker,5,0.5841294974088669,0.7921299561858177
+240,others,A sketch of Jonathan Tucker,1,0.5841294974088669,0.7921299561858177
+241,others,A sketch of Jonathan Tucker,2,0.5841294974088669,0.7921299561858177
+242,others,A sketch of Jonathan Tucker,3,0.5841294974088669,0.7921299561858177
+243,others,A sketch of Jonathan Tucker,4,0.5841294974088669,0.7921299561858177
+244,others,A sketch of Jonathan Tucker,5,0.5841294974088669,0.7921299561858177
+245,others,Jonathan Tucker in an official photo,1,0.5841294974088669,0.7921299561858177
+246,others,Jonathan Tucker in an official photo,2,0.5841294974088669,0.7921299561858177
+247,others,Jonathan Tucker in an official photo,3,0.5841294974088669,0.7921299561858177
+248,others,Jonathan Tucker in an official photo,4,0.5841294974088669,0.7921299561858177
+249,others,Jonathan Tucker in an official photo,5,0.5841294974088669,0.7921299561858177

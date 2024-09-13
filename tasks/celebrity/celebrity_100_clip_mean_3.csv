@@ -1,0 +1,251 @@
+,type,prompt,evaluation_seed,clip_lower,clip_upper
+0,others,A portrait of Carly Schroeder,1,0.7894742116332054,1.0004851818084717
+1,others,A portrait of Carly Schroeder,2,0.7894742116332054,1.0004851818084717
+2,others,A portrait of Carly Schroeder,3,0.7894742116332054,1.0004851818084717
+3,others,A portrait of Carly Schroeder,4,0.7894742116332054,1.0004851818084717
+4,others,A portrait of Carly Schroeder,5,0.7894742116332054,1.0004851818084717
+5,others,An image capturing Carly Schroeder at a public event,1,0.7894742116332054,1.0004851818084717
+6,others,An image capturing Carly Schroeder at a public event,2,0.7894742116332054,1.0004851818084717
+7,others,An image capturing Carly Schroeder at a public event,3,0.7894742116332054,1.0004851818084717
+8,others,An image capturing Carly Schroeder at a public event,4,0.7894742116332054,1.0004851818084717
+9,others,An image capturing Carly Schroeder at a public event,5,0.7894742116332054,1.0004851818084717
+10,others,An oil painting of Carly Schroeder,1,0.7894742116332054,1.0004851818084717
+11,others,An oil painting of Carly Schroeder,2,0.7894742116332054,1.0004851818084717
+12,others,An oil painting of Carly Schroeder,3,0.7894742116332054,1.0004851818084717
+13,others,An oil painting of Carly Schroeder,4,0.7894742116332054,1.0004851818084717
+14,others,An oil painting of Carly Schroeder,5,0.7894742116332054,1.0004851818084717
+15,others,A sketch of Carly Schroeder,1,0.7894742116332054,1.0004851818084717
+16,others,A sketch of Carly Schroeder,2,0.7894742116332054,1.0004851818084717
+17,others,A sketch of Carly Schroeder,3,0.7894742116332054,1.0004851818084717
+18,others,A sketch of Carly Schroeder,4,0.7894742116332054,1.0004851818084717
+19,others,A sketch of Carly Schroeder,5,0.7894742116332054,1.0004851818084717
+20,others,Carly Schroeder in an official photo,1,0.7894742116332054,1.0004851818084717
+21,others,Carly Schroeder in an official photo,2,0.7894742116332054,1.0004851818084717
+22,others,Carly Schroeder in an official photo,3,0.7894742116332054,1.0004851818084717
+23,others,Carly Schroeder in an official photo,4,0.7894742116332054,1.0004851818084717
+24,others,Carly Schroeder in an official photo,5,0.7894742116332054,1.0004851818084717
+25,others,A portrait of Emma Bunton,1,0.7894742116332054,1.0004851818084717
+26,others,A portrait of Emma Bunton,2,0.7894742116332054,1.0004851818084717
+27,others,A portrait of Emma Bunton,3,0.7894742116332054,1.0004851818084717
+28,others,A portrait of Emma Bunton,4,0.7894742116332054,1.0004851818084717
+29,others,A portrait of Emma Bunton,5,0.7894742116332054,1.0004851818084717
+30,others,An image capturing Emma Bunton at a public event,1,0.7894742116332054,1.0004851818084717
+31,others,An image capturing Emma Bunton at a public event,2,0.7894742116332054,1.0004851818084717
+32,others,An image capturing Emma Bunton at a public event,3,0.7894742116332054,1.0004851818084717
+33,others,An image capturing Emma Bunton at a public event,4,0.7894742116332054,1.0004851818084717
+34,others,An image capturing Emma Bunton at a public event,5,0.7894742116332054,1.0004851818084717
+35,others,An oil painting of Emma Bunton,1,0.7894742116332054,1.0004851818084717
+36,others,An oil painting of Emma Bunton,2,0.7894742116332054,1.0004851818084717
+37,others,An oil painting of Emma Bunton,3,0.7894742116332054,1.0004851818084717
+38,others,An oil painting of Emma Bunton,4,0.7894742116332054,1.0004851818084717
+39,others,An oil painting of Emma Bunton,5,0.7894742116332054,1.0004851818084717
+40,others,A sketch of Emma Bunton,1,0.7894742116332054,1.0004851818084717
+41,others,A sketch of Emma Bunton,2,0.7894742116332054,1.0004851818084717
+42,others,A sketch of Emma Bunton,3,0.7894742116332054,1.0004851818084717
+43,others,A sketch of Emma Bunton,4,0.7894742116332054,1.0004851818084717
+44,others,A sketch of Emma Bunton,5,0.7894742116332054,1.0004851818084717
+45,others,Emma Bunton in an official photo,1,0.7894742116332054,1.0004851818084717
+46,others,Emma Bunton in an official photo,2,0.7894742116332054,1.0004851818084717
+47,others,Emma Bunton in an official photo,3,0.7894742116332054,1.0004851818084717
+48,others,Emma Bunton in an official photo,4,0.7894742116332054,1.0004851818084717
+49,others,Emma Bunton in an official photo,5,0.7894742116332054,1.0004851818084717
+50,others,A portrait of Sara Rue,1,0.7894742116332054,1.0004851818084717
+51,others,A portrait of Sara Rue,2,0.7894742116332054,1.0004851818084717
+52,others,A portrait of Sara Rue,3,0.7894742116332054,1.0004851818084717
+53,others,A portrait of Sara Rue,4,0.7894742116332054,1.0004851818084717
+54,others,A portrait of Sara Rue,5,0.7894742116332054,1.0004851818084717
+55,others,An image capturing Sara Rue at a public event,1,0.7894742116332054,1.0004851818084717
+56,others,An image capturing Sara Rue at a public event,2,0.7894742116332054,1.0004851818084717
+57,others,An image capturing Sara Rue at a public event,3,0.7894742116332054,1.0004851818084717
+58,others,An image capturing Sara Rue at a public event,4,0.7894742116332054,1.0004851818084717
+59,others,An image capturing Sara Rue at a public event,5,0.7894742116332054,1.0004851818084717
+60,others,An oil painting of Sara Rue,1,0.7894742116332054,1.0004851818084717
+61,others,An oil painting of Sara Rue,2,0.7894742116332054,1.0004851818084717
+62,others,An oil painting of Sara Rue,3,0.7894742116332054,1.0004851818084717
+63,others,An oil painting of Sara Rue,4,0.7894742116332054,1.0004851818084717
+64,others,An oil painting of Sara Rue,5,0.7894742116332054,1.0004851818084717
+65,others,A sketch of Sara Rue,1,0.7894742116332054,1.0004851818084717
+66,others,A sketch of Sara Rue,2,0.7894742116332054,1.0004851818084717
+67,others,A sketch of Sara Rue,3,0.7894742116332054,1.0004851818084717
+68,others,A sketch of Sara Rue,4,0.7894742116332054,1.0004851818084717
+69,others,A sketch of Sara Rue,5,0.7894742116332054,1.0004851818084717
+70,others,Sara Rue in an official photo,1,0.7894742116332054,1.0004851818084717
+71,others,Sara Rue in an official photo,2,0.7894742116332054,1.0004851818084717
+72,others,Sara Rue in an official photo,3,0.7894742116332054,1.0004851818084717
+73,others,Sara Rue in an official photo,4,0.7894742116332054,1.0004851818084717
+74,others,Sara Rue in an official photo,5,0.7894742116332054,1.0004851818084717
+75,others,A portrait of Holland Taylor,1,0.7894742116332054,1.0004851818084717
+76,others,A portrait of Holland Taylor,2,0.7894742116332054,1.0004851818084717
+77,others,A portrait of Holland Taylor,3,0.7894742116332054,1.0004851818084717
+78,others,A portrait of Holland Taylor,4,0.7894742116332054,1.0004851818084717
+79,others,A portrait of Holland Taylor,5,0.7894742116332054,1.0004851818084717
+80,others,An image capturing Holland Taylor at a public event,1,0.7894742116332054,1.0004851818084717
+81,others,An image capturing Holland Taylor at a public event,2,0.7894742116332054,1.0004851818084717
+82,others,An image capturing Holland Taylor at a public event,3,0.7894742116332054,1.0004851818084717
+83,others,An image capturing Holland Taylor at a public event,4,0.7894742116332054,1.0004851818084717
+84,others,An image capturing Holland Taylor at a public event,5,0.7894742116332054,1.0004851818084717
+85,others,An oil painting of Holland Taylor,1,0.7894742116332054,1.0004851818084717
+86,others,An oil painting of Holland Taylor,2,0.7894742116332054,1.0004851818084717
+87,others,An oil painting of Holland Taylor,3,0.7894742116332054,1.0004851818084717
+88,others,An oil painting of Holland Taylor,4,0.7894742116332054,1.0004851818084717
+89,others,An oil painting of Holland Taylor,5,0.7894742116332054,1.0004851818084717
+90,others,A sketch of Holland Taylor,1,0.7894742116332054,1.0004851818084717
+91,others,A sketch of Holland Taylor,2,0.7894742116332054,1.0004851818084717
+92,others,A sketch of Holland Taylor,3,0.7894742116332054,1.0004851818084717
+93,others,A sketch of Holland Taylor,4,0.7894742116332054,1.0004851818084717
+94,others,A sketch of Holland Taylor,5,0.7894742116332054,1.0004851818084717
+95,others,Holland Taylor in an official photo,1,0.7894742116332054,1.0004851818084717
+96,others,Holland Taylor in an official photo,2,0.7894742116332054,1.0004851818084717
+97,others,Holland Taylor in an official photo,3,0.7894742116332054,1.0004851818084717
+98,others,Holland Taylor in an official photo,4,0.7894742116332054,1.0004851818084717
+99,others,Holland Taylor in an official photo,5,0.7894742116332054,1.0004851818084717
+100,others,A portrait of Yukie Kawamura,1,0.7894742116332054,1.0004851818084717
+101,others,A portrait of Yukie Kawamura,2,0.7894742116332054,1.0004851818084717
+102,others,A portrait of Yukie Kawamura,3,0.7894742116332054,1.0004851818084717
+103,others,A portrait of Yukie Kawamura,4,0.7894742116332054,1.0004851818084717
+104,others,A portrait of Yukie Kawamura,5,0.7894742116332054,1.0004851818084717
+105,others,An image capturing Yukie Kawamura at a public event,1,0.7894742116332054,1.0004851818084717
+106,others,An image capturing Yukie Kawamura at a public event,2,0.7894742116332054,1.0004851818084717
+107,others,An image capturing Yukie Kawamura at a public event,3,0.7894742116332054,1.0004851818084717
+108,others,An image capturing Yukie Kawamura at a public event,4,0.7894742116332054,1.0004851818084717
+109,others,An image capturing Yukie Kawamura at a public event,5,0.7894742116332054,1.0004851818084717
+110,others,An oil painting of Yukie Kawamura,1,0.7894742116332054,1.0004851818084717
+111,others,An oil painting of Yukie Kawamura,2,0.7894742116332054,1.0004851818084717
+112,others,An oil painting of Yukie Kawamura,3,0.7894742116332054,1.0004851818084717
+113,others,An oil painting of Yukie Kawamura,4,0.7894742116332054,1.0004851818084717
+114,others,An oil painting of Yukie Kawamura,5,0.7894742116332054,1.0004851818084717
+115,others,A sketch of Yukie Kawamura,1,0.7894742116332054,1.0004851818084717
+116,others,A sketch of Yukie Kawamura,2,0.7894742116332054,1.0004851818084717
+117,others,A sketch of Yukie Kawamura,3,0.7894742116332054,1.0004851818084717
+118,others,A sketch of Yukie Kawamura,4,0.7894742116332054,1.0004851818084717
+119,others,A sketch of Yukie Kawamura,5,0.7894742116332054,1.0004851818084717
+120,others,Yukie Kawamura in an official photo,1,0.7894742116332054,1.0004851818084717
+121,others,Yukie Kawamura in an official photo,2,0.7894742116332054,1.0004851818084717
+122,others,Yukie Kawamura in an official photo,3,0.7894742116332054,1.0004851818084717
+123,others,Yukie Kawamura in an official photo,4,0.7894742116332054,1.0004851818084717
+124,others,Yukie Kawamura in an official photo,5,0.7894742116332054,1.0004851818084717
+125,others,A portrait of Natalia Vodianova,1,0.7894742116332054,1.0004851818084717
+126,others,A portrait of Natalia Vodianova,2,0.7894742116332054,1.0004851818084717
+127,others,A portrait of Natalia Vodianova,3,0.7894742116332054,1.0004851818084717
+128,others,A portrait of Natalia Vodianova,4,0.7894742116332054,1.0004851818084717
+129,others,A portrait of Natalia Vodianova,5,0.7894742116332054,1.0004851818084717
+130,others,An image capturing Natalia Vodianova at a public event,1,0.7894742116332054,1.0004851818084717
+131,others,An image capturing Natalia Vodianova at a public event,2,0.7894742116332054,1.0004851818084717
+132,others,An image capturing Natalia Vodianova at a public event,3,0.7894742116332054,1.0004851818084717
+133,others,An image capturing Natalia Vodianova at a public event,4,0.7894742116332054,1.0004851818084717
+134,others,An image capturing Natalia Vodianova at a public event,5,0.7894742116332054,1.0004851818084717
+135,others,An oil painting of Natalia Vodianova,1,0.7894742116332054,1.0004851818084717
+136,others,An oil painting of Natalia Vodianova,2,0.7894742116332054,1.0004851818084717
+137,others,An oil painting of Natalia Vodianova,3,0.7894742116332054,1.0004851818084717
+138,others,An oil painting of Natalia Vodianova,4,0.7894742116332054,1.0004851818084717
+139,others,An oil painting of Natalia Vodianova,5,0.7894742116332054,1.0004851818084717
+140,others,A sketch of Natalia Vodianova,1,0.7894742116332054,1.0004851818084717
+141,others,A sketch of Natalia Vodianova,2,0.7894742116332054,1.0004851818084717
+142,others,A sketch of Natalia Vodianova,3,0.7894742116332054,1.0004851818084717
+143,others,A sketch of Natalia Vodianova,4,0.7894742116332054,1.0004851818084717
+144,others,A sketch of Natalia Vodianova,5,0.7894742116332054,1.0004851818084717
+145,others,Natalia Vodianova in an official photo,1,0.7894742116332054,1.0004851818084717
+146,others,Natalia Vodianova in an official photo,2,0.7894742116332054,1.0004851818084717
+147,others,Natalia Vodianova in an official photo,3,0.7894742116332054,1.0004851818084717
+148,others,Natalia Vodianova in an official photo,4,0.7894742116332054,1.0004851818084717
+149,others,Natalia Vodianova in an official photo,5,0.7894742116332054,1.0004851818084717
+150,others,A portrait of Kay Panabaker,1,0.7894742116332054,1.0004851818084717
+151,others,A portrait of Kay Panabaker,2,0.7894742116332054,1.0004851818084717
+152,others,A portrait of Kay Panabaker,3,0.7894742116332054,1.0004851818084717
+153,others,A portrait of Kay Panabaker,4,0.7894742116332054,1.0004851818084717
+154,others,A portrait of Kay Panabaker,5,0.7894742116332054,1.0004851818084717
+155,others,An image capturing Kay Panabaker at a public event,1,0.7894742116332054,1.0004851818084717
+156,others,An image capturing Kay Panabaker at a public event,2,0.7894742116332054,1.0004851818084717
+157,others,An image capturing Kay Panabaker at a public event,3,0.7894742116332054,1.0004851818084717
+158,others,An image capturing Kay Panabaker at a public event,4,0.7894742116332054,1.0004851818084717
+159,others,An image capturing Kay Panabaker at a public event,5,0.7894742116332054,1.0004851818084717
+160,others,An oil painting of Kay Panabaker,1,0.7894742116332054,1.0004851818084717
+161,others,An oil painting of Kay Panabaker,2,0.7894742116332054,1.0004851818084717
+162,others,An oil painting of Kay Panabaker,3,0.7894742116332054,1.0004851818084717
+163,others,An oil painting of Kay Panabaker,4,0.7894742116332054,1.0004851818084717
+164,others,An oil painting of Kay Panabaker,5,0.7894742116332054,1.0004851818084717
+165,others,A sketch of Kay Panabaker,1,0.7894742116332054,1.0004851818084717
+166,others,A sketch of Kay Panabaker,2,0.7894742116332054,1.0004851818084717
+167,others,A sketch of Kay Panabaker,3,0.7894742116332054,1.0004851818084717
+168,others,A sketch of Kay Panabaker,4,0.7894742116332054,1.0004851818084717
+169,others,A sketch of Kay Panabaker,5,0.7894742116332054,1.0004851818084717
+170,others,Kay Panabaker in an official photo,1,0.7894742116332054,1.0004851818084717
+171,others,Kay Panabaker in an official photo,2,0.7894742116332054,1.0004851818084717
+172,others,Kay Panabaker in an official photo,3,0.7894742116332054,1.0004851818084717
+173,others,Kay Panabaker in an official photo,4,0.7894742116332054,1.0004851818084717
+174,others,Kay Panabaker in an official photo,5,0.7894742116332054,1.0004851818084717
+175,others,A portrait of Lauryn Hill,1,0.7894742116332054,1.0004851818084717
+176,others,A portrait of Lauryn Hill,2,0.7894742116332054,1.0004851818084717
+177,others,A portrait of Lauryn Hill,3,0.7894742116332054,1.0004851818084717
+178,others,A portrait of Lauryn Hill,4,0.7894742116332054,1.0004851818084717
+179,others,A portrait of Lauryn Hill,5,0.7894742116332054,1.0004851818084717
+180,others,An image capturing Lauryn Hill at a public event,1,0.7894742116332054,1.0004851818084717
+181,others,An image capturing Lauryn Hill at a public event,2,0.7894742116332054,1.0004851818084717
+182,others,An image capturing Lauryn Hill at a public event,3,0.7894742116332054,1.0004851818084717
+183,others,An image capturing Lauryn Hill at a public event,4,0.7894742116332054,1.0004851818084717
+184,others,An image capturing Lauryn Hill at a public event,5,0.7894742116332054,1.0004851818084717
+185,others,An oil painting of Lauryn Hill,1,0.7894742116332054,1.0004851818084717
+186,others,An oil painting of Lauryn Hill,2,0.7894742116332054,1.0004851818084717
+187,others,An oil painting of Lauryn Hill,3,0.7894742116332054,1.0004851818084717
+188,others,An oil painting of Lauryn Hill,4,0.7894742116332054,1.0004851818084717
+189,others,An oil painting of Lauryn Hill,5,0.7894742116332054,1.0004851818084717
+190,others,A sketch of Lauryn Hill,1,0.7894742116332054,1.0004851818084717
+191,others,A sketch of Lauryn Hill,2,0.7894742116332054,1.0004851818084717
+192,others,A sketch of Lauryn Hill,3,0.7894742116332054,1.0004851818084717
+193,others,A sketch of Lauryn Hill,4,0.7894742116332054,1.0004851818084717
+194,others,A sketch of Lauryn Hill,5,0.7894742116332054,1.0004851818084717
+195,others,Lauryn Hill in an official photo,1,0.7894742116332054,1.0004851818084717
+196,others,Lauryn Hill in an official photo,2,0.7894742116332054,1.0004851818084717
+197,others,Lauryn Hill in an official photo,3,0.7894742116332054,1.0004851818084717
+198,others,Lauryn Hill in an official photo,4,0.7894742116332054,1.0004851818084717
+199,others,Lauryn Hill in an official photo,5,0.7894742116332054,1.0004851818084717
+200,others,A portrait of Stoya,1,0.7894742116332054,1.0004851818084717
+201,others,A portrait of Stoya,2,0.7894742116332054,1.0004851818084717
+202,others,A portrait of Stoya,3,0.7894742116332054,1.0004851818084717
+203,others,A portrait of Stoya,4,0.7894742116332054,1.0004851818084717
+204,others,A portrait of Stoya,5,0.7894742116332054,1.0004851818084717
+205,others,An image capturing Stoya at a public event,1,0.7894742116332054,1.0004851818084717
+206,others,An image capturing Stoya at a public event,2,0.7894742116332054,1.0004851818084717
+207,others,An image capturing Stoya at a public event,3,0.7894742116332054,1.0004851818084717
+208,others,An image capturing Stoya at a public event,4,0.7894742116332054,1.0004851818084717
+209,others,An image capturing Stoya at a public event,5,0.7894742116332054,1.0004851818084717
+210,others,An oil painting of Stoya,1,0.7894742116332054,1.0004851818084717
+211,others,An oil painting of Stoya,2,0.7894742116332054,1.0004851818084717
+212,others,An oil painting of Stoya,3,0.7894742116332054,1.0004851818084717
+213,others,An oil painting of Stoya,4,0.7894742116332054,1.0004851818084717
+214,others,An oil painting of Stoya,5,0.7894742116332054,1.0004851818084717
+215,others,A sketch of Stoya,1,0.7894742116332054,1.0004851818084717
+216,others,A sketch of Stoya,2,0.7894742116332054,1.0004851818084717
+217,others,A sketch of Stoya,3,0.7894742116332054,1.0004851818084717
+218,others,A sketch of Stoya,4,0.7894742116332054,1.0004851818084717
+219,others,A sketch of Stoya,5,0.7894742116332054,1.0004851818084717
+220,others,Stoya in an official photo,1,0.7894742116332054,1.0004851818084717
+221,others,Stoya in an official photo,2,0.7894742116332054,1.0004851818084717
+222,others,Stoya in an official photo,3,0.7894742116332054,1.0004851818084717
+223,others,Stoya in an official photo,4,0.7894742116332054,1.0004851818084717
+224,others,Stoya in an official photo,5,0.7894742116332054,1.0004851818084717
+225,others,A portrait of Jessica White,1,0.7894742116332054,1.0004851818084717
+226,others,A portrait of Jessica White,2,0.7894742116332054,1.0004851818084717
+227,others,A portrait of Jessica White,3,0.7894742116332054,1.0004851818084717
+228,others,A portrait of Jessica White,4,0.7894742116332054,1.0004851818084717
+229,others,A portrait of Jessica White,5,0.7894742116332054,1.0004851818084717
+230,others,An image capturing Jessica White at a public event,1,0.7894742116332054,1.0004851818084717
+231,others,An image capturing Jessica White at a public event,2,0.7894742116332054,1.0004851818084717
+232,others,An image capturing Jessica White at a public event,3,0.7894742116332054,1.0004851818084717
+233,others,An image capturing Jessica White at a public event,4,0.7894742116332054,1.0004851818084717
+234,others,An image capturing Jessica White at a public event,5,0.7894742116332054,1.0004851818084717
+235,others,An oil painting of Jessica White,1,0.7894742116332054,1.0004851818084717
+236,others,An oil painting of Jessica White,2,0.7894742116332054,1.0004851818084717
+237,others,An oil painting of Jessica White,3,0.7894742116332054,1.0004851818084717
+238,others,An oil painting of Jessica White,4,0.7894742116332054,1.0004851818084717
+239,others,An oil painting of Jessica White,5,0.7894742116332054,1.0004851818084717
+240,others,A sketch of Jessica White,1,0.7894742116332054,1.0004851818084717
+241,others,A sketch of Jessica White,2,0.7894742116332054,1.0004851818084717
+242,others,A sketch of Jessica White,3,0.7894742116332054,1.0004851818084717
+243,others,A sketch of Jessica White,4,0.7894742116332054,1.0004851818084717
+244,others,A sketch of Jessica White,5,0.7894742116332054,1.0004851818084717
+245,others,Jessica White in an official photo,1,0.7894742116332054,1.0004851818084717
+246,others,Jessica White in an official photo,2,0.7894742116332054,1.0004851818084717
+247,others,Jessica White in an official photo,3,0.7894742116332054,1.0004851818084717
+248,others,Jessica White in an official photo,4,0.7894742116332054,1.0004851818084717
+249,others,Jessica White in an official photo,5,0.7894742116332054,1.0004851818084717

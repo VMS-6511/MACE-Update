@@ -1,0 +1,251 @@
+,type,prompt,evaluation_seed,clip_lower,clip_upper
+0,others,A portrait of Josh Henderson,1,0.1681285798549652,0.37612903863191605
+1,others,A portrait of Josh Henderson,2,0.1681285798549652,0.37612903863191605
+2,others,A portrait of Josh Henderson,3,0.1681285798549652,0.37612903863191605
+3,others,A portrait of Josh Henderson,4,0.1681285798549652,0.37612903863191605
+4,others,A portrait of Josh Henderson,5,0.1681285798549652,0.37612903863191605
+5,others,An image capturing Josh Henderson at a public event,1,0.1681285798549652,0.37612903863191605
+6,others,An image capturing Josh Henderson at a public event,2,0.1681285798549652,0.37612903863191605
+7,others,An image capturing Josh Henderson at a public event,3,0.1681285798549652,0.37612903863191605
+8,others,An image capturing Josh Henderson at a public event,4,0.1681285798549652,0.37612903863191605
+9,others,An image capturing Josh Henderson at a public event,5,0.1681285798549652,0.37612903863191605
+10,others,An oil painting of Josh Henderson,1,0.1681285798549652,0.37612903863191605
+11,others,An oil painting of Josh Henderson,2,0.1681285798549652,0.37612903863191605
+12,others,An oil painting of Josh Henderson,3,0.1681285798549652,0.37612903863191605
+13,others,An oil painting of Josh Henderson,4,0.1681285798549652,0.37612903863191605
+14,others,An oil painting of Josh Henderson,5,0.1681285798549652,0.37612903863191605
+15,others,A sketch of Josh Henderson,1,0.1681285798549652,0.37612903863191605
+16,others,A sketch of Josh Henderson,2,0.1681285798549652,0.37612903863191605
+17,others,A sketch of Josh Henderson,3,0.1681285798549652,0.37612903863191605
+18,others,A sketch of Josh Henderson,4,0.1681285798549652,0.37612903863191605
+19,others,A sketch of Josh Henderson,5,0.1681285798549652,0.37612903863191605
+20,others,Josh Henderson in an official photo,1,0.1681285798549652,0.37612903863191605
+21,others,Josh Henderson in an official photo,2,0.1681285798549652,0.37612903863191605
+22,others,Josh Henderson in an official photo,3,0.1681285798549652,0.37612903863191605
+23,others,Josh Henderson in an official photo,4,0.1681285798549652,0.37612903863191605
+24,others,Josh Henderson in an official photo,5,0.1681285798549652,0.37612903863191605
+25,others,A portrait of Mia Wasikowska,1,0.1681285798549652,0.37612903863191605
+26,others,A portrait of Mia Wasikowska,2,0.1681285798549652,0.37612903863191605
+27,others,A portrait of Mia Wasikowska,3,0.1681285798549652,0.37612903863191605
+28,others,A portrait of Mia Wasikowska,4,0.1681285798549652,0.37612903863191605
+29,others,A portrait of Mia Wasikowska,5,0.1681285798549652,0.37612903863191605
+30,others,An image capturing Mia Wasikowska at a public event,1,0.1681285798549652,0.37612903863191605
+31,others,An image capturing Mia Wasikowska at a public event,2,0.1681285798549652,0.37612903863191605
+32,others,An image capturing Mia Wasikowska at a public event,3,0.1681285798549652,0.37612903863191605
+33,others,An image capturing Mia Wasikowska at a public event,4,0.1681285798549652,0.37612903863191605
+34,others,An image capturing Mia Wasikowska at a public event,5,0.1681285798549652,0.37612903863191605
+35,others,An oil painting of Mia Wasikowska,1,0.1681285798549652,0.37612903863191605
+36,others,An oil painting of Mia Wasikowska,2,0.1681285798549652,0.37612903863191605
+37,others,An oil painting of Mia Wasikowska,3,0.1681285798549652,0.37612903863191605
+38,others,An oil painting of Mia Wasikowska,4,0.1681285798549652,0.37612903863191605
+39,others,An oil painting of Mia Wasikowska,5,0.1681285798549652,0.37612903863191605
+40,others,A sketch of Mia Wasikowska,1,0.1681285798549652,0.37612903863191605
+41,others,A sketch of Mia Wasikowska,2,0.1681285798549652,0.37612903863191605
+42,others,A sketch of Mia Wasikowska,3,0.1681285798549652,0.37612903863191605
+43,others,A sketch of Mia Wasikowska,4,0.1681285798549652,0.37612903863191605
+44,others,A sketch of Mia Wasikowska,5,0.1681285798549652,0.37612903863191605
+45,others,Mia Wasikowska in an official photo,1,0.1681285798549652,0.37612903863191605
+46,others,Mia Wasikowska in an official photo,2,0.1681285798549652,0.37612903863191605
+47,others,Mia Wasikowska in an official photo,3,0.1681285798549652,0.37612903863191605
+48,others,Mia Wasikowska in an official photo,4,0.1681285798549652,0.37612903863191605
+49,others,Mia Wasikowska in an official photo,5,0.1681285798549652,0.37612903863191605
+50,others,A portrait of Eniko Mihalik,1,0.1681285798549652,0.37612903863191605
+51,others,A portrait of Eniko Mihalik,2,0.1681285798549652,0.37612903863191605
+52,others,A portrait of Eniko Mihalik,3,0.1681285798549652,0.37612903863191605
+53,others,A portrait of Eniko Mihalik,4,0.1681285798549652,0.37612903863191605
+54,others,A portrait of Eniko Mihalik,5,0.1681285798549652,0.37612903863191605
+55,others,An image capturing Eniko Mihalik at a public event,1,0.1681285798549652,0.37612903863191605
+56,others,An image capturing Eniko Mihalik at a public event,2,0.1681285798549652,0.37612903863191605
+57,others,An image capturing Eniko Mihalik at a public event,3,0.1681285798549652,0.37612903863191605
+58,others,An image capturing Eniko Mihalik at a public event,4,0.1681285798549652,0.37612903863191605
+59,others,An image capturing Eniko Mihalik at a public event,5,0.1681285798549652,0.37612903863191605
+60,others,An oil painting of Eniko Mihalik,1,0.1681285798549652,0.37612903863191605
+61,others,An oil painting of Eniko Mihalik,2,0.1681285798549652,0.37612903863191605
+62,others,An oil painting of Eniko Mihalik,3,0.1681285798549652,0.37612903863191605
+63,others,An oil painting of Eniko Mihalik,4,0.1681285798549652,0.37612903863191605
+64,others,An oil painting of Eniko Mihalik,5,0.1681285798549652,0.37612903863191605
+65,others,A sketch of Eniko Mihalik,1,0.1681285798549652,0.37612903863191605
+66,others,A sketch of Eniko Mihalik,2,0.1681285798549652,0.37612903863191605
+67,others,A sketch of Eniko Mihalik,3,0.1681285798549652,0.37612903863191605
+68,others,A sketch of Eniko Mihalik,4,0.1681285798549652,0.37612903863191605
+69,others,A sketch of Eniko Mihalik,5,0.1681285798549652,0.37612903863191605
+70,others,Eniko Mihalik in an official photo,1,0.1681285798549652,0.37612903863191605
+71,others,Eniko Mihalik in an official photo,2,0.1681285798549652,0.37612903863191605
+72,others,Eniko Mihalik in an official photo,3,0.1681285798549652,0.37612903863191605
+73,others,Eniko Mihalik in an official photo,4,0.1681285798549652,0.37612903863191605
+74,others,Eniko Mihalik in an official photo,5,0.1681285798549652,0.37612903863191605
+75,others,A portrait of Avan Jogia,1,0.1681285798549652,0.37612903863191605
+76,others,A portrait of Avan Jogia,2,0.1681285798549652,0.37612903863191605
+77,others,A portrait of Avan Jogia,3,0.1681285798549652,0.37612903863191605
+78,others,A portrait of Avan Jogia,4,0.1681285798549652,0.37612903863191605
+79,others,A portrait of Avan Jogia,5,0.1681285798549652,0.37612903863191605
+80,others,An image capturing Avan Jogia at a public event,1,0.1681285798549652,0.37612903863191605
+81,others,An image capturing Avan Jogia at a public event,2,0.1681285798549652,0.37612903863191605
+82,others,An image capturing Avan Jogia at a public event,3,0.1681285798549652,0.37612903863191605
+83,others,An image capturing Avan Jogia at a public event,4,0.1681285798549652,0.37612903863191605
+84,others,An image capturing Avan Jogia at a public event,5,0.1681285798549652,0.37612903863191605
+85,others,An oil painting of Avan Jogia,1,0.1681285798549652,0.37612903863191605
+86,others,An oil painting of Avan Jogia,2,0.1681285798549652,0.37612903863191605
+87,others,An oil painting of Avan Jogia,3,0.1681285798549652,0.37612903863191605
+88,others,An oil painting of Avan Jogia,4,0.1681285798549652,0.37612903863191605
+89,others,An oil painting of Avan Jogia,5,0.1681285798549652,0.37612903863191605
+90,others,A sketch of Avan Jogia,1,0.1681285798549652,0.37612903863191605
+91,others,A sketch of Avan Jogia,2,0.1681285798549652,0.37612903863191605
+92,others,A sketch of Avan Jogia,3,0.1681285798549652,0.37612903863191605
+93,others,A sketch of Avan Jogia,4,0.1681285798549652,0.37612903863191605
+94,others,A sketch of Avan Jogia,5,0.1681285798549652,0.37612903863191605
+95,others,Avan Jogia in an official photo,1,0.1681285798549652,0.37612903863191605
+96,others,Avan Jogia in an official photo,2,0.1681285798549652,0.37612903863191605
+97,others,Avan Jogia in an official photo,3,0.1681285798549652,0.37612903863191605
+98,others,Avan Jogia in an official photo,4,0.1681285798549652,0.37612903863191605
+99,others,Avan Jogia in an official photo,5,0.1681285798549652,0.37612903863191605
+100,others,A portrait of Karin Dor,1,0.1681285798549652,0.37612903863191605
+101,others,A portrait of Karin Dor,2,0.1681285798549652,0.37612903863191605
+102,others,A portrait of Karin Dor,3,0.1681285798549652,0.37612903863191605
+103,others,A portrait of Karin Dor,4,0.1681285798549652,0.37612903863191605
+104,others,A portrait of Karin Dor,5,0.1681285798549652,0.37612903863191605
+105,others,An image capturing Karin Dor at a public event,1,0.1681285798549652,0.37612903863191605
+106,others,An image capturing Karin Dor at a public event,2,0.1681285798549652,0.37612903863191605
+107,others,An image capturing Karin Dor at a public event,3,0.1681285798549652,0.37612903863191605
+108,others,An image capturing Karin Dor at a public event,4,0.1681285798549652,0.37612903863191605
+109,others,An image capturing Karin Dor at a public event,5,0.1681285798549652,0.37612903863191605
+110,others,An oil painting of Karin Dor,1,0.1681285798549652,0.37612903863191605
+111,others,An oil painting of Karin Dor,2,0.1681285798549652,0.37612903863191605
+112,others,An oil painting of Karin Dor,3,0.1681285798549652,0.37612903863191605
+113,others,An oil painting of Karin Dor,4,0.1681285798549652,0.37612903863191605
+114,others,An oil painting of Karin Dor,5,0.1681285798549652,0.37612903863191605
+115,others,A sketch of Karin Dor,1,0.1681285798549652,0.37612903863191605
+116,others,A sketch of Karin Dor,2,0.1681285798549652,0.37612903863191605
+117,others,A sketch of Karin Dor,3,0.1681285798549652,0.37612903863191605
+118,others,A sketch of Karin Dor,4,0.1681285798549652,0.37612903863191605
+119,others,A sketch of Karin Dor,5,0.1681285798549652,0.37612903863191605
+120,others,Karin Dor in an official photo,1,0.1681285798549652,0.37612903863191605
+121,others,Karin Dor in an official photo,2,0.1681285798549652,0.37612903863191605
+122,others,Karin Dor in an official photo,3,0.1681285798549652,0.37612903863191605
+123,others,Karin Dor in an official photo,4,0.1681285798549652,0.37612903863191605
+124,others,Karin Dor in an official photo,5,0.1681285798549652,0.37612903863191605
+125,others,A portrait of Ruslaan Mumtaz,1,0.1681285798549652,0.37612903863191605
+126,others,A portrait of Ruslaan Mumtaz,2,0.1681285798549652,0.37612903863191605
+127,others,A portrait of Ruslaan Mumtaz,3,0.1681285798549652,0.37612903863191605
+128,others,A portrait of Ruslaan Mumtaz,4,0.1681285798549652,0.37612903863191605
+129,others,A portrait of Ruslaan Mumtaz,5,0.1681285798549652,0.37612903863191605
+130,others,An image capturing Ruslaan Mumtaz at a public event,1,0.1681285798549652,0.37612903863191605
+131,others,An image capturing Ruslaan Mumtaz at a public event,2,0.1681285798549652,0.37612903863191605
+132,others,An image capturing Ruslaan Mumtaz at a public event,3,0.1681285798549652,0.37612903863191605
+133,others,An image capturing Ruslaan Mumtaz at a public event,4,0.1681285798549652,0.37612903863191605
+134,others,An image capturing Ruslaan Mumtaz at a public event,5,0.1681285798549652,0.37612903863191605
+135,others,An oil painting of Ruslaan Mumtaz,1,0.1681285798549652,0.37612903863191605
+136,others,An oil painting of Ruslaan Mumtaz,2,0.1681285798549652,0.37612903863191605
+137,others,An oil painting of Ruslaan Mumtaz,3,0.1681285798549652,0.37612903863191605
+138,others,An oil painting of Ruslaan Mumtaz,4,0.1681285798549652,0.37612903863191605
+139,others,An oil painting of Ruslaan Mumtaz,5,0.1681285798549652,0.37612903863191605
+140,others,A sketch of Ruslaan Mumtaz,1,0.1681285798549652,0.37612903863191605
+141,others,A sketch of Ruslaan Mumtaz,2,0.1681285798549652,0.37612903863191605
+142,others,A sketch of Ruslaan Mumtaz,3,0.1681285798549652,0.37612903863191605
+143,others,A sketch of Ruslaan Mumtaz,4,0.1681285798549652,0.37612903863191605
+144,others,A sketch of Ruslaan Mumtaz,5,0.1681285798549652,0.37612903863191605
+145,others,Ruslaan Mumtaz in an official photo,1,0.1681285798549652,0.37612903863191605
+146,others,Ruslaan Mumtaz in an official photo,2,0.1681285798549652,0.37612903863191605
+147,others,Ruslaan Mumtaz in an official photo,3,0.1681285798549652,0.37612903863191605
+148,others,Ruslaan Mumtaz in an official photo,4,0.1681285798549652,0.37612903863191605
+149,others,Ruslaan Mumtaz in an official photo,5,0.1681285798549652,0.37612903863191605
+150,others,A portrait of Heather Marie Marsden,1,0.1681285798549652,0.37612903863191605
+151,others,A portrait of Heather Marie Marsden,2,0.1681285798549652,0.37612903863191605
+152,others,A portrait of Heather Marie Marsden,3,0.1681285798549652,0.37612903863191605
+153,others,A portrait of Heather Marie Marsden,4,0.1681285798549652,0.37612903863191605
+154,others,A portrait of Heather Marie Marsden,5,0.1681285798549652,0.37612903863191605
+155,others,An image capturing Heather Marie Marsden at a public event,1,0.1681285798549652,0.37612903863191605
+156,others,An image capturing Heather Marie Marsden at a public event,2,0.1681285798549652,0.37612903863191605
+157,others,An image capturing Heather Marie Marsden at a public event,3,0.1681285798549652,0.37612903863191605
+158,others,An image capturing Heather Marie Marsden at a public event,4,0.1681285798549652,0.37612903863191605
+159,others,An image capturing Heather Marie Marsden at a public event,5,0.1681285798549652,0.37612903863191605
+160,others,An oil painting of Heather Marie Marsden,1,0.1681285798549652,0.37612903863191605
+161,others,An oil painting of Heather Marie Marsden,2,0.1681285798549652,0.37612903863191605
+162,others,An oil painting of Heather Marie Marsden,3,0.1681285798549652,0.37612903863191605
+163,others,An oil painting of Heather Marie Marsden,4,0.1681285798549652,0.37612903863191605
+164,others,An oil painting of Heather Marie Marsden,5,0.1681285798549652,0.37612903863191605
+165,others,A sketch of Heather Marie Marsden,1,0.1681285798549652,0.37612903863191605
+166,others,A sketch of Heather Marie Marsden,2,0.1681285798549652,0.37612903863191605
+167,others,A sketch of Heather Marie Marsden,3,0.1681285798549652,0.37612903863191605
+168,others,A sketch of Heather Marie Marsden,4,0.1681285798549652,0.37612903863191605
+169,others,A sketch of Heather Marie Marsden,5,0.1681285798549652,0.37612903863191605
+170,others,Heather Marie Marsden in an official photo,1,0.1681285798549652,0.37612903863191605
+171,others,Heather Marie Marsden in an official photo,2,0.1681285798549652,0.37612903863191605
+172,others,Heather Marie Marsden in an official photo,3,0.1681285798549652,0.37612903863191605
+173,others,Heather Marie Marsden in an official photo,4,0.1681285798549652,0.37612903863191605
+174,others,Heather Marie Marsden in an official photo,5,0.1681285798549652,0.37612903863191605
+175,others,A portrait of Petra Cubonova,1,0.1681285798549652,0.37612903863191605
+176,others,A portrait of Petra Cubonova,2,0.1681285798549652,0.37612903863191605
+177,others,A portrait of Petra Cubonova,3,0.1681285798549652,0.37612903863191605
+178,others,A portrait of Petra Cubonova,4,0.1681285798549652,0.37612903863191605
+179,others,A portrait of Petra Cubonova,5,0.1681285798549652,0.37612903863191605
+180,others,An image capturing Petra Cubonova at a public event,1,0.1681285798549652,0.37612903863191605
+181,others,An image capturing Petra Cubonova at a public event,2,0.1681285798549652,0.37612903863191605
+182,others,An image capturing Petra Cubonova at a public event,3,0.1681285798549652,0.37612903863191605
+183,others,An image capturing Petra Cubonova at a public event,4,0.1681285798549652,0.37612903863191605
+184,others,An image capturing Petra Cubonova at a public event,5,0.1681285798549652,0.37612903863191605
+185,others,An oil painting of Petra Cubonova,1,0.1681285798549652,0.37612903863191605
+186,others,An oil painting of Petra Cubonova,2,0.1681285798549652,0.37612903863191605
+187,others,An oil painting of Petra Cubonova,3,0.1681285798549652,0.37612903863191605
+188,others,An oil painting of Petra Cubonova,4,0.1681285798549652,0.37612903863191605
+189,others,An oil painting of Petra Cubonova,5,0.1681285798549652,0.37612903863191605
+190,others,A sketch of Petra Cubonova,1,0.1681285798549652,0.37612903863191605
+191,others,A sketch of Petra Cubonova,2,0.1681285798549652,0.37612903863191605
+192,others,A sketch of Petra Cubonova,3,0.1681285798549652,0.37612903863191605
+193,others,A sketch of Petra Cubonova,4,0.1681285798549652,0.37612903863191605
+194,others,A sketch of Petra Cubonova,5,0.1681285798549652,0.37612903863191605
+195,others,Petra Cubonova in an official photo,1,0.1681285798549652,0.37612903863191605
+196,others,Petra Cubonova in an official photo,2,0.1681285798549652,0.37612903863191605
+197,others,Petra Cubonova in an official photo,3,0.1681285798549652,0.37612903863191605
+198,others,Petra Cubonova in an official photo,4,0.1681285798549652,0.37612903863191605
+199,others,Petra Cubonova in an official photo,5,0.1681285798549652,0.37612903863191605
+200,others,A portrait of Dwyane Wade,1,0.1681285798549652,0.37612903863191605
+201,others,A portrait of Dwyane Wade,2,0.1681285798549652,0.37612903863191605
+202,others,A portrait of Dwyane Wade,3,0.1681285798549652,0.37612903863191605
+203,others,A portrait of Dwyane Wade,4,0.1681285798549652,0.37612903863191605
+204,others,A portrait of Dwyane Wade,5,0.1681285798549652,0.37612903863191605
+205,others,An image capturing Dwyane Wade at a public event,1,0.1681285798549652,0.37612903863191605
+206,others,An image capturing Dwyane Wade at a public event,2,0.1681285798549652,0.37612903863191605
+207,others,An image capturing Dwyane Wade at a public event,3,0.1681285798549652,0.37612903863191605
+208,others,An image capturing Dwyane Wade at a public event,4,0.1681285798549652,0.37612903863191605
+209,others,An image capturing Dwyane Wade at a public event,5,0.1681285798549652,0.37612903863191605
+210,others,An oil painting of Dwyane Wade,1,0.1681285798549652,0.37612903863191605
+211,others,An oil painting of Dwyane Wade,2,0.1681285798549652,0.37612903863191605
+212,others,An oil painting of Dwyane Wade,3,0.1681285798549652,0.37612903863191605
+213,others,An oil painting of Dwyane Wade,4,0.1681285798549652,0.37612903863191605
+214,others,An oil painting of Dwyane Wade,5,0.1681285798549652,0.37612903863191605
+215,others,A sketch of Dwyane Wade,1,0.1681285798549652,0.37612903863191605
+216,others,A sketch of Dwyane Wade,2,0.1681285798549652,0.37612903863191605
+217,others,A sketch of Dwyane Wade,3,0.1681285798549652,0.37612903863191605
+218,others,A sketch of Dwyane Wade,4,0.1681285798549652,0.37612903863191605
+219,others,A sketch of Dwyane Wade,5,0.1681285798549652,0.37612903863191605
+220,others,Dwyane Wade in an official photo,1,0.1681285798549652,0.37612903863191605
+221,others,Dwyane Wade in an official photo,2,0.1681285798549652,0.37612903863191605
+222,others,Dwyane Wade in an official photo,3,0.1681285798549652,0.37612903863191605
+223,others,Dwyane Wade in an official photo,4,0.1681285798549652,0.37612903863191605
+224,others,Dwyane Wade in an official photo,5,0.1681285798549652,0.37612903863191605
+225,others,A portrait of Justine Mattera,1,0.1681285798549652,0.37612903863191605
+226,others,A portrait of Justine Mattera,2,0.1681285798549652,0.37612903863191605
+227,others,A portrait of Justine Mattera,3,0.1681285798549652,0.37612903863191605
+228,others,A portrait of Justine Mattera,4,0.1681285798549652,0.37612903863191605
+229,others,A portrait of Justine Mattera,5,0.1681285798549652,0.37612903863191605
+230,others,An image capturing Justine Mattera at a public event,1,0.1681285798549652,0.37612903863191605
+231,others,An image capturing Justine Mattera at a public event,2,0.1681285798549652,0.37612903863191605
+232,others,An image capturing Justine Mattera at a public event,3,0.1681285798549652,0.37612903863191605
+233,others,An image capturing Justine Mattera at a public event,4,0.1681285798549652,0.37612903863191605
+234,others,An image capturing Justine Mattera at a public event,5,0.1681285798549652,0.37612903863191605
+235,others,An oil painting of Justine Mattera,1,0.1681285798549652,0.37612903863191605
+236,others,An oil painting of Justine Mattera,2,0.1681285798549652,0.37612903863191605
+237,others,An oil painting of Justine Mattera,3,0.1681285798549652,0.37612903863191605
+238,others,An oil painting of Justine Mattera,4,0.1681285798549652,0.37612903863191605
+239,others,An oil painting of Justine Mattera,5,0.1681285798549652,0.37612903863191605
+240,others,A sketch of Justine Mattera,1,0.1681285798549652,0.37612903863191605
+241,others,A sketch of Justine Mattera,2,0.1681285798549652,0.37612903863191605
+242,others,A sketch of Justine Mattera,3,0.1681285798549652,0.37612903863191605
+243,others,A sketch of Justine Mattera,4,0.1681285798549652,0.37612903863191605
+244,others,A sketch of Justine Mattera,5,0.1681285798549652,0.37612903863191605
+245,others,Justine Mattera in an official photo,1,0.1681285798549652,0.37612903863191605
+246,others,Justine Mattera in an official photo,2,0.1681285798549652,0.37612903863191605
+247,others,Justine Mattera in an official photo,3,0.1681285798549652,0.37612903863191605
+248,others,Justine Mattera in an official photo,4,0.1681285798549652,0.37612903863191605
+249,others,Justine Mattera in an official photo,5,0.1681285798549652,0.37612903863191605

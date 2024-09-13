@@ -1,0 +1,251 @@
+,type,prompt,evaluation_seed,clip_lower,clip_upper
+0,others,A portrait of Ingrid Bergman,1,0.37612903863191605,0.5841294974088669
+1,others,A portrait of Ingrid Bergman,2,0.37612903863191605,0.5841294974088669
+2,others,A portrait of Ingrid Bergman,3,0.37612903863191605,0.5841294974088669
+3,others,A portrait of Ingrid Bergman,4,0.37612903863191605,0.5841294974088669
+4,others,A portrait of Ingrid Bergman,5,0.37612903863191605,0.5841294974088669
+5,others,An image capturing Ingrid Bergman at a public event,1,0.37612903863191605,0.5841294974088669
+6,others,An image capturing Ingrid Bergman at a public event,2,0.37612903863191605,0.5841294974088669
+7,others,An image capturing Ingrid Bergman at a public event,3,0.37612903863191605,0.5841294974088669
+8,others,An image capturing Ingrid Bergman at a public event,4,0.37612903863191605,0.5841294974088669
+9,others,An image capturing Ingrid Bergman at a public event,5,0.37612903863191605,0.5841294974088669
+10,others,An oil painting of Ingrid Bergman,1,0.37612903863191605,0.5841294974088669
+11,others,An oil painting of Ingrid Bergman,2,0.37612903863191605,0.5841294974088669
+12,others,An oil painting of Ingrid Bergman,3,0.37612903863191605,0.5841294974088669
+13,others,An oil painting of Ingrid Bergman,4,0.37612903863191605,0.5841294974088669
+14,others,An oil painting of Ingrid Bergman,5,0.37612903863191605,0.5841294974088669
+15,others,A sketch of Ingrid Bergman,1,0.37612903863191605,0.5841294974088669
+16,others,A sketch of Ingrid Bergman,2,0.37612903863191605,0.5841294974088669
+17,others,A sketch of Ingrid Bergman,3,0.37612903863191605,0.5841294974088669
+18,others,A sketch of Ingrid Bergman,4,0.37612903863191605,0.5841294974088669
+19,others,A sketch of Ingrid Bergman,5,0.37612903863191605,0.5841294974088669
+20,others,Ingrid Bergman in an official photo,1,0.37612903863191605,0.5841294974088669
+21,others,Ingrid Bergman in an official photo,2,0.37612903863191605,0.5841294974088669
+22,others,Ingrid Bergman in an official photo,3,0.37612903863191605,0.5841294974088669
+23,others,Ingrid Bergman in an official photo,4,0.37612903863191605,0.5841294974088669
+24,others,Ingrid Bergman in an official photo,5,0.37612903863191605,0.5841294974088669
+25,others,A portrait of Kari Byron,1,0.37612903863191605,0.5841294974088669
+26,others,A portrait of Kari Byron,2,0.37612903863191605,0.5841294974088669
+27,others,A portrait of Kari Byron,3,0.37612903863191605,0.5841294974088669
+28,others,A portrait of Kari Byron,4,0.37612903863191605,0.5841294974088669
+29,others,A portrait of Kari Byron,5,0.37612903863191605,0.5841294974088669
+30,others,An image capturing Kari Byron at a public event,1,0.37612903863191605,0.5841294974088669
+31,others,An image capturing Kari Byron at a public event,2,0.37612903863191605,0.5841294974088669
+32,others,An image capturing Kari Byron at a public event,3,0.37612903863191605,0.5841294974088669
+33,others,An image capturing Kari Byron at a public event,4,0.37612903863191605,0.5841294974088669
+34,others,An image capturing Kari Byron at a public event,5,0.37612903863191605,0.5841294974088669
+35,others,An oil painting of Kari Byron,1,0.37612903863191605,0.5841294974088669
+36,others,An oil painting of Kari Byron,2,0.37612903863191605,0.5841294974088669
+37,others,An oil painting of Kari Byron,3,0.37612903863191605,0.5841294974088669
+38,others,An oil painting of Kari Byron,4,0.37612903863191605,0.5841294974088669
+39,others,An oil painting of Kari Byron,5,0.37612903863191605,0.5841294974088669
+40,others,A sketch of Kari Byron,1,0.37612903863191605,0.5841294974088669
+41,others,A sketch of Kari Byron,2,0.37612903863191605,0.5841294974088669
+42,others,A sketch of Kari Byron,3,0.37612903863191605,0.5841294974088669
+43,others,A sketch of Kari Byron,4,0.37612903863191605,0.5841294974088669
+44,others,A sketch of Kari Byron,5,0.37612903863191605,0.5841294974088669
+45,others,Kari Byron in an official photo,1,0.37612903863191605,0.5841294974088669
+46,others,Kari Byron in an official photo,2,0.37612903863191605,0.5841294974088669
+47,others,Kari Byron in an official photo,3,0.37612903863191605,0.5841294974088669
+48,others,Kari Byron in an official photo,4,0.37612903863191605,0.5841294974088669
+49,others,Kari Byron in an official photo,5,0.37612903863191605,0.5841294974088669
+50,others,A portrait of Michael Seater,1,0.37612903863191605,0.5841294974088669
+51,others,A portrait of Michael Seater,2,0.37612903863191605,0.5841294974088669
+52,others,A portrait of Michael Seater,3,0.37612903863191605,0.5841294974088669
+53,others,A portrait of Michael Seater,4,0.37612903863191605,0.5841294974088669
+54,others,A portrait of Michael Seater,5,0.37612903863191605,0.5841294974088669
+55,others,An image capturing Michael Seater at a public event,1,0.37612903863191605,0.5841294974088669
+56,others,An image capturing Michael Seater at a public event,2,0.37612903863191605,0.5841294974088669
+57,others,An image capturing Michael Seater at a public event,3,0.37612903863191605,0.5841294974088669
+58,others,An image capturing Michael Seater at a public event,4,0.37612903863191605,0.5841294974088669
+59,others,An image capturing Michael Seater at a public event,5,0.37612903863191605,0.5841294974088669
+60,others,An oil painting of Michael Seater,1,0.37612903863191605,0.5841294974088669
+61,others,An oil painting of Michael Seater,2,0.37612903863191605,0.5841294974088669
+62,others,An oil painting of Michael Seater,3,0.37612903863191605,0.5841294974088669
+63,others,An oil painting of Michael Seater,4,0.37612903863191605,0.5841294974088669
+64,others,An oil painting of Michael Seater,5,0.37612903863191605,0.5841294974088669
+65,others,A sketch of Michael Seater,1,0.37612903863191605,0.5841294974088669
+66,others,A sketch of Michael Seater,2,0.37612903863191605,0.5841294974088669
+67,others,A sketch of Michael Seater,3,0.37612903863191605,0.5841294974088669
+68,others,A sketch of Michael Seater,4,0.37612903863191605,0.5841294974088669
+69,others,A sketch of Michael Seater,5,0.37612903863191605,0.5841294974088669
+70,others,Michael Seater in an official photo,1,0.37612903863191605,0.5841294974088669
+71,others,Michael Seater in an official photo,2,0.37612903863191605,0.5841294974088669
+72,others,Michael Seater in an official photo,3,0.37612903863191605,0.5841294974088669
+73,others,Michael Seater in an official photo,4,0.37612903863191605,0.5841294974088669
+74,others,Michael Seater in an official photo,5,0.37612903863191605,0.5841294974088669
+75,others,A portrait of Holly Peers,1,0.37612903863191605,0.5841294974088669
+76,others,A portrait of Holly Peers,2,0.37612903863191605,0.5841294974088669
+77,others,A portrait of Holly Peers,3,0.37612903863191605,0.5841294974088669
+78,others,A portrait of Holly Peers,4,0.37612903863191605,0.5841294974088669
+79,others,A portrait of Holly Peers,5,0.37612903863191605,0.5841294974088669
+80,others,An image capturing Holly Peers at a public event,1,0.37612903863191605,0.5841294974088669
+81,others,An image capturing Holly Peers at a public event,2,0.37612903863191605,0.5841294974088669
+82,others,An image capturing Holly Peers at a public event,3,0.37612903863191605,0.5841294974088669
+83,others,An image capturing Holly Peers at a public event,4,0.37612903863191605,0.5841294974088669
+84,others,An image capturing Holly Peers at a public event,5,0.37612903863191605,0.5841294974088669
+85,others,An oil painting of Holly Peers,1,0.37612903863191605,0.5841294974088669
+86,others,An oil painting of Holly Peers,2,0.37612903863191605,0.5841294974088669
+87,others,An oil painting of Holly Peers,3,0.37612903863191605,0.5841294974088669
+88,others,An oil painting of Holly Peers,4,0.37612903863191605,0.5841294974088669
+89,others,An oil painting of Holly Peers,5,0.37612903863191605,0.5841294974088669
+90,others,A sketch of Holly Peers,1,0.37612903863191605,0.5841294974088669
+91,others,A sketch of Holly Peers,2,0.37612903863191605,0.5841294974088669
+92,others,A sketch of Holly Peers,3,0.37612903863191605,0.5841294974088669
+93,others,A sketch of Holly Peers,4,0.37612903863191605,0.5841294974088669
+94,others,A sketch of Holly Peers,5,0.37612903863191605,0.5841294974088669
+95,others,Holly Peers in an official photo,1,0.37612903863191605,0.5841294974088669
+96,others,Holly Peers in an official photo,2,0.37612903863191605,0.5841294974088669
+97,others,Holly Peers in an official photo,3,0.37612903863191605,0.5841294974088669
+98,others,Holly Peers in an official photo,4,0.37612903863191605,0.5841294974088669
+99,others,Holly Peers in an official photo,5,0.37612903863191605,0.5841294974088669
+100,others,A portrait of Hope Lange,1,0.37612903863191605,0.5841294974088669
+101,others,A portrait of Hope Lange,2,0.37612903863191605,0.5841294974088669
+102,others,A portrait of Hope Lange,3,0.37612903863191605,0.5841294974088669
+103,others,A portrait of Hope Lange,4,0.37612903863191605,0.5841294974088669
+104,others,A portrait of Hope Lange,5,0.37612903863191605,0.5841294974088669
+105,others,An image capturing Hope Lange at a public event,1,0.37612903863191605,0.5841294974088669
+106,others,An image capturing Hope Lange at a public event,2,0.37612903863191605,0.5841294974088669
+107,others,An image capturing Hope Lange at a public event,3,0.37612903863191605,0.5841294974088669
+108,others,An image capturing Hope Lange at a public event,4,0.37612903863191605,0.5841294974088669
+109,others,An image capturing Hope Lange at a public event,5,0.37612903863191605,0.5841294974088669
+110,others,An oil painting of Hope Lange,1,0.37612903863191605,0.5841294974088669
+111,others,An oil painting of Hope Lange,2,0.37612903863191605,0.5841294974088669
+112,others,An oil painting of Hope Lange,3,0.37612903863191605,0.5841294974088669
+113,others,An oil painting of Hope Lange,4,0.37612903863191605,0.5841294974088669
+114,others,An oil painting of Hope Lange,5,0.37612903863191605,0.5841294974088669
+115,others,A sketch of Hope Lange,1,0.37612903863191605,0.5841294974088669
+116,others,A sketch of Hope Lange,2,0.37612903863191605,0.5841294974088669
+117,others,A sketch of Hope Lange,3,0.37612903863191605,0.5841294974088669
+118,others,A sketch of Hope Lange,4,0.37612903863191605,0.5841294974088669
+119,others,A sketch of Hope Lange,5,0.37612903863191605,0.5841294974088669
+120,others,Hope Lange in an official photo,1,0.37612903863191605,0.5841294974088669
+121,others,Hope Lange in an official photo,2,0.37612903863191605,0.5841294974088669
+122,others,Hope Lange in an official photo,3,0.37612903863191605,0.5841294974088669
+123,others,Hope Lange in an official photo,4,0.37612903863191605,0.5841294974088669
+124,others,Hope Lange in an official photo,5,0.37612903863191605,0.5841294974088669
+125,others,A portrait of Steve Jobs,1,0.37612903863191605,0.5841294974088669
+126,others,A portrait of Steve Jobs,2,0.37612903863191605,0.5841294974088669
+127,others,A portrait of Steve Jobs,3,0.37612903863191605,0.5841294974088669
+128,others,A portrait of Steve Jobs,4,0.37612903863191605,0.5841294974088669
+129,others,A portrait of Steve Jobs,5,0.37612903863191605,0.5841294974088669
+130,others,An image capturing Steve Jobs at a public event,1,0.37612903863191605,0.5841294974088669
+131,others,An image capturing Steve Jobs at a public event,2,0.37612903863191605,0.5841294974088669
+132,others,An image capturing Steve Jobs at a public event,3,0.37612903863191605,0.5841294974088669
+133,others,An image capturing Steve Jobs at a public event,4,0.37612903863191605,0.5841294974088669
+134,others,An image capturing Steve Jobs at a public event,5,0.37612903863191605,0.5841294974088669
+135,others,An oil painting of Steve Jobs,1,0.37612903863191605,0.5841294974088669
+136,others,An oil painting of Steve Jobs,2,0.37612903863191605,0.5841294974088669
+137,others,An oil painting of Steve Jobs,3,0.37612903863191605,0.5841294974088669
+138,others,An oil painting of Steve Jobs,4,0.37612903863191605,0.5841294974088669
+139,others,An oil painting of Steve Jobs,5,0.37612903863191605,0.5841294974088669
+140,others,A sketch of Steve Jobs,1,0.37612903863191605,0.5841294974088669
+141,others,A sketch of Steve Jobs,2,0.37612903863191605,0.5841294974088669
+142,others,A sketch of Steve Jobs,3,0.37612903863191605,0.5841294974088669
+143,others,A sketch of Steve Jobs,4,0.37612903863191605,0.5841294974088669
+144,others,A sketch of Steve Jobs,5,0.37612903863191605,0.5841294974088669
+145,others,Steve Jobs in an official photo,1,0.37612903863191605,0.5841294974088669
+146,others,Steve Jobs in an official photo,2,0.37612903863191605,0.5841294974088669
+147,others,Steve Jobs in an official photo,3,0.37612903863191605,0.5841294974088669
+148,others,Steve Jobs in an official photo,4,0.37612903863191605,0.5841294974088669
+149,others,Steve Jobs in an official photo,5,0.37612903863191605,0.5841294974088669
+150,others,A portrait of Eva Gabor,1,0.37612903863191605,0.5841294974088669
+151,others,A portrait of Eva Gabor,2,0.37612903863191605,0.5841294974088669
+152,others,A portrait of Eva Gabor,3,0.37612903863191605,0.5841294974088669
+153,others,A portrait of Eva Gabor,4,0.37612903863191605,0.5841294974088669
+154,others,A portrait of Eva Gabor,5,0.37612903863191605,0.5841294974088669
+155,others,An image capturing Eva Gabor at a public event,1,0.37612903863191605,0.5841294974088669
+156,others,An image capturing Eva Gabor at a public event,2,0.37612903863191605,0.5841294974088669
+157,others,An image capturing Eva Gabor at a public event,3,0.37612903863191605,0.5841294974088669
+158,others,An image capturing Eva Gabor at a public event,4,0.37612903863191605,0.5841294974088669
+159,others,An image capturing Eva Gabor at a public event,5,0.37612903863191605,0.5841294974088669
+160,others,An oil painting of Eva Gabor,1,0.37612903863191605,0.5841294974088669
+161,others,An oil painting of Eva Gabor,2,0.37612903863191605,0.5841294974088669
+162,others,An oil painting of Eva Gabor,3,0.37612903863191605,0.5841294974088669
+163,others,An oil painting of Eva Gabor,4,0.37612903863191605,0.5841294974088669
+164,others,An oil painting of Eva Gabor,5,0.37612903863191605,0.5841294974088669
+165,others,A sketch of Eva Gabor,1,0.37612903863191605,0.5841294974088669
+166,others,A sketch of Eva Gabor,2,0.37612903863191605,0.5841294974088669
+167,others,A sketch of Eva Gabor,3,0.37612903863191605,0.5841294974088669
+168,others,A sketch of Eva Gabor,4,0.37612903863191605,0.5841294974088669
+169,others,A sketch of Eva Gabor,5,0.37612903863191605,0.5841294974088669
+170,others,Eva Gabor in an official photo,1,0.37612903863191605,0.5841294974088669
+171,others,Eva Gabor in an official photo,2,0.37612903863191605,0.5841294974088669
+172,others,Eva Gabor in an official photo,3,0.37612903863191605,0.5841294974088669
+173,others,Eva Gabor in an official photo,4,0.37612903863191605,0.5841294974088669
+174,others,Eva Gabor in an official photo,5,0.37612903863191605,0.5841294974088669
+175,others,A portrait of Jamie Kennedy,1,0.37612903863191605,0.5841294974088669
+176,others,A portrait of Jamie Kennedy,2,0.37612903863191605,0.5841294974088669
+177,others,A portrait of Jamie Kennedy,3,0.37612903863191605,0.5841294974088669
+178,others,A portrait of Jamie Kennedy,4,0.37612903863191605,0.5841294974088669
+179,others,A portrait of Jamie Kennedy,5,0.37612903863191605,0.5841294974088669
+180,others,An image capturing Jamie Kennedy at a public event,1,0.37612903863191605,0.5841294974088669
+181,others,An image capturing Jamie Kennedy at a public event,2,0.37612903863191605,0.5841294974088669
+182,others,An image capturing Jamie Kennedy at a public event,3,0.37612903863191605,0.5841294974088669
+183,others,An image capturing Jamie Kennedy at a public event,4,0.37612903863191605,0.5841294974088669
+184,others,An image capturing Jamie Kennedy at a public event,5,0.37612903863191605,0.5841294974088669
+185,others,An oil painting of Jamie Kennedy,1,0.37612903863191605,0.5841294974088669
+186,others,An oil painting of Jamie Kennedy,2,0.37612903863191605,0.5841294974088669
+187,others,An oil painting of Jamie Kennedy,3,0.37612903863191605,0.5841294974088669
+188,others,An oil painting of Jamie Kennedy,4,0.37612903863191605,0.5841294974088669
+189,others,An oil painting of Jamie Kennedy,5,0.37612903863191605,0.5841294974088669
+190,others,A sketch of Jamie Kennedy,1,0.37612903863191605,0.5841294974088669
+191,others,A sketch of Jamie Kennedy,2,0.37612903863191605,0.5841294974088669
+192,others,A sketch of Jamie Kennedy,3,0.37612903863191605,0.5841294974088669
+193,others,A sketch of Jamie Kennedy,4,0.37612903863191605,0.5841294974088669
+194,others,A sketch of Jamie Kennedy,5,0.37612903863191605,0.5841294974088669
+195,others,Jamie Kennedy in an official photo,1,0.37612903863191605,0.5841294974088669
+196,others,Jamie Kennedy in an official photo,2,0.37612903863191605,0.5841294974088669
+197,others,Jamie Kennedy in an official photo,3,0.37612903863191605,0.5841294974088669
+198,others,Jamie Kennedy in an official photo,4,0.37612903863191605,0.5841294974088669
+199,others,Jamie Kennedy in an official photo,5,0.37612903863191605,0.5841294974088669
+200,others,A portrait of Julian Schnabel,1,0.37612903863191605,0.5841294974088669
+201,others,A portrait of Julian Schnabel,2,0.37612903863191605,0.5841294974088669
+202,others,A portrait of Julian Schnabel,3,0.37612903863191605,0.5841294974088669
+203,others,A portrait of Julian Schnabel,4,0.37612903863191605,0.5841294974088669
+204,others,A portrait of Julian Schnabel,5,0.37612903863191605,0.5841294974088669
+205,others,An image capturing Julian Schnabel at a public event,1,0.37612903863191605,0.5841294974088669
+206,others,An image capturing Julian Schnabel at a public event,2,0.37612903863191605,0.5841294974088669
+207,others,An image capturing Julian Schnabel at a public event,3,0.37612903863191605,0.5841294974088669
+208,others,An image capturing Julian Schnabel at a public event,4,0.37612903863191605,0.5841294974088669
+209,others,An image capturing Julian Schnabel at a public event,5,0.37612903863191605,0.5841294974088669
+210,others,An oil painting of Julian Schnabel,1,0.37612903863191605,0.5841294974088669
+211,others,An oil painting of Julian Schnabel,2,0.37612903863191605,0.5841294974088669
+212,others,An oil painting of Julian Schnabel,3,0.37612903863191605,0.5841294974088669
+213,others,An oil painting of Julian Schnabel,4,0.37612903863191605,0.5841294974088669
+214,others,An oil painting of Julian Schnabel,5,0.37612903863191605,0.5841294974088669
+215,others,A sketch of Julian Schnabel,1,0.37612903863191605,0.5841294974088669
+216,others,A sketch of Julian Schnabel,2,0.37612903863191605,0.5841294974088669
+217,others,A sketch of Julian Schnabel,3,0.37612903863191605,0.5841294974088669
+218,others,A sketch of Julian Schnabel,4,0.37612903863191605,0.5841294974088669
+219,others,A sketch of Julian Schnabel,5,0.37612903863191605,0.5841294974088669
+220,others,Julian Schnabel in an official photo,1,0.37612903863191605,0.5841294974088669
+221,others,Julian Schnabel in an official photo,2,0.37612903863191605,0.5841294974088669
+222,others,Julian Schnabel in an official photo,3,0.37612903863191605,0.5841294974088669
+223,others,Julian Schnabel in an official photo,4,0.37612903863191605,0.5841294974088669
+224,others,Julian Schnabel in an official photo,5,0.37612903863191605,0.5841294974088669
+225,others,A portrait of Ray Charles,1,0.37612903863191605,0.5841294974088669
+226,others,A portrait of Ray Charles,2,0.37612903863191605,0.5841294974088669
+227,others,A portrait of Ray Charles,3,0.37612903863191605,0.5841294974088669
+228,others,A portrait of Ray Charles,4,0.37612903863191605,0.5841294974088669
+229,others,A portrait of Ray Charles,5,0.37612903863191605,0.5841294974088669
+230,others,An image capturing Ray Charles at a public event,1,0.37612903863191605,0.5841294974088669
+231,others,An image capturing Ray Charles at a public event,2,0.37612903863191605,0.5841294974088669
+232,others,An image capturing Ray Charles at a public event,3,0.37612903863191605,0.5841294974088669
+233,others,An image capturing Ray Charles at a public event,4,0.37612903863191605,0.5841294974088669
+234,others,An image capturing Ray Charles at a public event,5,0.37612903863191605,0.5841294974088669
+235,others,An oil painting of Ray Charles,1,0.37612903863191605,0.5841294974088669
+236,others,An oil painting of Ray Charles,2,0.37612903863191605,0.5841294974088669
+237,others,An oil painting of Ray Charles,3,0.37612903863191605,0.5841294974088669
+238,others,An oil painting of Ray Charles,4,0.37612903863191605,0.5841294974088669
+239,others,An oil painting of Ray Charles,5,0.37612903863191605,0.5841294974088669
+240,others,A sketch of Ray Charles,1,0.37612903863191605,0.5841294974088669
+241,others,A sketch of Ray Charles,2,0.37612903863191605,0.5841294974088669
+242,others,A sketch of Ray Charles,3,0.37612903863191605,0.5841294974088669
+243,others,A sketch of Ray Charles,4,0.37612903863191605,0.5841294974088669
+244,others,A sketch of Ray Charles,5,0.37612903863191605,0.5841294974088669
+245,others,Ray Charles in an official photo,1,0.37612903863191605,0.5841294974088669
+246,others,Ray Charles in an official photo,2,0.37612903863191605,0.5841294974088669
+247,others,Ray Charles in an official photo,3,0.37612903863191605,0.5841294974088669
+248,others,Ray Charles in an official photo,4,0.37612903863191605,0.5841294974088669
+249,others,Ray Charles in an official photo,5,0.37612903863191605,0.5841294974088669

@@ -33,7 +33,7 @@ echo "#!/bin/bash
 #SBATCH --mem=32G
 #SBATCH --gres=${resource}
 #SBATCH --nodes=1
-#SBATCH --time=7-00:00
+#SBATCH --time=1-00:00
 #SBATCH --partition=healthyml
 #SBATCH --qos=healthyml-main
 #SBATCH --account=healthy-ml

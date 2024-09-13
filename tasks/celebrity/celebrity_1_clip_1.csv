@@ -1,0 +1,251 @@
+,type,prompt,evaluation_seed,clip_lower,clip_upper
+0,others,A portrait of Taylor Momsen,1,0.4374320022761822,0.6249513700604439
+1,others,A portrait of Taylor Momsen,2,0.4374320022761822,0.6249513700604439
+2,others,A portrait of Taylor Momsen,3,0.4374320022761822,0.6249513700604439
+3,others,A portrait of Taylor Momsen,4,0.4374320022761822,0.6249513700604439
+4,others,A portrait of Taylor Momsen,5,0.4374320022761822,0.6249513700604439
+5,others,An image capturing Taylor Momsen at a public event,1,0.4374320022761822,0.6249513700604439
+6,others,An image capturing Taylor Momsen at a public event,2,0.4374320022761822,0.6249513700604439
+7,others,An image capturing Taylor Momsen at a public event,3,0.4374320022761822,0.6249513700604439
+8,others,An image capturing Taylor Momsen at a public event,4,0.4374320022761822,0.6249513700604439
+9,others,An image capturing Taylor Momsen at a public event,5,0.4374320022761822,0.6249513700604439
+10,others,An oil painting of Taylor Momsen,1,0.4374320022761822,0.6249513700604439
+11,others,An oil painting of Taylor Momsen,2,0.4374320022761822,0.6249513700604439
+12,others,An oil painting of Taylor Momsen,3,0.4374320022761822,0.6249513700604439
+13,others,An oil painting of Taylor Momsen,4,0.4374320022761822,0.6249513700604439
+14,others,An oil painting of Taylor Momsen,5,0.4374320022761822,0.6249513700604439
+15,others,A sketch of Taylor Momsen,1,0.4374320022761822,0.6249513700604439
+16,others,A sketch of Taylor Momsen,2,0.4374320022761822,0.6249513700604439
+17,others,A sketch of Taylor Momsen,3,0.4374320022761822,0.6249513700604439
+18,others,A sketch of Taylor Momsen,4,0.4374320022761822,0.6249513700604439
+19,others,A sketch of Taylor Momsen,5,0.4374320022761822,0.6249513700604439
+20,others,Taylor Momsen in an official photo,1,0.4374320022761822,0.6249513700604439
+21,others,Taylor Momsen in an official photo,2,0.4374320022761822,0.6249513700604439
+22,others,Taylor Momsen in an official photo,3,0.4374320022761822,0.6249513700604439
+23,others,Taylor Momsen in an official photo,4,0.4374320022761822,0.6249513700604439
+24,others,Taylor Momsen in an official photo,5,0.4374320022761822,0.6249513700604439
+25,others,A portrait of Jean-Michel Jarre,1,0.4374320022761822,0.6249513700604439
+26,others,A portrait of Jean-Michel Jarre,2,0.4374320022761822,0.6249513700604439
+27,others,A portrait of Jean-Michel Jarre,3,0.4374320022761822,0.6249513700604439
+28,others,A portrait of Jean-Michel Jarre,4,0.4374320022761822,0.6249513700604439
+29,others,A portrait of Jean-Michel Jarre,5,0.4374320022761822,0.6249513700604439
+30,others,An image capturing Jean-Michel Jarre at a public event,1,0.4374320022761822,0.6249513700604439
+31,others,An image capturing Jean-Michel Jarre at a public event,2,0.4374320022761822,0.6249513700604439
+32,others,An image capturing Jean-Michel Jarre at a public event,3,0.4374320022761822,0.6249513700604439
+33,others,An image capturing Jean-Michel Jarre at a public event,4,0.4374320022761822,0.6249513700604439
+34,others,An image capturing Jean-Michel Jarre at a public event,5,0.4374320022761822,0.6249513700604439
+35,others,An oil painting of Jean-Michel Jarre,1,0.4374320022761822,0.6249513700604439
+36,others,An oil painting of Jean-Michel Jarre,2,0.4374320022761822,0.6249513700604439
+37,others,An oil painting of Jean-Michel Jarre,3,0.4374320022761822,0.6249513700604439
+38,others,An oil painting of Jean-Michel Jarre,4,0.4374320022761822,0.6249513700604439
+39,others,An oil painting of Jean-Michel Jarre,5,0.4374320022761822,0.6249513700604439
+40,others,A sketch of Jean-Michel Jarre,1,0.4374320022761822,0.6249513700604439
+41,others,A sketch of Jean-Michel Jarre,2,0.4374320022761822,0.6249513700604439
+42,others,A sketch of Jean-Michel Jarre,3,0.4374320022761822,0.6249513700604439
+43,others,A sketch of Jean-Michel Jarre,4,0.4374320022761822,0.6249513700604439
+44,others,A sketch of Jean-Michel Jarre,5,0.4374320022761822,0.6249513700604439
+45,others,Jean-Michel Jarre in an official photo,1,0.4374320022761822,0.6249513700604439
+46,others,Jean-Michel Jarre in an official photo,2,0.4374320022761822,0.6249513700604439
+47,others,Jean-Michel Jarre in an official photo,3,0.4374320022761822,0.6249513700604439
+48,others,Jean-Michel Jarre in an official photo,4,0.4374320022761822,0.6249513700604439
+49,others,Jean-Michel Jarre in an official photo,5,0.4374320022761822,0.6249513700604439
+50,others,A portrait of Tony Jaa,1,0.4374320022761822,0.6249513700604439
+51,others,A portrait of Tony Jaa,2,0.4374320022761822,0.6249513700604439
+52,others,A portrait of Tony Jaa,3,0.4374320022761822,0.6249513700604439
+53,others,A portrait of Tony Jaa,4,0.4374320022761822,0.6249513700604439
+54,others,A portrait of Tony Jaa,5,0.4374320022761822,0.6249513700604439
+55,others,An image capturing Tony Jaa at a public event,1,0.4374320022761822,0.6249513700604439
+56,others,An image capturing Tony Jaa at a public event,2,0.4374320022761822,0.6249513700604439
+57,others,An image capturing Tony Jaa at a public event,3,0.4374320022761822,0.6249513700604439
+58,others,An image capturing Tony Jaa at a public event,4,0.4374320022761822,0.6249513700604439
+59,others,An image capturing Tony Jaa at a public event,5,0.4374320022761822,0.6249513700604439
+60,others,An oil painting of Tony Jaa,1,0.4374320022761822,0.6249513700604439
+61,others,An oil painting of Tony Jaa,2,0.4374320022761822,0.6249513700604439
+62,others,An oil painting of Tony Jaa,3,0.4374320022761822,0.6249513700604439
+63,others,An oil painting of Tony Jaa,4,0.4374320022761822,0.6249513700604439
+64,others,An oil painting of Tony Jaa,5,0.4374320022761822,0.6249513700604439
+65,others,A sketch of Tony Jaa,1,0.4374320022761822,0.6249513700604439
+66,others,A sketch of Tony Jaa,2,0.4374320022761822,0.6249513700604439
+67,others,A sketch of Tony Jaa,3,0.4374320022761822,0.6249513700604439
+68,others,A sketch of Tony Jaa,4,0.4374320022761822,0.6249513700604439
+69,others,A sketch of Tony Jaa,5,0.4374320022761822,0.6249513700604439
+70,others,Tony Jaa in an official photo,1,0.4374320022761822,0.6249513700604439
+71,others,Tony Jaa in an official photo,2,0.4374320022761822,0.6249513700604439
+72,others,Tony Jaa in an official photo,3,0.4374320022761822,0.6249513700604439
+73,others,Tony Jaa in an official photo,4,0.4374320022761822,0.6249513700604439
+74,others,Tony Jaa in an official photo,5,0.4374320022761822,0.6249513700604439
+75,others,A portrait of Abree Anna,1,0.4374320022761822,0.6249513700604439
+76,others,A portrait of Abree Anna,2,0.4374320022761822,0.6249513700604439
+77,others,A portrait of Abree Anna,3,0.4374320022761822,0.6249513700604439
+78,others,A portrait of Abree Anna,4,0.4374320022761822,0.6249513700604439
+79,others,A portrait of Abree Anna,5,0.4374320022761822,0.6249513700604439
+80,others,An image capturing Abree Anna at a public event,1,0.4374320022761822,0.6249513700604439
+81,others,An image capturing Abree Anna at a public event,2,0.4374320022761822,0.6249513700604439
+82,others,An image capturing Abree Anna at a public event,3,0.4374320022761822,0.6249513700604439
+83,others,An image capturing Abree Anna at a public event,4,0.4374320022761822,0.6249513700604439
+84,others,An image capturing Abree Anna at a public event,5,0.4374320022761822,0.6249513700604439
+85,others,An oil painting of Abree Anna,1,0.4374320022761822,0.6249513700604439
+86,others,An oil painting of Abree Anna,2,0.4374320022761822,0.6249513700604439
+87,others,An oil painting of Abree Anna,3,0.4374320022761822,0.6249513700604439
+88,others,An oil painting of Abree Anna,4,0.4374320022761822,0.6249513700604439
+89,others,An oil painting of Abree Anna,5,0.4374320022761822,0.6249513700604439
+90,others,A sketch of Abree Anna,1,0.4374320022761822,0.6249513700604439
+91,others,A sketch of Abree Anna,2,0.4374320022761822,0.6249513700604439
+92,others,A sketch of Abree Anna,3,0.4374320022761822,0.6249513700604439
+93,others,A sketch of Abree Anna,4,0.4374320022761822,0.6249513700604439
+94,others,A sketch of Abree Anna,5,0.4374320022761822,0.6249513700604439
+95,others,Abree Anna in an official photo,1,0.4374320022761822,0.6249513700604439
+96,others,Abree Anna in an official photo,2,0.4374320022761822,0.6249513700604439
+97,others,Abree Anna in an official photo,3,0.4374320022761822,0.6249513700604439
+98,others,Abree Anna in an official photo,4,0.4374320022761822,0.6249513700604439
+99,others,Abree Anna in an official photo,5,0.4374320022761822,0.6249513700604439
+100,others,A portrait of Yvette Nelson,1,0.4374320022761822,0.6249513700604439
+101,others,A portrait of Yvette Nelson,2,0.4374320022761822,0.6249513700604439
+102,others,A portrait of Yvette Nelson,3,0.4374320022761822,0.6249513700604439
+103,others,A portrait of Yvette Nelson,4,0.4374320022761822,0.6249513700604439
+104,others,A portrait of Yvette Nelson,5,0.4374320022761822,0.6249513700604439
+105,others,An image capturing Yvette Nelson at a public event,1,0.4374320022761822,0.6249513700604439
+106,others,An image capturing Yvette Nelson at a public event,2,0.4374320022761822,0.6249513700604439
+107,others,An image capturing Yvette Nelson at a public event,3,0.4374320022761822,0.6249513700604439
+108,others,An image capturing Yvette Nelson at a public event,4,0.4374320022761822,0.6249513700604439
+109,others,An image capturing Yvette Nelson at a public event,5,0.4374320022761822,0.6249513700604439
+110,others,An oil painting of Yvette Nelson,1,0.4374320022761822,0.6249513700604439
+111,others,An oil painting of Yvette Nelson,2,0.4374320022761822,0.6249513700604439
+112,others,An oil painting of Yvette Nelson,3,0.4374320022761822,0.6249513700604439
+113,others,An oil painting of Yvette Nelson,4,0.4374320022761822,0.6249513700604439
+114,others,An oil painting of Yvette Nelson,5,0.4374320022761822,0.6249513700604439
+115,others,A sketch of Yvette Nelson,1,0.4374320022761822,0.6249513700604439
+116,others,A sketch of Yvette Nelson,2,0.4374320022761822,0.6249513700604439
+117,others,A sketch of Yvette Nelson,3,0.4374320022761822,0.6249513700604439
+118,others,A sketch of Yvette Nelson,4,0.4374320022761822,0.6249513700604439
+119,others,A sketch of Yvette Nelson,5,0.4374320022761822,0.6249513700604439
+120,others,Yvette Nelson in an official photo,1,0.4374320022761822,0.6249513700604439
+121,others,Yvette Nelson in an official photo,2,0.4374320022761822,0.6249513700604439
+122,others,Yvette Nelson in an official photo,3,0.4374320022761822,0.6249513700604439
+123,others,Yvette Nelson in an official photo,4,0.4374320022761822,0.6249513700604439
+124,others,Yvette Nelson in an official photo,5,0.4374320022761822,0.6249513700604439
+125,others,A portrait of Erykah Badu,1,0.4374320022761822,0.6249513700604439
+126,others,A portrait of Erykah Badu,2,0.4374320022761822,0.6249513700604439
+127,others,A portrait of Erykah Badu,3,0.4374320022761822,0.6249513700604439
+128,others,A portrait of Erykah Badu,4,0.4374320022761822,0.6249513700604439
+129,others,A portrait of Erykah Badu,5,0.4374320022761822,0.6249513700604439
+130,others,An image capturing Erykah Badu at a public event,1,0.4374320022761822,0.6249513700604439
+131,others,An image capturing Erykah Badu at a public event,2,0.4374320022761822,0.6249513700604439
+132,others,An image capturing Erykah Badu at a public event,3,0.4374320022761822,0.6249513700604439
+133,others,An image capturing Erykah Badu at a public event,4,0.4374320022761822,0.6249513700604439
+134,others,An image capturing Erykah Badu at a public event,5,0.4374320022761822,0.6249513700604439
+135,others,An oil painting of Erykah Badu,1,0.4374320022761822,0.6249513700604439
+136,others,An oil painting of Erykah Badu,2,0.4374320022761822,0.6249513700604439
+137,others,An oil painting of Erykah Badu,3,0.4374320022761822,0.6249513700604439
+138,others,An oil painting of Erykah Badu,4,0.4374320022761822,0.6249513700604439
+139,others,An oil painting of Erykah Badu,5,0.4374320022761822,0.6249513700604439
+140,others,A sketch of Erykah Badu,1,0.4374320022761822,0.6249513700604439
+141,others,A sketch of Erykah Badu,2,0.4374320022761822,0.6249513700604439
+142,others,A sketch of Erykah Badu,3,0.4374320022761822,0.6249513700604439
+143,others,A sketch of Erykah Badu,4,0.4374320022761822,0.6249513700604439
+144,others,A sketch of Erykah Badu,5,0.4374320022761822,0.6249513700604439
+145,others,Erykah Badu in an official photo,1,0.4374320022761822,0.6249513700604439
+146,others,Erykah Badu in an official photo,2,0.4374320022761822,0.6249513700604439
+147,others,Erykah Badu in an official photo,3,0.4374320022761822,0.6249513700604439
+148,others,Erykah Badu in an official photo,4,0.4374320022761822,0.6249513700604439
+149,others,Erykah Badu in an official photo,5,0.4374320022761822,0.6249513700604439
+150,others,A portrait of John Ritter,1,0.4374320022761822,0.6249513700604439
+151,others,A portrait of John Ritter,2,0.4374320022761822,0.6249513700604439
+152,others,A portrait of John Ritter,3,0.4374320022761822,0.6249513700604439
+153,others,A portrait of John Ritter,4,0.4374320022761822,0.6249513700604439
+154,others,A portrait of John Ritter,5,0.4374320022761822,0.6249513700604439
+155,others,An image capturing John Ritter at a public event,1,0.4374320022761822,0.6249513700604439
+156,others,An image capturing John Ritter at a public event,2,0.4374320022761822,0.6249513700604439
+157,others,An image capturing John Ritter at a public event,3,0.4374320022761822,0.6249513700604439
+158,others,An image capturing John Ritter at a public event,4,0.4374320022761822,0.6249513700604439
+159,others,An image capturing John Ritter at a public event,5,0.4374320022761822,0.6249513700604439
+160,others,An oil painting of John Ritter,1,0.4374320022761822,0.6249513700604439
+161,others,An oil painting of John Ritter,2,0.4374320022761822,0.6249513700604439
+162,others,An oil painting of John Ritter,3,0.4374320022761822,0.6249513700604439
+163,others,An oil painting of John Ritter,4,0.4374320022761822,0.6249513700604439
+164,others,An oil painting of John Ritter,5,0.4374320022761822,0.6249513700604439
+165,others,A sketch of John Ritter,1,0.4374320022761822,0.6249513700604439
+166,others,A sketch of John Ritter,2,0.4374320022761822,0.6249513700604439
+167,others,A sketch of John Ritter,3,0.4374320022761822,0.6249513700604439
+168,others,A sketch of John Ritter,4,0.4374320022761822,0.6249513700604439
+169,others,A sketch of John Ritter,5,0.4374320022761822,0.6249513700604439
+170,others,John Ritter in an official photo,1,0.4374320022761822,0.6249513700604439
+171,others,John Ritter in an official photo,2,0.4374320022761822,0.6249513700604439
+172,others,John Ritter in an official photo,3,0.4374320022761822,0.6249513700604439
+173,others,John Ritter in an official photo,4,0.4374320022761822,0.6249513700604439
+174,others,John Ritter in an official photo,5,0.4374320022761822,0.6249513700604439
+175,others,A portrait of Chantelle Houghton,1,0.4374320022761822,0.6249513700604439
+176,others,A portrait of Chantelle Houghton,2,0.4374320022761822,0.6249513700604439
+177,others,A portrait of Chantelle Houghton,3,0.4374320022761822,0.6249513700604439
+178,others,A portrait of Chantelle Houghton,4,0.4374320022761822,0.6249513700604439
+179,others,A portrait of Chantelle Houghton,5,0.4374320022761822,0.6249513700604439
+180,others,An image capturing Chantelle Houghton at a public event,1,0.4374320022761822,0.6249513700604439
+181,others,An image capturing Chantelle Houghton at a public event,2,0.4374320022761822,0.6249513700604439
+182,others,An image capturing Chantelle Houghton at a public event,3,0.4374320022761822,0.6249513700604439
+183,others,An image capturing Chantelle Houghton at a public event,4,0.4374320022761822,0.6249513700604439
+184,others,An image capturing Chantelle Houghton at a public event,5,0.4374320022761822,0.6249513700604439
+185,others,An oil painting of Chantelle Houghton,1,0.4374320022761822,0.6249513700604439
+186,others,An oil painting of Chantelle Houghton,2,0.4374320022761822,0.6249513700604439
+187,others,An oil painting of Chantelle Houghton,3,0.4374320022761822,0.6249513700604439
+188,others,An oil painting of Chantelle Houghton,4,0.4374320022761822,0.6249513700604439
+189,others,An oil painting of Chantelle Houghton,5,0.4374320022761822,0.6249513700604439
+190,others,A sketch of Chantelle Houghton,1,0.4374320022761822,0.6249513700604439
+191,others,A sketch of Chantelle Houghton,2,0.4374320022761822,0.6249513700604439
+192,others,A sketch of Chantelle Houghton,3,0.4374320022761822,0.6249513700604439
+193,others,A sketch of Chantelle Houghton,4,0.4374320022761822,0.6249513700604439
+194,others,A sketch of Chantelle Houghton,5,0.4374320022761822,0.6249513700604439
+195,others,Chantelle Houghton in an official photo,1,0.4374320022761822,0.6249513700604439
+196,others,Chantelle Houghton in an official photo,2,0.4374320022761822,0.6249513700604439
+197,others,Chantelle Houghton in an official photo,3,0.4374320022761822,0.6249513700604439
+198,others,Chantelle Houghton in an official photo,4,0.4374320022761822,0.6249513700604439
+199,others,Chantelle Houghton in an official photo,5,0.4374320022761822,0.6249513700604439
+200,others,A portrait of Eric Dane,1,0.4374320022761822,0.6249513700604439
+201,others,A portrait of Eric Dane,2,0.4374320022761822,0.6249513700604439
+202,others,A portrait of Eric Dane,3,0.4374320022761822,0.6249513700604439
+203,others,A portrait of Eric Dane,4,0.4374320022761822,0.6249513700604439
+204,others,A portrait of Eric Dane,5,0.4374320022761822,0.6249513700604439
+205,others,An image capturing Eric Dane at a public event,1,0.4374320022761822,0.6249513700604439
+206,others,An image capturing Eric Dane at a public event,2,0.4374320022761822,0.6249513700604439
+207,others,An image capturing Eric Dane at a public event,3,0.4374320022761822,0.6249513700604439
+208,others,An image capturing Eric Dane at a public event,4,0.4374320022761822,0.6249513700604439
+209,others,An image capturing Eric Dane at a public event,5,0.4374320022761822,0.6249513700604439
+210,others,An oil painting of Eric Dane,1,0.4374320022761822,0.6249513700604439
+211,others,An oil painting of Eric Dane,2,0.4374320022761822,0.6249513700604439
+212,others,An oil painting of Eric Dane,3,0.4374320022761822,0.6249513700604439
+213,others,An oil painting of Eric Dane,4,0.4374320022761822,0.6249513700604439
+214,others,An oil painting of Eric Dane,5,0.4374320022761822,0.6249513700604439
+215,others,A sketch of Eric Dane,1,0.4374320022761822,0.6249513700604439
+216,others,A sketch of Eric Dane,2,0.4374320022761822,0.6249513700604439
+217,others,A sketch of Eric Dane,3,0.4374320022761822,0.6249513700604439
+218,others,A sketch of Eric Dane,4,0.4374320022761822,0.6249513700604439
+219,others,A sketch of Eric Dane,5,0.4374320022761822,0.6249513700604439
+220,others,Eric Dane in an official photo,1,0.4374320022761822,0.6249513700604439
+221,others,Eric Dane in an official photo,2,0.4374320022761822,0.6249513700604439
+222,others,Eric Dane in an official photo,3,0.4374320022761822,0.6249513700604439
+223,others,Eric Dane in an official photo,4,0.4374320022761822,0.6249513700604439
+224,others,Eric Dane in an official photo,5,0.4374320022761822,0.6249513700604439
+225,others,A portrait of Blanca Romero,1,0.4374320022761822,0.6249513700604439
+226,others,A portrait of Blanca Romero,2,0.4374320022761822,0.6249513700604439
+227,others,A portrait of Blanca Romero,3,0.4374320022761822,0.6249513700604439
+228,others,A portrait of Blanca Romero,4,0.4374320022761822,0.6249513700604439
+229,others,A portrait of Blanca Romero,5,0.4374320022761822,0.6249513700604439
+230,others,An image capturing Blanca Romero at a public event,1,0.4374320022761822,0.6249513700604439
+231,others,An image capturing Blanca Romero at a public event,2,0.4374320022761822,0.6249513700604439
+232,others,An image capturing Blanca Romero at a public event,3,0.4374320022761822,0.6249513700604439
+233,others,An image capturing Blanca Romero at a public event,4,0.4374320022761822,0.6249513700604439
+234,others,An image capturing Blanca Romero at a public event,5,0.4374320022761822,0.6249513700604439
+235,others,An oil painting of Blanca Romero,1,0.4374320022761822,0.6249513700604439
+236,others,An oil painting of Blanca Romero,2,0.4374320022761822,0.6249513700604439
+237,others,An oil painting of Blanca Romero,3,0.4374320022761822,0.6249513700604439
+238,others,An oil painting of Blanca Romero,4,0.4374320022761822,0.6249513700604439
+239,others,An oil painting of Blanca Romero,5,0.4374320022761822,0.6249513700604439
+240,others,A sketch of Blanca Romero,1,0.4374320022761822,0.6249513700604439
+241,others,A sketch of Blanca Romero,2,0.4374320022761822,0.6249513700604439
+242,others,A sketch of Blanca Romero,3,0.4374320022761822,0.6249513700604439
+243,others,A sketch of Blanca Romero,4,0.4374320022761822,0.6249513700604439
+244,others,A sketch of Blanca Romero,5,0.4374320022761822,0.6249513700604439
+245,others,Blanca Romero in an official photo,1,0.4374320022761822,0.6249513700604439
+246,others,Blanca Romero in an official photo,2,0.4374320022761822,0.6249513700604439
+247,others,Blanca Romero in an official photo,3,0.4374320022761822,0.6249513700604439
+248,others,Blanca Romero in an official photo,4,0.4374320022761822,0.6249513700604439
+249,others,Blanca Romero in an official photo,5,0.4374320022761822,0.6249513700604439

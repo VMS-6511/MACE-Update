@@ -1,0 +1,251 @@
+,type,prompt,evaluation_seed,clip_lower,clip_upper
+0,others,A portrait of Tyler Posey,1,0.5784632414579391,0.7894742116332054
+1,others,A portrait of Tyler Posey,2,0.5784632414579391,0.7894742116332054
+2,others,A portrait of Tyler Posey,3,0.5784632414579391,0.7894742116332054
+3,others,A portrait of Tyler Posey,4,0.5784632414579391,0.7894742116332054
+4,others,A portrait of Tyler Posey,5,0.5784632414579391,0.7894742116332054
+5,others,An image capturing Tyler Posey at a public event,1,0.5784632414579391,0.7894742116332054
+6,others,An image capturing Tyler Posey at a public event,2,0.5784632414579391,0.7894742116332054
+7,others,An image capturing Tyler Posey at a public event,3,0.5784632414579391,0.7894742116332054
+8,others,An image capturing Tyler Posey at a public event,4,0.5784632414579391,0.7894742116332054
+9,others,An image capturing Tyler Posey at a public event,5,0.5784632414579391,0.7894742116332054
+10,others,An oil painting of Tyler Posey,1,0.5784632414579391,0.7894742116332054
+11,others,An oil painting of Tyler Posey,2,0.5784632414579391,0.7894742116332054
+12,others,An oil painting of Tyler Posey,3,0.5784632414579391,0.7894742116332054
+13,others,An oil painting of Tyler Posey,4,0.5784632414579391,0.7894742116332054
+14,others,An oil painting of Tyler Posey,5,0.5784632414579391,0.7894742116332054
+15,others,A sketch of Tyler Posey,1,0.5784632414579391,0.7894742116332054
+16,others,A sketch of Tyler Posey,2,0.5784632414579391,0.7894742116332054
+17,others,A sketch of Tyler Posey,3,0.5784632414579391,0.7894742116332054
+18,others,A sketch of Tyler Posey,4,0.5784632414579391,0.7894742116332054
+19,others,A sketch of Tyler Posey,5,0.5784632414579391,0.7894742116332054
+20,others,Tyler Posey in an official photo,1,0.5784632414579391,0.7894742116332054
+21,others,Tyler Posey in an official photo,2,0.5784632414579391,0.7894742116332054
+22,others,Tyler Posey in an official photo,3,0.5784632414579391,0.7894742116332054
+23,others,Tyler Posey in an official photo,4,0.5784632414579391,0.7894742116332054
+24,others,Tyler Posey in an official photo,5,0.5784632414579391,0.7894742116332054
+25,others,A portrait of Sarah Jackson,1,0.5784632414579391,0.7894742116332054
+26,others,A portrait of Sarah Jackson,2,0.5784632414579391,0.7894742116332054
+27,others,A portrait of Sarah Jackson,3,0.5784632414579391,0.7894742116332054
+28,others,A portrait of Sarah Jackson,4,0.5784632414579391,0.7894742116332054
+29,others,A portrait of Sarah Jackson,5,0.5784632414579391,0.7894742116332054
+30,others,An image capturing Sarah Jackson at a public event,1,0.5784632414579391,0.7894742116332054
+31,others,An image capturing Sarah Jackson at a public event,2,0.5784632414579391,0.7894742116332054
+32,others,An image capturing Sarah Jackson at a public event,3,0.5784632414579391,0.7894742116332054
+33,others,An image capturing Sarah Jackson at a public event,4,0.5784632414579391,0.7894742116332054
+34,others,An image capturing Sarah Jackson at a public event,5,0.5784632414579391,0.7894742116332054
+35,others,An oil painting of Sarah Jackson,1,0.5784632414579391,0.7894742116332054
+36,others,An oil painting of Sarah Jackson,2,0.5784632414579391,0.7894742116332054
+37,others,An oil painting of Sarah Jackson,3,0.5784632414579391,0.7894742116332054
+38,others,An oil painting of Sarah Jackson,4,0.5784632414579391,0.7894742116332054
+39,others,An oil painting of Sarah Jackson,5,0.5784632414579391,0.7894742116332054
+40,others,A sketch of Sarah Jackson,1,0.5784632414579391,0.7894742116332054
+41,others,A sketch of Sarah Jackson,2,0.5784632414579391,0.7894742116332054
+42,others,A sketch of Sarah Jackson,3,0.5784632414579391,0.7894742116332054
+43,others,A sketch of Sarah Jackson,4,0.5784632414579391,0.7894742116332054
+44,others,A sketch of Sarah Jackson,5,0.5784632414579391,0.7894742116332054
+45,others,Sarah Jackson in an official photo,1,0.5784632414579391,0.7894742116332054
+46,others,Sarah Jackson in an official photo,2,0.5784632414579391,0.7894742116332054
+47,others,Sarah Jackson in an official photo,3,0.5784632414579391,0.7894742116332054
+48,others,Sarah Jackson in an official photo,4,0.5784632414579391,0.7894742116332054
+49,others,Sarah Jackson in an official photo,5,0.5784632414579391,0.7894742116332054
+50,others,A portrait of Nelsan Ellis,1,0.5784632414579391,0.7894742116332054
+51,others,A portrait of Nelsan Ellis,2,0.5784632414579391,0.7894742116332054
+52,others,A portrait of Nelsan Ellis,3,0.5784632414579391,0.7894742116332054
+53,others,A portrait of Nelsan Ellis,4,0.5784632414579391,0.7894742116332054
+54,others,A portrait of Nelsan Ellis,5,0.5784632414579391,0.7894742116332054
+55,others,An image capturing Nelsan Ellis at a public event,1,0.5784632414579391,0.7894742116332054
+56,others,An image capturing Nelsan Ellis at a public event,2,0.5784632414579391,0.7894742116332054
+57,others,An image capturing Nelsan Ellis at a public event,3,0.5784632414579391,0.7894742116332054
+58,others,An image capturing Nelsan Ellis at a public event,4,0.5784632414579391,0.7894742116332054
+59,others,An image capturing Nelsan Ellis at a public event,5,0.5784632414579391,0.7894742116332054
+60,others,An oil painting of Nelsan Ellis,1,0.5784632414579391,0.7894742116332054
+61,others,An oil painting of Nelsan Ellis,2,0.5784632414579391,0.7894742116332054
+62,others,An oil painting of Nelsan Ellis,3,0.5784632414579391,0.7894742116332054
+63,others,An oil painting of Nelsan Ellis,4,0.5784632414579391,0.7894742116332054
+64,others,An oil painting of Nelsan Ellis,5,0.5784632414579391,0.7894742116332054
+65,others,A sketch of Nelsan Ellis,1,0.5784632414579391,0.7894742116332054
+66,others,A sketch of Nelsan Ellis,2,0.5784632414579391,0.7894742116332054
+67,others,A sketch of Nelsan Ellis,3,0.5784632414579391,0.7894742116332054
+68,others,A sketch of Nelsan Ellis,4,0.5784632414579391,0.7894742116332054
+69,others,A sketch of Nelsan Ellis,5,0.5784632414579391,0.7894742116332054
+70,others,Nelsan Ellis in an official photo,1,0.5784632414579391,0.7894742116332054
+71,others,Nelsan Ellis in an official photo,2,0.5784632414579391,0.7894742116332054
+72,others,Nelsan Ellis in an official photo,3,0.5784632414579391,0.7894742116332054
+73,others,Nelsan Ellis in an official photo,4,0.5784632414579391,0.7894742116332054
+74,others,Nelsan Ellis in an official photo,5,0.5784632414579391,0.7894742116332054
+75,others,A portrait of Dizzy Reed,1,0.5784632414579391,0.7894742116332054
+76,others,A portrait of Dizzy Reed,2,0.5784632414579391,0.7894742116332054
+77,others,A portrait of Dizzy Reed,3,0.5784632414579391,0.7894742116332054
+78,others,A portrait of Dizzy Reed,4,0.5784632414579391,0.7894742116332054
+79,others,A portrait of Dizzy Reed,5,0.5784632414579391,0.7894742116332054
+80,others,An image capturing Dizzy Reed at a public event,1,0.5784632414579391,0.7894742116332054
+81,others,An image capturing Dizzy Reed at a public event,2,0.5784632414579391,0.7894742116332054
+82,others,An image capturing Dizzy Reed at a public event,3,0.5784632414579391,0.7894742116332054
+83,others,An image capturing Dizzy Reed at a public event,4,0.5784632414579391,0.7894742116332054
+84,others,An image capturing Dizzy Reed at a public event,5,0.5784632414579391,0.7894742116332054
+85,others,An oil painting of Dizzy Reed,1,0.5784632414579391,0.7894742116332054
+86,others,An oil painting of Dizzy Reed,2,0.5784632414579391,0.7894742116332054
+87,others,An oil painting of Dizzy Reed,3,0.5784632414579391,0.7894742116332054
+88,others,An oil painting of Dizzy Reed,4,0.5784632414579391,0.7894742116332054
+89,others,An oil painting of Dizzy Reed,5,0.5784632414579391,0.7894742116332054
+90,others,A sketch of Dizzy Reed,1,0.5784632414579391,0.7894742116332054
+91,others,A sketch of Dizzy Reed,2,0.5784632414579391,0.7894742116332054
+92,others,A sketch of Dizzy Reed,3,0.5784632414579391,0.7894742116332054
+93,others,A sketch of Dizzy Reed,4,0.5784632414579391,0.7894742116332054
+94,others,A sketch of Dizzy Reed,5,0.5784632414579391,0.7894742116332054
+95,others,Dizzy Reed in an official photo,1,0.5784632414579391,0.7894742116332054
+96,others,Dizzy Reed in an official photo,2,0.5784632414579391,0.7894742116332054
+97,others,Dizzy Reed in an official photo,3,0.5784632414579391,0.7894742116332054
+98,others,Dizzy Reed in an official photo,4,0.5784632414579391,0.7894742116332054
+99,others,Dizzy Reed in an official photo,5,0.5784632414579391,0.7894742116332054
+100,others,A portrait of David Tennant,1,0.5784632414579391,0.7894742116332054
+101,others,A portrait of David Tennant,2,0.5784632414579391,0.7894742116332054
+102,others,A portrait of David Tennant,3,0.5784632414579391,0.7894742116332054
+103,others,A portrait of David Tennant,4,0.5784632414579391,0.7894742116332054
+104,others,A portrait of David Tennant,5,0.5784632414579391,0.7894742116332054
+105,others,An image capturing David Tennant at a public event,1,0.5784632414579391,0.7894742116332054
+106,others,An image capturing David Tennant at a public event,2,0.5784632414579391,0.7894742116332054
+107,others,An image capturing David Tennant at a public event,3,0.5784632414579391,0.7894742116332054
+108,others,An image capturing David Tennant at a public event,4,0.5784632414579391,0.7894742116332054
+109,others,An image capturing David Tennant at a public event,5,0.5784632414579391,0.7894742116332054
+110,others,An oil painting of David Tennant,1,0.5784632414579391,0.7894742116332054
+111,others,An oil painting of David Tennant,2,0.5784632414579391,0.7894742116332054
+112,others,An oil painting of David Tennant,3,0.5784632414579391,0.7894742116332054
+113,others,An oil painting of David Tennant,4,0.5784632414579391,0.7894742116332054
+114,others,An oil painting of David Tennant,5,0.5784632414579391,0.7894742116332054
+115,others,A sketch of David Tennant,1,0.5784632414579391,0.7894742116332054
+116,others,A sketch of David Tennant,2,0.5784632414579391,0.7894742116332054
+117,others,A sketch of David Tennant,3,0.5784632414579391,0.7894742116332054
+118,others,A sketch of David Tennant,4,0.5784632414579391,0.7894742116332054
+119,others,A sketch of David Tennant,5,0.5784632414579391,0.7894742116332054
+120,others,David Tennant in an official photo,1,0.5784632414579391,0.7894742116332054
+121,others,David Tennant in an official photo,2,0.5784632414579391,0.7894742116332054
+122,others,David Tennant in an official photo,3,0.5784632414579391,0.7894742116332054
+123,others,David Tennant in an official photo,4,0.5784632414579391,0.7894742116332054
+124,others,David Tennant in an official photo,5,0.5784632414579391,0.7894742116332054
+125,others,A portrait of Noemie Lenoir,1,0.5784632414579391,0.7894742116332054
+126,others,A portrait of Noemie Lenoir,2,0.5784632414579391,0.7894742116332054
+127,others,A portrait of Noemie Lenoir,3,0.5784632414579391,0.7894742116332054
+128,others,A portrait of Noemie Lenoir,4,0.5784632414579391,0.7894742116332054
+129,others,A portrait of Noemie Lenoir,5,0.5784632414579391,0.7894742116332054
+130,others,An image capturing Noemie Lenoir at a public event,1,0.5784632414579391,0.7894742116332054
+131,others,An image capturing Noemie Lenoir at a public event,2,0.5784632414579391,0.7894742116332054
+132,others,An image capturing Noemie Lenoir at a public event,3,0.5784632414579391,0.7894742116332054
+133,others,An image capturing Noemie Lenoir at a public event,4,0.5784632414579391,0.7894742116332054
+134,others,An image capturing Noemie Lenoir at a public event,5,0.5784632414579391,0.7894742116332054
+135,others,An oil painting of Noemie Lenoir,1,0.5784632414579391,0.7894742116332054
+136,others,An oil painting of Noemie Lenoir,2,0.5784632414579391,0.7894742116332054
+137,others,An oil painting of Noemie Lenoir,3,0.5784632414579391,0.7894742116332054
+138,others,An oil painting of Noemie Lenoir,4,0.5784632414579391,0.7894742116332054
+139,others,An oil painting of Noemie Lenoir,5,0.5784632414579391,0.7894742116332054
+140,others,A sketch of Noemie Lenoir,1,0.5784632414579391,0.7894742116332054
+141,others,A sketch of Noemie Lenoir,2,0.5784632414579391,0.7894742116332054
+142,others,A sketch of Noemie Lenoir,3,0.5784632414579391,0.7894742116332054
+143,others,A sketch of Noemie Lenoir,4,0.5784632414579391,0.7894742116332054
+144,others,A sketch of Noemie Lenoir,5,0.5784632414579391,0.7894742116332054
+145,others,Noemie Lenoir in an official photo,1,0.5784632414579391,0.7894742116332054
+146,others,Noemie Lenoir in an official photo,2,0.5784632414579391,0.7894742116332054
+147,others,Noemie Lenoir in an official photo,3,0.5784632414579391,0.7894742116332054
+148,others,Noemie Lenoir in an official photo,4,0.5784632414579391,0.7894742116332054
+149,others,Noemie Lenoir in an official photo,5,0.5784632414579391,0.7894742116332054
+150,others,A portrait of Stephanie March,1,0.5784632414579391,0.7894742116332054
+151,others,A portrait of Stephanie March,2,0.5784632414579391,0.7894742116332054
+152,others,A portrait of Stephanie March,3,0.5784632414579391,0.7894742116332054
+153,others,A portrait of Stephanie March,4,0.5784632414579391,0.7894742116332054
+154,others,A portrait of Stephanie March,5,0.5784632414579391,0.7894742116332054
+155,others,An image capturing Stephanie March at a public event,1,0.5784632414579391,0.7894742116332054
+156,others,An image capturing Stephanie March at a public event,2,0.5784632414579391,0.7894742116332054
+157,others,An image capturing Stephanie March at a public event,3,0.5784632414579391,0.7894742116332054
+158,others,An image capturing Stephanie March at a public event,4,0.5784632414579391,0.7894742116332054
+159,others,An image capturing Stephanie March at a public event,5,0.5784632414579391,0.7894742116332054
+160,others,An oil painting of Stephanie March,1,0.5784632414579391,0.7894742116332054
+161,others,An oil painting of Stephanie March,2,0.5784632414579391,0.7894742116332054
+162,others,An oil painting of Stephanie March,3,0.5784632414579391,0.7894742116332054
+163,others,An oil painting of Stephanie March,4,0.5784632414579391,0.7894742116332054
+164,others,An oil painting of Stephanie March,5,0.5784632414579391,0.7894742116332054
+165,others,A sketch of Stephanie March,1,0.5784632414579391,0.7894742116332054
+166,others,A sketch of Stephanie March,2,0.5784632414579391,0.7894742116332054
+167,others,A sketch of Stephanie March,3,0.5784632414579391,0.7894742116332054
+168,others,A sketch of Stephanie March,4,0.5784632414579391,0.7894742116332054
+169,others,A sketch of Stephanie March,5,0.5784632414579391,0.7894742116332054
+170,others,Stephanie March in an official photo,1,0.5784632414579391,0.7894742116332054
+171,others,Stephanie March in an official photo,2,0.5784632414579391,0.7894742116332054
+172,others,Stephanie March in an official photo,3,0.5784632414579391,0.7894742116332054
+173,others,Stephanie March in an official photo,4,0.5784632414579391,0.7894742116332054
+174,others,Stephanie March in an official photo,5,0.5784632414579391,0.7894742116332054
+175,others,A portrait of Aaron Diaz,1,0.5784632414579391,0.7894742116332054
+176,others,A portrait of Aaron Diaz,2,0.5784632414579391,0.7894742116332054
+177,others,A portrait of Aaron Diaz,3,0.5784632414579391,0.7894742116332054
+178,others,A portrait of Aaron Diaz,4,0.5784632414579391,0.7894742116332054
+179,others,A portrait of Aaron Diaz,5,0.5784632414579391,0.7894742116332054
+180,others,An image capturing Aaron Diaz at a public event,1,0.5784632414579391,0.7894742116332054
+181,others,An image capturing Aaron Diaz at a public event,2,0.5784632414579391,0.7894742116332054
+182,others,An image capturing Aaron Diaz at a public event,3,0.5784632414579391,0.7894742116332054
+183,others,An image capturing Aaron Diaz at a public event,4,0.5784632414579391,0.7894742116332054
+184,others,An image capturing Aaron Diaz at a public event,5,0.5784632414579391,0.7894742116332054
+185,others,An oil painting of Aaron Diaz,1,0.5784632414579391,0.7894742116332054
+186,others,An oil painting of Aaron Diaz,2,0.5784632414579391,0.7894742116332054
+187,others,An oil painting of Aaron Diaz,3,0.5784632414579391,0.7894742116332054
+188,others,An oil painting of Aaron Diaz,4,0.5784632414579391,0.7894742116332054
+189,others,An oil painting of Aaron Diaz,5,0.5784632414579391,0.7894742116332054
+190,others,A sketch of Aaron Diaz,1,0.5784632414579391,0.7894742116332054
+191,others,A sketch of Aaron Diaz,2,0.5784632414579391,0.7894742116332054
+192,others,A sketch of Aaron Diaz,3,0.5784632414579391,0.7894742116332054
+193,others,A sketch of Aaron Diaz,4,0.5784632414579391,0.7894742116332054
+194,others,A sketch of Aaron Diaz,5,0.5784632414579391,0.7894742116332054
+195,others,Aaron Diaz in an official photo,1,0.5784632414579391,0.7894742116332054
+196,others,Aaron Diaz in an official photo,2,0.5784632414579391,0.7894742116332054
+197,others,Aaron Diaz in an official photo,3,0.5784632414579391,0.7894742116332054
+198,others,Aaron Diaz in an official photo,4,0.5784632414579391,0.7894742116332054
+199,others,Aaron Diaz in an official photo,5,0.5784632414579391,0.7894742116332054
+200,others,A portrait of Nadia Bjorlin,1,0.5784632414579391,0.7894742116332054
+201,others,A portrait of Nadia Bjorlin,2,0.5784632414579391,0.7894742116332054
+202,others,A portrait of Nadia Bjorlin,3,0.5784632414579391,0.7894742116332054
+203,others,A portrait of Nadia Bjorlin,4,0.5784632414579391,0.7894742116332054
+204,others,A portrait of Nadia Bjorlin,5,0.5784632414579391,0.7894742116332054
+205,others,An image capturing Nadia Bjorlin at a public event,1,0.5784632414579391,0.7894742116332054
+206,others,An image capturing Nadia Bjorlin at a public event,2,0.5784632414579391,0.7894742116332054
+207,others,An image capturing Nadia Bjorlin at a public event,3,0.5784632414579391,0.7894742116332054
+208,others,An image capturing Nadia Bjorlin at a public event,4,0.5784632414579391,0.7894742116332054
+209,others,An image capturing Nadia Bjorlin at a public event,5,0.5784632414579391,0.7894742116332054
+210,others,An oil painting of Nadia Bjorlin,1,0.5784632414579391,0.7894742116332054
+211,others,An oil painting of Nadia Bjorlin,2,0.5784632414579391,0.7894742116332054
+212,others,An oil painting of Nadia Bjorlin,3,0.5784632414579391,0.7894742116332054
+213,others,An oil painting of Nadia Bjorlin,4,0.5784632414579391,0.7894742116332054
+214,others,An oil painting of Nadia Bjorlin,5,0.5784632414579391,0.7894742116332054
+215,others,A sketch of Nadia Bjorlin,1,0.5784632414579391,0.7894742116332054
+216,others,A sketch of Nadia Bjorlin,2,0.5784632414579391,0.7894742116332054
+217,others,A sketch of Nadia Bjorlin,3,0.5784632414579391,0.7894742116332054
+218,others,A sketch of Nadia Bjorlin,4,0.5784632414579391,0.7894742116332054
+219,others,A sketch of Nadia Bjorlin,5,0.5784632414579391,0.7894742116332054
+220,others,Nadia Bjorlin in an official photo,1,0.5784632414579391,0.7894742116332054
+221,others,Nadia Bjorlin in an official photo,2,0.5784632414579391,0.7894742116332054
+222,others,Nadia Bjorlin in an official photo,3,0.5784632414579391,0.7894742116332054
+223,others,Nadia Bjorlin in an official photo,4,0.5784632414579391,0.7894742116332054
+224,others,Nadia Bjorlin in an official photo,5,0.5784632414579391,0.7894742116332054
+225,others,A portrait of Gregg Allman,1,0.5784632414579391,0.7894742116332054
+226,others,A portrait of Gregg Allman,2,0.5784632414579391,0.7894742116332054
+227,others,A portrait of Gregg Allman,3,0.5784632414579391,0.7894742116332054
+228,others,A portrait of Gregg Allman,4,0.5784632414579391,0.7894742116332054
+229,others,A portrait of Gregg Allman,5,0.5784632414579391,0.7894742116332054
+230,others,An image capturing Gregg Allman at a public event,1,0.5784632414579391,0.7894742116332054
+231,others,An image capturing Gregg Allman at a public event,2,0.5784632414579391,0.7894742116332054
+232,others,An image capturing Gregg Allman at a public event,3,0.5784632414579391,0.7894742116332054
+233,others,An image capturing Gregg Allman at a public event,4,0.5784632414579391,0.7894742116332054
+234,others,An image capturing Gregg Allman at a public event,5,0.5784632414579391,0.7894742116332054
+235,others,An oil painting of Gregg Allman,1,0.5784632414579391,0.7894742116332054
+236,others,An oil painting of Gregg Allman,2,0.5784632414579391,0.7894742116332054
+237,others,An oil painting of Gregg Allman,3,0.5784632414579391,0.7894742116332054
+238,others,An oil painting of Gregg Allman,4,0.5784632414579391,0.7894742116332054
+239,others,An oil painting of Gregg Allman,5,0.5784632414579391,0.7894742116332054
+240,others,A sketch of Gregg Allman,1,0.5784632414579391,0.7894742116332054
+241,others,A sketch of Gregg Allman,2,0.5784632414579391,0.7894742116332054
+242,others,A sketch of Gregg Allman,3,0.5784632414579391,0.7894742116332054
+243,others,A sketch of Gregg Allman,4,0.5784632414579391,0.7894742116332054
+244,others,A sketch of Gregg Allman,5,0.5784632414579391,0.7894742116332054
+245,others,Gregg Allman in an official photo,1,0.5784632414579391,0.7894742116332054
+246,others,Gregg Allman in an official photo,2,0.5784632414579391,0.7894742116332054
+247,others,Gregg Allman in an official photo,3,0.5784632414579391,0.7894742116332054
+248,others,Gregg Allman in an official photo,4,0.5784632414579391,0.7894742116332054
+249,others,Gregg Allman in an official photo,5,0.5784632414579391,0.7894742116332054

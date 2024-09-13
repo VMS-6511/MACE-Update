@@ -1,8 +1,6 @@
 #!/bin/bash
 . /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/slurm/scripts/prelude.sh
 
-slurm/scripts/data/launch_prepare_data_job.sh
-
 TASK=$1
 CONFIG=$2
 
