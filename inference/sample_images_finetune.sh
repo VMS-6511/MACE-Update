@@ -31,5 +31,5 @@ if [ $FINETUNE_ALGO == "full" ]; then
             --lora_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/pytorch_lora_weights.safetensors \
             --step 1
 else
-    echo "Finetuning algorithm not supported"
+    echo "Finetuning algorithm '${FINETUNE_ALGO}' not supported"
 fi
