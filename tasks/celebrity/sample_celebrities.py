@@ -26,7 +26,7 @@ def main(num_celebrities, random_seed):
 
     df['type'] = 'others'
     df = df.loc[df['prompt'].str.contains('|'.join(sampled_celebrities), case=False)]
-    df = df.reset_index(drop=True)
+    df = df.drop_duplicates(subset=['prompt', 'evaluation_seed']).reset_index(drop=True)
     
     destination_file = f"/data/healthy-ml/scratch/ralur/projects/MACE-Update/tasks/celebrity/celebrity_random_concepts_seed{random_seed}.csv"
     df.to_csv(destination_file, index = False, index_label='')
