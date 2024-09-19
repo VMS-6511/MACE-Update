@@ -13,6 +13,8 @@ config=$8
 port_number=$9
 prompts_csv=${10}
 metric=${11}
+random_seed=${12}
+
 
 hdd=/data/healthy-ml/scratch/vinithms/projects/MACE-Update
 j_dir=$hdd/slurm/logs/$d/${j_name}
@@ -40,7 +42,7 @@ bash ${j_dir}/scripts/${j_name}.sh
  
 # build bash script
 echo -n "#!/bin/bash
-$cmd $cuda_visible_devices $algo_name $change $task $config $port_number $prompts_csv $metric
+$cmd $cuda_visible_devices $algo_name $change $task $config $port_number $prompts_csv $metric $random_seed
 " > $j_dir/scripts/${j_name}.sh 
  
 sbatch $j_dir/scripts/${j_name}.slrm

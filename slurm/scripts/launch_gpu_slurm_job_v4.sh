@@ -13,6 +13,7 @@ orig_config=$8
 finetune_task=$9
 finetune_config=${10}
 port_number=${11}
+random_seed=${12}
 
 hdd=/data/healthy-ml/scratch/$(whoami)/projects/MACE-Update
 j_dir=$hdd/slurm/logs/$d/${j_name}
@@ -40,7 +41,7 @@ bash ${j_dir}/scripts/${j_name}.sh
  
 # build bash script
 echo -n "#!/bin/bash
-$cmd $cuda_visible_devices $algo_name $change $finetune_algo $orig_task $orig_config $finetune_task $finetune_config $port_number
+$cmd $cuda_visible_devices $algo_name $change $finetune_algo $orig_task $orig_config $finetune_task $finetune_config $port_number $random_seed
 " > $j_dir/scripts/${j_name}.sh 
  
 sbatch $j_dir/scripts/${j_name}.slrm

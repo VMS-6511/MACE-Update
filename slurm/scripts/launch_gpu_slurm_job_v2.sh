@@ -10,9 +10,10 @@ algo_name=$5
 change=$6
 task=$7
 config=$8
+random_seed=$9
 
 args=("$@")
-remaining_args=("${args[@]:8}")
+remaining_args=("${args[@]:9}")
 
 hdd=/data/healthy-ml/scratch/$(whoami)/projects/MACE-Update
 j_dir=$hdd/slurm/logs/$d/${j_name}
@@ -40,7 +41,7 @@ bash ${j_dir}/scripts/${j_name}.sh
  
 # build bash script
 echo -n "#!/bin/bash
-$cmd $cuda_visible_devices $algo_name $change $task $config ${remaining_args[@]}
+$cmd $cuda_visible_devices $algo_name $change $task $config $random_seed ${remaining_args[@]}
 " > $j_dir/scripts/${j_name}.sh 
  
 sbatch $j_dir/scripts/${j_name}.slrm

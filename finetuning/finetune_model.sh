@@ -10,10 +10,11 @@ ORIG_CONFIG=$5
 FINETUNE_TASK=$6
 FINETUNE_CONFIG=$7
 PORT_NUMBER=$8
+RANDOM_SEED=$9
 
-export MODEL_NAME="${PREFIX}/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/LoRA_fusion_model"
+export MODEL_NAME="${PREFIX}/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/${RANDOM_SEED}/LoRA_fusion_model"
 export TRAIN_DIR="${PREFIX}/data/finetuning/${FINETUNE_TASK}/${FINETUNE_CONFIG}/others"
-export OUTPUT_DIR="${PREFIX}/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}"
+export OUTPUT_DIR="${PREFIX}/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/${RANDOM_SEED}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}"
 
 if [ $FINETUNE_ALGO == "full" ]; then
   accelerate launch --main_process_port $PORT_NUMBER \
@@ -32,7 +33,7 @@ if [ $FINETUNE_ALGO == "full" ]; then
     --lr_scheduler="constant" --lr_warmup_steps=0 \
     --output_dir=${OUTPUT_DIR} \
     --checkpointing_steps=100 \
-    --seed=1337
+    --seed=${RANDOM_SEED}
 
 elif [ $FINETUNE_ALGO == "lora" ]; then
   accelerate launch --main_process_port $PORT_NUMBER \  
@@ -49,7 +50,7 @@ elif [ $FINETUNE_ALGO == "lora" ]; then
     --lr_scheduler="cosine" --lr_warmup_steps=0 \
     --output_dir=${OUTPUT_DIR} \
     --checkpointing_steps=100 \
-    --seed=1337
+    --seed=${RANDOM_SEED}
 else
   echo "Finetuning method '$FINETUNE_ALGO' is not supported. Valid options are 'full' and 'lora'."
 fi
