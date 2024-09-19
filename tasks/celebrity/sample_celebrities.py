@@ -4,13 +4,20 @@ import random
 import pandas as pd
 import argparse
 
-def main(num_celebrities, random_seed, source_file):
+def main(num_celebrities, random_seed):
     
     random.seed(random_seed)
 
-    # Read the source CSV file
-    df = pd.read_csv(source_file)
+    source_files = ['/data/healthy-ml/scratch/ralur/projects/MACE-Update/tasks/celebrity/celebrity_1_concepts.csv',
+                    '/data/healthy-ml/scratch/ralur/projects/MACE-Update/tasks/celebrity/celebrity_5_concepts.csv',
+                    '/data/healthy-ml/scratch/ralur/projects/MACE-Update/tasks/celebrity/celebrity_10_concepts.csv',
+                    '/data/healthy-ml/scratch/ralur/projects/MACE-Update/tasks/celebrity/celebrity_100_concepts.csv']
 
+    # Read the source CSV file
+    df_list = [pd.read_csv(file) for file in source_files]
+    df = pd.concat(df_list, ignore_index=True)
+
+    df = df[df['type'] == 'others']
     # Get unique celebrities
     unique_celebrities = df[df['prompt'].str.match(r'^A portrait of \w+ \w+$')]['prompt'].str.split(' of ', expand=True)[1].unique()
 
@@ -38,12 +45,10 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Sample celebrities from a CSV file.')
     parser.add_argument('num_celebrities', type=int, help='Number of celebrities to sample')
     parser.add_argument('--random_seed', type=int, default=0, help='Random seed for sampling')
-    parser.add_argument('--source_file', type=str, default='/data/healthy-ml/scratch/ralur/projects/MACE-Update/tasks/celebrity/celebrity_100_concepts.csv', help='Source CSV file')
-
+    
     args = parser.parse_args()
 
     num_celebrities = args.num_celebrities
     random_seed = args.random_seed
-    source_file = args.source_file
     
-    main(num_celebrities, random_seed, source_file)
+    main(num_celebrities, random_seed)
