@@ -18,10 +18,19 @@ def main(num_celebrities, random_seed, source_file):
     print('sampled celebrities: ', sampled_celebrities)
 
     df['type'] = 'others'
-    df.loc[df['prompt'].str.contains('|'.join(sampled_celebrities), case=False), 'type'] = 'erased'
+    df = df.loc[df['prompt'].str.contains('|'.join(sampled_celebrities), case=False)]
+    df = df.reset_index(drop=True)
     
     destination_file = f"/data/healthy-ml/scratch/ralur/projects/MACE-Update/tasks/celebrity/celebrity_random_concepts_seed{random_seed}.csv"
-    df.to_csv(destination_file, index=False)
+    df.to_csv(destination_file, index = False, index_label='')
+
+    with open(destination_file, 'r') as file:
+        lines = file.readlines()
+    
+    lines[0] = ",type,prompt,evaluation_seed\n"
+    
+    with open(destination_file, 'w') as file:
+        file.writelines(lines)
 
     print(f"Sampled {num_celebrities} celebrities and saved to {destination_file}")
 
