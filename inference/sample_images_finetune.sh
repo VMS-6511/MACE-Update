@@ -21,14 +21,14 @@ if [ $FINETUNE_ALGO == "full" ]; then
             --multi_gpu --num_processes=2 --main_process_port $PORT_NUMBER \
             $PREFIX/inference/sample_images_from_csv.py \
             --prompts_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/tasks/${FINETUNE_TASK}/${PROMPTS_CSV}.csv \
-            --save_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/${RANDOM_SEED}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/inference/${PROMPTS_CSV} \
-            --model_name /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/${RANDOM_SEED}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG} \
+            --save_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/${RANDOM_SEED}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}_${RANDOM_SEED}/inference/${PROMPTS_CSV} \
+            --model_name /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/${RANDOM_SEED}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}_${RANDOM_SEED} \
             --multi_gpu --num_processes=2 --main_process_port $PORT_NUMBER \
             $PREFIX/inference/sample_images_from_csv.py \
             --prompts_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/tasks/${FINETUNE_TASK}/${PROMPTS_CSV}.csv \
-            --save_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/${RANDOM_SEED}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/inference/${PROMPTS_CSV} \
+            --save_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/${RANDOM_SEED}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}_${RANDOM_SEED}/inference/${PROMPTS_CSV} \
             --model_name /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/${RANDOM_SEED}/LoRA_fusion_model \
-            --lora_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/${RANDOM_SEED}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/pytorch_lora_weights.safetensors \
+            --lora_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/${RANDOM_SEED}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}_${RANDOM_SEED}/pytorch_lora_weights.safetensors \
             --step 1
 elif [ $FINETUNE_ALGO == "lora" ]; then
     CUDA_VISIBLE_DEVICES=$1 accelerate launch \
@@ -37,7 +37,7 @@ elif [ $FINETUNE_ALGO == "lora" ]; then
             --prompts_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/tasks/${FINETUNE_TASK}/${PROMPTS_CSV}.csv \
             --save_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/${RANDOM_SEED}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/inference/${PROMPTS_CSV} \
             --model_name /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/${RANDOM_SEED}/LoRA_fusion_model \
-            --lora_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_Config}/${RANDOM_SEED}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/pytorch_lora_weights.safetensors \
+            --lora_path /data/healthy-ml/scratch/$(whoami)/projects/MACE-Update/experiments/${ALGO_NAME}/${CHANGE}_${ORIG_TASK}_${ORIG_CONFIG}/${RANDOM_SEED}/finetune/${FINETUNE_ALGO}/${FINETUNE_TASK}_${FINETUNE_CONFIG}/pytorch_lora_weights.safetensors \
             --step 1
 else
     echo "Finetuning algorithm '${FINETUNE_ALGO}' not supported"

@@ -2,19 +2,19 @@
 
 CUDA_VISIBLE_DEVICES="0,1"
 ALGO_NAME="MACE"
-PORT_NUMBER="29500"
 METRIC="CLIP"
 FINETUNE_ALGO="lora"
 FINETUNE_TASK="celebrity"
 TASK="celebrity"
 FINETUNE_CONFIG="celebrity_random_concepts_seed0"
-RANDOM_SEED="0"
 
 CHANGE=$1
 CONFIG=$2
 PROMPTS_CSV=$3
+RANDOM_SEED=$4
+PORT_NUMBER=$5
 
-BASELINE_MODEL="/data/healthy-ml/scratch/vinithms/projects/MACE-Update/experiments/MACE/baseline_celebrity_erase_cele_10"
+BASELINE_MODEL="/data/healthy-ml/scratch/vinithms/projects/MACE-Update/experiments/MACE/baseline_celebrity_${CONFIG}"
 
 # CHANGE="baseline-cele-1"
 # CONFIG="erase_cele_1"
