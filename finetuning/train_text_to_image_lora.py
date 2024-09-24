@@ -847,7 +847,7 @@ def main():
                                     shutil.rmtree(removing_checkpoint)
 
                         save_path = os.path.join(args.output_dir, f"checkpoint-{global_step}")
-                        accelerator.save_state(save_path)
+                        # accelerator.save_state(save_path)
 
                         unwrapped_unet = unwrap_model(unet)
                         unet_lora_state_dict = convert_state_dict_to_diffusers(
