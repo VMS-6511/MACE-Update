@@ -122,11 +122,13 @@ if __name__ == "__main__":
 
     tasks = ['celebrity', 'art', 'object']
 
+    plt.style.use('fivethirtyeight')
+
+
     for task in tasks:
         task_data = process_task_data(df, task)
         
         if task_data.empty:
             print(f"Error: No data found for the '{task}' task.")
             continue
-
         create_plots(task_data, task)
