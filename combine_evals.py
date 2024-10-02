@@ -6,7 +6,8 @@ import glob
 
 if __name__ == "__main__":
     #directories = ["/data/healthy-ml/scratch/ralur/projects/MACE-Update/experiments/MACE/", "/data/healthy-ml/scratch/vinithms/projects/MACE-Update/experiments/MACE/"]
-    directories = ["/data/healthy-ml/scratch/vinithms/projects/MACE-Update/experiments/MACE/"]
+    directories = ["/data/healthy-ml/scratch/vinithms/projects/MACE-Update/experiments/MACE/", "/data/healthy-ml/vinithms/projects/MACE-Update/experiments/MACE"]
+    
 
     all_metrics = []
 
@@ -16,6 +17,9 @@ if __name__ == "__main__":
             components = change_dir.split('_')
             
             change = '_'.join(components[0:-4])
+            if len(components) < 4:
+                print(f"Skipping {change_dir} because it doesn't have enough components")
+                continue
             task = components[-4]
             config = '_'.join(components[-3:])
             

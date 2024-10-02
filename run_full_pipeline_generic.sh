@@ -4,15 +4,15 @@ CUDA_VISIBLE_DEVICES="0,1"
 ALGO_NAME="MACE"
 METRIC="CLIP"
 FINETUNE_ALGO="lora"
-FINETUNE_TASK="celebrity"
-TASK="celebrity"
-FINETUNE_CONFIG="celebrity_random_concepts_seed0"
 
 CHANGE=$1
 CONFIG=$2
-PROMPTS_CSV=$3
-RANDOM_SEED=$4
-PORT_NUMBER=$5
+TASK=$3
+FINETUNE_TASK=$4
+FINETUNE_CONFIG=$5
+PROMPTS_CSV=$6
+RANDOM_SEED=$7
+PORT_NUMBER=$8
 
 #BASELINE_MODEL="/data/healthy-ml/scratch/vinithms/projects/MACE-Update/experiments/MACE/baseline_celebrity_${CONFIG}"
 

@@ -8,7 +8,7 @@ import argparse
 
 if __name__ == "__main__":
     #directories = ["/data/healthy-ml/scratch/ralur/projects/MACE-Update/experiments/MACE/", "/data/healthy-ml/scratch/vinithms/projects/MACE-Update/experiments/MACE/"]
-    directories = ["/data/healthy-ml/scratch/vinithms/projects/MACE-Update/experiments/MACE/"]
+    directories = ["/data/healthy-ml/scratch/vinithms/projects/MACE-Update/experiments/MACE/", "/data/healthy-ml/vinithms/projects/MACE-Update/experiments/MACE/"]
 
     parser = argparse.ArgumentParser(description='Generate image grid')
     parser.add_argument('--prompt', type=str, default='A portrait of Adam Driver',

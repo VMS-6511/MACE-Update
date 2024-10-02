@@ -4,8 +4,9 @@ import torch
 import pandas as pd
 import argparse
 from accelerate import PartialState, Accelerator
+from torch.distributed.elastic.multiprocessing.errors import record
 
-
+@record
 def generate_images(model_name, prompts_path, save_path, step, lora_path="", device='cuda:0', guidance_scale = 7.5, image_size=512, ddim_steps=100, num_samples=1, from_case=0):
 
     pipe = StableDiffusionPipeline.from_pretrained(model_name)
